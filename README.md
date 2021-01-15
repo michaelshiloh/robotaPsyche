@@ -1,4 +1,4 @@
-Welcome to Performing Robots. All class material can be found here. 
+Welcome to Robota Psyche! All class material can be found here. 
 
 [Syllabus](syllabus.md)
 
