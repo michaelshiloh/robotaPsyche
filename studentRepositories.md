@@ -15,6 +15,7 @@ Prerequisites: One of
 - IM-UH 2318 Decoding Nature
 - ENGR-UH 1000 Computer Programming for Engineers
 - or instructor approval  
+
 Course website:
 [https://github.com/michaelshiloh/robotaPsyche](https://github.com/michaelshiloh/robotaPsyche)    
 Instructor: Michael Shiloh mshiloh@nyu.edu    

@@ -15,6 +15,7 @@ Prerequisites: One of
 - IM-UH 2318 Decoding Nature
 - ENGR-UH 1000 Computer Programming for Engineers
 - or instructor approval  
+
 Course website:
 [https://github.com/michaelshiloh/robotaPsyche](https://github.com/michaelshiloh/robotaPsyche)    
 Instructor: Michael Shiloh mshiloh@nyu.edu    
@@ -30,22 +31,31 @@ This document: Student Presentations
 
 **Student Research and Presentations**
 
-- Benjamin: Sophia, a robot who was granted Saudi Arabian citizenship (September 30)
-- Aleksandra: Chico Macmurtrie (October 7)
-- Muhammad: Asimov's Runaround and the three laws on robotics (October 14)
-- Sadeq: What is it that gives personality? Does a robot need to be anthropomorphic? (October 28)
-- Zheki: The artistic aspect of Boston Dynamics videos (November 4)
-- Baraa: Can, and should, robots replace humans in performance? (November 11)
-- Liyan: The work and ideas of Guy Hoffman (November 18)
+[Youssef]  
+[Rashid]  
+[Maria]  
+[Alpha]  
+[Leo]  
+[Katie]  
+[Amina]  
+[Ruishi]  
+[Tori]    
+[Zheki]  
+[Kyrie]    
+[Shaurya]  
 
 **Student Lead Discussions**
 
-- Sept 30 Liyan *Initial Formation of Trust: Designing an Interaction with Geminoid-DK to Promote a Positive Attitude for Cooperation*
-- October 7 Baraa *Children Interpretation of emotional body language displayed by a robot* on page 62 
-- October 14 Aleksandra *Examining the Frankenstein Syndrome: An Open-Ended
-	Cross-Cultural Survey* on page 125
-- October 28 Zheki *People’s Perception of Domestic Service Robots: 
-Same Household, Same Opinion?* on page 204
-- November 4 Muhammad *Robot Improv: Using Drama to Create Believable Agents*
-- November 11 Sadeq *The Realization of Robot Theater: Humanoid Robots and Theatric Performance*
-- November 18 Benjamin *A Midsummer Night's Dream (with flying robots)*
+[Youssef]  
+[Rashid]  
+[Maria]  
+[Alpha]  
+[Leo]  
+[Katie]  
+[Amina]  
+[Ruishi]  
+[Tori]    
+[Zheki]  
+[Kyrie]    
+[Shaurya]  
+
