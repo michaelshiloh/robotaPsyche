@@ -1,12 +1,12 @@
-Shortcut to [today's lecture](lectureNotes.md/#todays-lecture)
-Class [Zoom](https://nyu.zoom.us/j/97015960666)
+Shortcut to [today's lecture](lectureNotes.md/#todays-lecture)    
+Class [Zoom](https://nyu.zoom.us/j/97015960666)  
 
 ## New York University Abu Dhabi  
 ## Interactive Media Program
 ## Course title: Robota Psyche  
 Course number: IM-UH 3313  
 Credit Hours: 4       
-Prerequisites: One of
+Prerequisites: One of  
 - Introduction to Interactive Media (IM-UH 1010)
 - Mashups (IM-UH 2110)
 - Politics of Code (IM-UH 3110)
@@ -14,15 +14,15 @@ Prerequisites: One of
 - IM-UH 2310 Mashups—Creating with Web APIs
 - IM-UH 2318 Decoding Nature
 - ENGR-UH 1000 Computer Programming for Engineers
-- or instructor approval
+- or instructor approval  
 Course website:
 [https://github.com/michaelshiloh/robotaPsyche](https://github.com/michaelshiloh/robotaPsyche)    
-Instructor: Michael Shiloh mshiloh@nyu.edu  
-Office hours: By appointment
-Meeting times:      
-10:25 AM - 1:05 PM Monday    
-11:50 AM - 1:05 PM Wednesday    
-Session: Spring 2021   
+Instructor: Michael Shiloh mshiloh@nyu.edu    
+Office hours: By appointment  
+Meeting times:        
+10:25 AM - 1:05 PM Monday      
+11:50 AM - 1:05 PM Wednesday      
+Session: Spring 2021     
 
 This document: Weekly Schedule
 
@@ -44,19 +44,21 @@ Email Assignment:
 
 - Join Discord. Email me if you are missing the invitation.
 - Create your github account and repository. Email me a link to your github repository.
-- Choose a topic, 
-	related to Performing Robots, 
-	possibly inspired by [this](references.md) list, on which
-	you will give a 10 minute presentation later in the semester.
+- Choose any topic 
+	related to the subject of this class (broadly defined),
+	possibly inspired by [this](https://github.com/michaelshiloh/resourcesForClasses.md) list, on which
+	you will give a 15 minute presentation later in the semester.
 
-  Your topic can be an article, a robot, a performance, a book, an artist,
-	an event, etc. 
+  Your topic can be an article, a project, a book, an artist, an event, etc. 
 
 	Your topic can not be a movie or book of fiction. (e.g. not Wall-E or
 	Terminator)
 
   Email your topic to me, which I will
-  put on our website. You must pick a topic that no one else has chosen.
+  put on our website. 
+
+	You must pick a topic that no one else has chosen, so there is some
+	incentive to do chose early.
 
 #### Assignments Due January 25
 
