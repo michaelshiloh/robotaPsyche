@@ -44,15 +44,15 @@ creating and simulating multiple and increasingly complex vehicles, interactions
 will be explored.
 
 ### Learning Outcomes: 
-* Develop a critical understanding of the historical and contemporary meaning of cybernetics
-* Create a software robot to simulate and exhibit various synthetic psychologies
-* Create multiple software robots with minor variations and explore how these robots interact
+1. Develop a critical understanding of the historical and contemporary meaning of cybernetics
+1. Create a software robot to simulate and exhibit various synthetic psychologies
+1. Create multiple software robots with minor variations and explore how these robots interact
 with each other, and explore how successful variations can be propagated while unsuccessful
 variation die out
-* Use software robots to create artwork
-* Understand the fundamental concept of chaos, that small changes in initial conditions result in
+1. Use software robots to create artwork
+1. Understand the fundamental concept of chaos, that small changes in initial conditions result in
 vastly different outcomes
-* Understand how seemingly human behavior can emerge from a relatively simple set of rules
+1. Understand how seemingly human behavior can emerge from a relatively simple set of rules
 
 
 ### Teaching and Learning Methodology

@@ -36,15 +36,42 @@ This includes:
 - Projects
 
 ### Week 1 (January 18, 20)
-Introductions, Getting Ready, Processing review, State Machines, arrayLists,
-generators
+Introductions, Getting Started
 
 #### Assignments Due January 20
 
 Email Assignment:
 
-- Join Discord. Email me if you are missing the invitation.
-- Create your github account and repository. Email me a link to your github repository.
+Reading Assignment:
+1. Read the Forward, Introduction and Vehicles 1-3 in *Vehicles* (Braitenberg) 
+  accessible through our NYU Classes portal under *Resources*
+
+Production Assignment:
+
+- Join Discord. Email me if the invitation doesn't work.
+- If you don't already have a Github account, make one.
+	- Instructions for this are
+[here](https://github.com/michaelshiloh/resourcesForClasses#github-resources).
+- Create a repository called "RobotaPsyche" in your Github account. 
+	Email me a link to this repository.
+
+#### Assignments Due January 25 (TBA)
+
+Reading Assignment:
+1.
+[Introduction](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/godsAndRobots/%255BGods%2520and%2520Robots%255D%2520INTRODUCTION.%2520MADE%252C%2520NOT%2520BORN.pdf) and [Chapter 1](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/godsAndRobots/%255BGods%2520and%2520Robots%255D%2520CHAPTER%25201.%2520THE%2520ROBOT%2520AND%2520THE%2520WITCH%253A%2520TALOS%2520AND%2520MEDEA.pdf) of *Gods and Robots* (Mayor) 
+1.
+[Introduction](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/computerPowerandHumanReason_Introduction_Weizenbaum.pdf)
+to *Computer Power and Human Reason* (Weizenbaum)
+
+Production Assignment:
+
+
+### Week 2 (January 25, 27)
+Desire, Variability
+
+#### Assignments Due February 1
+
 - Choose any topic 
 	related to the subject of this class (broadly defined),
 	possibly inspired by [this](https://github.com/michaelshiloh/resourcesForClasses.md) list, on which
@@ -55,23 +82,10 @@ Email Assignment:
 	Your topic can not be a movie or book of fiction. (e.g. not Wall-E or
 	Terminator)
 
-  Email your topic to me, which I will
-  put on our website. 
+  Email your topic to me, which I will put on our website. 
 
 	You must pick a topic that no one else has chosen, so there is some
 	incentive to do chose early.
-
-#### Assignments Due January 25
-
-Reading Assignment:
-
-Production Assignment:
-
-
-### Week 2 (January 25, 27)
-Desire, Variability
-
-#### Assignments Due February 1
 
 Reading Assignment:
 

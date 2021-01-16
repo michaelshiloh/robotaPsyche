@@ -33,57 +33,47 @@ This document: Lecture Notes
 
 ### January 18
 
-Administration
+#### Administration
 
 - Record 
 
-Introduction
+#### Introduction
 
 - Who am I?
-- [weekly schedule](weeklySchedule.md)
 - [Syllabus](syllabus.md)
 - Summary:
-  -  Be present and participate in class
-  -  No electronic distractions
-  -  Be proactive: Communicate with me regarding difficulties, problems, illness, etc.
-  -  Allow lots of time for homework as physical construction
-  and debugging circuits and programs can be very time consuming.
+  - Be present and participate in class
+  - No electronic distractions (**No notifications**)
+  - Be proactive: 
+		Communicate with me regarding difficulties, problems, illness, etc.
+  - Allow lots of time for homework 
+		as debugging programs can be very time consuming.
+- All class material will be on this Github repository 
+	with the exception of some reading material which will be 
+	accessible through our NYU Classes portal.
+- [weekly schedule](weeklySchedule.md)
+- this class is a work in progress; your input is crucial
 - Who are you?
+	- What attracted you to this class?
 
-Getting Ready
+#### Discussion
 
+If you were building a physical robot to move towards light, what
+are some really simple low tech solutions you might implement?
 
-Do along with me
+(There are probably many ways to do this but I want one particular approach)
 
-- Discord
-- Github
+How might you do this in Processing?
+- What features in Processing might be helpful?
+- Classes
+	- Short review of classes (bouncing ball)
+- PVector
+	- Short PVector review
 
-**Github**
-- What is Github?
-- Difference between an account and a repository
-- Follow along with me and create an account
-- Instructions for this are
-[here](https://github.com/michaelshiloh/resourcesForClasses#github-resources).
-
-Please use your name for your account name so that I 
-can more easily recognize it. 
-If you don't want to use your name for privacy reasons, 
-please choose an alias that I can recognize as you.
-
-Name your repository "Robota Psyche"
-
-- Edit your README.md file
-	- What is README.md?
-	- What is .md?
-- Simple Markdown 
-	- **Bold**
-	- Paragraphs must be separated by a blank line
-	- Inserting images: ![](media/eye-calipers.jpg)
-	- Always remember to commit your changes!
-	- More [here](https://github.com/michaelshiloh/resourcesForClasses#github-resources).
-
+Spend a few minutes trying to implement this
 
 ### January 20
+https://www.youtube.com/watch?v=SNg4KZKG96o
 
 ### Week 2
 ### January 25
