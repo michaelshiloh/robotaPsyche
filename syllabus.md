@@ -63,21 +63,19 @@ process-oriented philosophy believing that programming is best learned by doing,
 understanding is best developed by engaging in critical discussion.
 
 In a way, this class has three tracks:
-
 1. Readings and discussion
 1. Skills
 1. Projects
 
 ### Grading
-
-10% Attendance
-10% Participation
-5% Student-Led Discussion
-5% Presentation
-20% Weekly production assignments and documentation
-15% Project I
-15% Project II
-20% Final Project
+- 10% Attendance
+- 10% Participation
+- 5% Student-Led Discussion
+- 5% Presentation
+- 20% Weekly production assignments and documentation
+- 15% Project I
+- 15% Project II
+- 20% Final Project
 
 ### Grading Rubric
 
