@@ -55,22 +55,28 @@ This document: Lecture Notes
 - this class is a work in progress; your input is crucial
 - Who are you?
 	- What attracted you to this class?
+- What is this class about?
+	- What is synthetic psychology?
 
 #### Discussion
 
 If you were building a physical robot to move towards light, what
-are some really simple low tech solutions you might implement?
+are some simple approaches you might take?
+
+What are some hardware components you might use?
 
 (There are probably many ways to do this but I want one particular approach)
 
 How might you do this in Processing?
 - What features in Processing might be helpful?
-- Classes
-	- Short review of classes (bouncing ball)
-- PVector
-	- Short PVector review
+	- [Classes](https://github.com/michaelshiloh/simpleProcessingClassExample)
+	- [PVectors](https://processing.org/tutorials/pvector/)
+	- [Transformations](https://processing.org/tutorials/transform2d/)
 
 Spend a few minutes trying to implement this
+
+(Vehicle 1)
+(Vehicle 0)
 
 ### January 20
 https://www.youtube.com/watch?v=SNg4KZKG96o

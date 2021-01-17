@@ -43,8 +43,10 @@ Introductions, Getting Started
 Reading Assignment:
 1. Read the Forward, Introduction and Vehicles 1-3 in *Vehicles* (Braitenberg) 
   accessible through our NYU Classes portal under *Resources*
-1. Read the Processing Vector
-	 [tutorial](https://processing.org/tutorials/pvector/)
+1. Review the tutorials we mentioned in class
+  - [Classes](https://github.com/michaelshiloh/simpleProcessingClassExample)
+  - [PVectors](https://processing.org/tutorials/pvector/)
+  - [Transformations](https://processing.org/tutorials/transform2d/)
 
 Production Assignment:
 
@@ -56,7 +58,7 @@ Production Assignment:
 
 Email Assignment:
 
--	Email me a link to your repository.
+-	Email me a link to your repository for this class.
 
 #### Assignments Due January 25 (TBA)
 
