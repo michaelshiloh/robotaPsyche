@@ -43,6 +43,8 @@ Introductions, Getting Started
 Reading Assignment:
 1. Read the Forward, Introduction and Vehicles 1-3 in *Vehicles* (Braitenberg) 
   accessible through our NYU Classes portal under *Resources*
+1. Read the Processing Vector
+	 [tutorial](https://processing.org/tutorials/pvector/)
 
 Production Assignment:
 
