@@ -1,4 +1,4 @@
-Shortcut to [today's lecture](lectureNotes.md/#todays-lecture)    
+Shortcut to [today's assignment](#todays-assignment)    
 Class [Zoom](https://nyu.zoom.us/j/97015960666)  
 
 ## New York University Abu Dhabi  
@@ -38,6 +38,7 @@ This includes:
 ### Week 1 (January 18, 20)
 Introductions, Getting Started
 
+##### todays-assignment
 #### Assignments Due January 20
 
 Reading Assignment:

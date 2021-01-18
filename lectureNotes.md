@@ -31,10 +31,12 @@ This document: Lecture Notes
 
 ### Week 1
 
+##### todays-lecture
 ### January 18
 
 #### Administration
 
+- Notifications off
 - Record 
 
 #### Introduction
