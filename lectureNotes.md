@@ -80,6 +80,8 @@ Spend a few minutes trying to implement this
 (Vehicle 1)
 (Vehicle 0)
 
+#### Look at homework 
+
 ### January 20
 https://www.youtube.com/watch?v=SNg4KZKG96o
 
