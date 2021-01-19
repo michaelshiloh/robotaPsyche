@@ -33,7 +33,7 @@ This document: Student Github repositories
 [Leo]  
 [Katie](https://github.com/katieferreol/RobotaPsyche)  
 [Amina]  
-[Nathan]  
+[Nathan](https://github.com/Nathan213/RobotaPsyche)
 [Tori]    
 [Zheki]  
 [Kyrie]    
