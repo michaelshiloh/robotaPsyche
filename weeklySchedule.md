@@ -71,6 +71,7 @@ Reading Assignment:
 to *Computer Power and Human Reason* (Weizenbaum)
 1. Introduction to *Cybernetics* (Wiener) (NYU Classes)
 1. Introduction (Robot Anatomies) in *Anatomy of a Robot* (Kakoudaki) (NYU Classes)
+1. Preface and Introduction to *Science Fiction, Alien Encounters, and the Ethics of Posthumanism* (Gomel), (NYU Classes)
 
 Production Assignment: 
 

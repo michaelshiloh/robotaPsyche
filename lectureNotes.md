@@ -78,6 +78,7 @@ How might you do this in Processing?
 - Record 
 - Is this a better way to access books?
 	- https://bobcat.library.nyu.edu/permalink/f/1f01u8g/nyu_aleph004648431
+- Look at homework 
 
 #### When were robots first imagined?
 
