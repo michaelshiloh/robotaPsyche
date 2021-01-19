@@ -61,21 +61,18 @@ Email Assignment:
 
 -	Email me a link to your repository for this class.
 
-#### Assignments Due January 25 (TBA)
+#### Assignments Due February 1
 
 Reading Assignment:
+
 1.  [Introduction](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/godsAndRobots/%255BGods%2520and%2520Robots%255D%2520INTRODUCTION.%2520MADE%252C%2520NOT%2520BORN.pdf)  of *Gods and Robots* (Mayor) 
 1. [Chapter 1](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/godsAndRobots/%255BGods%2520and%2520Robots%255D%2520CHAPTER%25201.%2520THE%2520ROBOT%2520AND%2520THE%2520WITCH%253A%2520TALOS%2520AND%2520MEDEA.pdf) of *Gods and Robots* (Mayor) 
 1.  [Introduction](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/computerPowerandHumanReason_Introduction_Weizenbaum.pdf)
 to *Computer Power and Human Reason* (Weizenbaum)
+1. Introduction to *Cybernetics* (Wiener) (NYU Classes)
+1. Introduction (Robot Anatomies) in *Anatomy of a Robot* (Kakoudaki) (NYU Classes)
 
-Production Assignment: TBA
-
-
-### Week 2 (January 25, 27)
-Desire, Variability
-
-#### Assignments Due February 1
+Production Assignment: 
 
 - Choose any topic 
 	related to the subject of this class (broadly defined),
@@ -91,6 +88,12 @@ Desire, Variability
 
 	You must pick a topic that no one else has chosen, so there is some
 	incentive to do chose early.
+
+
+### Week 2 (January 25, 27)
+Desire, Variability
+
+#### Assignments Due February 1
 
 Reading Assignment:
 

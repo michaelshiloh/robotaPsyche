@@ -29,11 +29,11 @@ This document: Student Github repositories
 
 [Youssef]  
 [Maria]  
-[Alpha](https://github.com/Alphaam/RobotaPsyche)  
+[Alpha](https://github.com/Alphaam/RobotaPsyche)    
 [Leo]  
-[Katie](https://github.com/katieferreol/RobotaPsyche)  
+[Katie](https://github.com/katieferreol/RobotaPsyche)    
 [Amina]  
-[Nathan](https://github.com/Nathan213/RobotaPsyche)
+[Nathan](https://github.com/Nathan213/RobotaPsyche)  
 [Tori]    
-[Zheki]  
+[Zheki](https://github.com/Zheki/RobotaPsyche)  
 [Kyrie]    

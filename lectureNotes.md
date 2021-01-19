@@ -34,11 +34,6 @@ This document: Lecture Notes
 ##### todays-lecture
 ### January 18
 
-#### Administration
-
-- Notifications off
-- Record 
-
 #### Introduction
 
 - Who am I?
@@ -72,6 +67,24 @@ What are some hardware components you might use?
 How might you do this in Processing?
 - What features in Processing might be helpful?
 	- [Classes](https://github.com/michaelshiloh/simpleProcessingClassExample)
+
+#### Look at homework 
+
+### January 20
+
+#### Administration
+
+- Notifications off
+- Record 
+- Is this a better way to access books?
+	- https://bobcat.library.nyu.edu/permalink/f/1f01u8g/nyu_aleph004648431
+
+#### When were robots first imagined?
+
+https://www.youtube.com/watch?v=SNg4KZKG96o
+
+#### Some more review
+
 	- [PVectors](https://processing.org/tutorials/pvector/)
 	- [Transformations](https://processing.org/tutorials/transform2d/)
 
@@ -80,11 +93,6 @@ Spend a few minutes trying to implement this
 (Vehicle 1)
 (Vehicle 0)
 
-#### Look at homework 
-
-### January 20
-https://www.youtube.com/watch?v=SNg4KZKG96o
-https://bobcat.library.nyu.edu/permalink/f/1f01u8g/nyu_aleph004648431
 
 ### Week 2
 ### January 25
