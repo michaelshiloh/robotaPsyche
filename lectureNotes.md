@@ -85,8 +85,8 @@ https://www.youtube.com/watch?v=SNg4KZKG96o
 
 #### Some more review
 
-	- [PVectors](https://processing.org/tutorials/pvector/)
-	- [Transformations](https://processing.org/tutorials/transform2d/)
+- [PVectors](https://processing.org/tutorials/pvector/)
+- [Transformations](https://processing.org/tutorials/transform2d/)
 
 Spend a few minutes trying to implement this
 
