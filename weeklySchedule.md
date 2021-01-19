@@ -79,7 +79,7 @@ Desire, Variability
 
 - Choose any topic 
 	related to the subject of this class (broadly defined),
-	possibly inspired by [this](https://github.com/michaelshiloh/resourcesForClasses.md) list, on which
+	possibly inspired by [this](https://github.com/michaelshiloh/resourcesForClasses/README.md) list, on which
 	you will give a 15 minute presentation later in the semester.
 
   Your topic can be an article, a project, a book, an artist, an event, etc. 

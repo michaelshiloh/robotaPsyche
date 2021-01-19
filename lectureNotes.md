@@ -84,6 +84,7 @@ Spend a few minutes trying to implement this
 
 ### January 20
 https://www.youtube.com/watch?v=SNg4KZKG96o
+https://bobcat.library.nyu.edu/permalink/f/1f01u8g/nyu_aleph004648431
 
 ### Week 2
 ### January 25
