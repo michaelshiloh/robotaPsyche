@@ -37,3 +37,6 @@ This document: Student Github repositories
 [Tori](https://github.com/VMonde14/RobotaPsyche)    
 [Zheki](https://github.com/Zheki/RobotaPsyche)  
 [Kyrie](https://github.com/Kyrie21323/RobotaPsyche)    
+[Rashid](https://github.com/raq217/RobotaPsyche)  
+[Fatima]()  
+[Sharauya]()  

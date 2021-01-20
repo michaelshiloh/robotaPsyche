@@ -73,6 +73,12 @@ shiffman's [Object Oriented
   Programming](https://www.youtube.com/watch?v=YcbcfkLzgvs&list=PLRqwX-V7Uu6bb7z2IJaTlzwzIg_5yvL4i)
   tutorials.
 
+- You can learn much more about the PVector class in Dan
+		Shiffman's book The Nature Of Code Chapter 1:
+	- [Text](https://natureofcode.com/book/chapter-1-vectors/) 
+	- [Video
+		tutorials](https://www.youtube.com/watch?v=mWJkvxQXIa8&list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc)
+
 #### Assignments Due February 1
 
 Reading Assignment:
@@ -93,8 +99,12 @@ Production Assignment:
 
 - Choose any topic 
 	related to the subject of this class (broadly defined),
-	possibly inspired by [this](https://github.com/michaelshiloh/resourcesForClasses) list, on which
-	you will give a 15 minute presentation later in the semester.
+	on which you will give a 15 minute presentation later in the semester.
+	You may be inspired by any of:
+	- Your readings above
+	- [This](https://github.com/michaelshiloh/resourcesForClasses) list
+	- The [IM Research Guide](https://guides.nyu.edu/IM) prepared by 
+	our librarian [Beth Russell](mailto:beth.russell@nyu.edu). 
 
   Your topic can be an article, a project, a book, an artist, an event, etc. 
 
@@ -104,8 +114,8 @@ Production Assignment:
   Email your topic to me, which I will put on our website. 
 
 	You must pick a topic that no one else has chosen, so there is some
-	incentive to do chose early.
-
+	incentive to do chose early. I will list topics that students have already
+	chosen [here](studentPresentations.md)
 
 ### Week 2 (January 25, 27)
 Desire, Variability
