@@ -38,7 +38,6 @@ This includes:
 ### Week 1 (January 18, 20)
 Introductions, Getting Started
 
-##### todays-assignment
 #### Assignments Due January 20
 
 Reading Assignment:
@@ -61,6 +60,7 @@ Email Assignment:
 
 -	Email me a link to your repository for this class.
 
+##### todays-assignment
 #### Assignments Due January 25
 
 Reading Assignment:
