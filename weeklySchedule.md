@@ -61,6 +61,18 @@ Email Assignment:
 
 -	Email me a link to your repository for this class.
 
+#### Assignments Due January 25
+
+Reading Assignment:
+
+- If you feel you need to review functions watch Dan
+Shiffman's [functions](https://www.youtube.com/watch?v=XCu7JSkgl04&list=PLRqwX-V7Uu6ajGB2OI3hl5DZsD1Fw1WzR) tutorials. 
+There are four videos, each less than 10 minutes.
+- If you feel you need to review classes, watch at least the first four of Dan 
+shiffman's [Object Oriented
+  Programming](https://www.youtube.com/watch?v=YcbcfkLzgvs&list=PLRqwX-V7Uu6bb7z2IJaTlzwzIg_5yvL4i)
+  tutorials.
+
 #### Assignments Due February 1
 
 Reading Assignment:
