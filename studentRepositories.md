@@ -28,12 +28,12 @@ Session: Spring 2021
 This document: Student Github repositories
 
 [Youssef]  
-[Maria]  
+[Maria](https://github.com/mariaalkhaja/RobotaPsyche)  
 [Alpha](https://github.com/Alphaam/RobotaPsyche)    
 [Leo]  
 [Katie](https://github.com/katieferreol/RobotaPsyche)    
 [Amina](https://github.com/ak7588/robota_psyche)
 [Nathan](https://github.com/Nathan213/RobotaPsyche)  
-[Tori]    
+[Tori](https://github.com/VMonde14/RobotaPsyche)    
 [Zheki](https://github.com/Zheki/RobotaPsyche)  
-[Kyrie]    
+[Kyrie](https://github.com/Kyrie21323/RobotaPsyche)    
