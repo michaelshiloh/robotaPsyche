@@ -74,6 +74,8 @@ to *Computer Power and Human Reason* (Weizenbaum)
 1. Preface and Introduction to *Science Fiction, Alien Encounters, and the Ethics of Posthumanism* (Gomel), (NYU Classes)
 1. *The Adaptive Brian* and *Ontological Theater* in *The Cybernetic Brain*
 	 (Pickering) (NYU Classes) 
+1. Preface and Introduction to [The Machine
+	 Question](https://bobcat.library.nyu.edu/permalink/f/1f01u8g/nyu_aleph004814605)
 
 Production Assignment: 
 
