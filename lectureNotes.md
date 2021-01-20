@@ -31,7 +31,6 @@ This document: Lecture Notes
 
 ### Week 1
 
-##### todays-lecture
 ### January 18
 
 #### Introduction
@@ -70,6 +69,7 @@ How might you do this in Processing?
 
 #### Look at homework 
 
+##### todays-lecture
 ### January 20
 
 #### Administration
