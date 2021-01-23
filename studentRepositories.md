@@ -30,7 +30,7 @@ This document: Student Github repositories
 [Youssef](https://github.com/youssef-ahamid/robotaPsyche)    
 [Maria](https://github.com/mariaalkhaja/RobotaPsyche)  
 [Alpha](https://github.com/Alphaam/RobotaPsyche)    
-[Leo]  
+[Leo](https://github.com/leodunadan/RobotaPsyche)    
 [Katie](https://github.com/katieferreol/RobotaPsyche)    
 [Amina](https://github.com/ak7588/robota_psyche)
 [Nathan](https://github.com/Nathan213/RobotaPsyche)  

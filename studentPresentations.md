@@ -29,33 +29,10 @@ This document: Student Presentations
 
 **This is subject to change**
 
-**Student Research and Presentations**
+**Student Presentations**
 
-[Youssef]  
-[Rashid]  
-[Maria]  
-[Alpha]  
-[Leo]  
-[Katie]  
-[Amina]  
-[Ruishi]  
-[Tori]    
-[Zheki]  
-[Kyrie]    
-[Shaurya]  
+Katie: *Golan Levin makes art that looks back at you*
 
 **Student Lead Discussions**
 
-[Youssef]  
-[Rashid]  
-[Maria]  
-[Alpha]  
-[Leo]  
-[Katie]  
-[Amina]  
-[Ruishi]  
-[Tori]    
-[Zheki]  
-[Kyrie]    
-[Shaurya]  
 
