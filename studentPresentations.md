@@ -31,7 +31,8 @@ This document: Student Presentations
 
 **Student Presentations**
 
-Katie: *Golan Levin makes art that looks back at you*   
+Katie: *The future of AI and how humans can prepare for its emergence to the
+world*
 Amina: *how robots, software, and specifically A.I. can create a more accessible world for people with different abilities*   
 
 **Student Lead Discussions**
