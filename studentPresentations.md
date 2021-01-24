@@ -32,6 +32,7 @@ This document: Student Presentations
 **Student Presentations**
 
 Katie: *Golan Levin makes art that looks back at you*
+Amina: *how robots, software, and specifically A.I. can create a more accessible world for people with different abilities*
 
 **Student Lead Discussions**
 
