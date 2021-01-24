@@ -180,14 +180,14 @@ void draw() {
 Note the dot syntax to access variables that are within the objects. Why do we
 need that?
 
-		- Other vector manipulations include:
-			- Subtraction (the difference between two vectors)
-			- Multiplication by a number (scaling)
-			- Magnitude (what is the length of a vector without regard to direction)
-			- Heading (direction without regard to length)
-			- Normalize (keeping the same direction, scale to length of 1)
+- Other vector manipulations include:
+	- Subtraction (the difference between two vectors)
+	- Multiplication by a number (scaling)
+	- Magnitude (what is the length of a vector without regard to direction)
+	- Heading (direction without regard to length)
+	- Normalize (keeping the same direction, scale to length of 1)
 
-		- Example of subtraction:
+- Example of subtraction:
 
 ````
 void setup() {
@@ -349,12 +349,12 @@ void draw() {
 }
 ````
 
-	- Random acceleration
-		- Replace fixed acceleration in the constructor with `acceleration = PVector.random2D();` in
-			`update()`
-	- Acceleration towards the mouse
-		- Aha! Finally we get to something that resembles our vehicles!
-	Follow along in the last section "Interactivity with Acceleration"
+- Random acceleration
+	- Replace fixed acceleration in the constructor with `acceleration = PVector.random2D();` in
+		`update()`
+- Acceleration towards the mouse
+	- Aha! Finally we get to something that resembles our vehicles!
+		Follow along in the last section "Interactivity with Acceleration"
 
 	
 
