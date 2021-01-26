@@ -34,6 +34,7 @@ This document: Student Presentations
 Katie: *The future of AI and how humans can prepare for its emergence to the
 world*
 Amina: *how robots, software, and specifically A.I. can create a more accessible world for people with different abilities*   
+Fatima: *Akira Kanayama and his use of a robotic creature to create contemporary art*
 
 **Student Lead Discussions**
 
