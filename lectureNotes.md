@@ -422,13 +422,13 @@ statement of Newton's third law is
 
 so now our function looks like this:
 
-`
+````
 void applyForce(PVector force) {
   // Newton’s second law, but with force accumulation.
   // We now add each force to acceleration, one at a time.
     acceleration.add(force);
  }
- `
+````
 
  One more slight problem. If we keep adding all the accelerations with each
  iteration of `draw()`, the acceleration keeps getting bigger and bigger, but
