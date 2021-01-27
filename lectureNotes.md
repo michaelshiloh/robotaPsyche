@@ -448,6 +448,84 @@ void applyForce(PVector force) {
 
 Why do this in`update()`?
 
+Dan Shiffman suggested this exercise:
+
+- Using forces, 
+simulate a helium-filled balloon floating upward and bouncing off the ceiling
+
+Here is my start at solving it in class:
+
+````
+/*
+Example in class 27 Jan
+First attempt at showing how forces affect acceleration
+
+Based on the last example from class 25 Jan
+
+I also removed the top speed
+*/
+
+
+class Mover {
+
+  PVector location;
+  PVector velocity;
+  PVector acceleration;
+
+  Mover() {
+    location = new PVector(width/2, height/2);
+    velocity = new PVector(0, 0);
+    acceleration = new PVector(0, 0);
+  }
+
+  void update() {
+    velocity.add(acceleration);
+    acceleration.mult(0); // this makes sure the acceleration is zer0 for the next fram
+    location.add(velocity);
+  }
+
+  void display() {
+    stroke(0);
+    fill(175);
+    ellipse(location.x, location.y, 16, 16);
+  }
+
+  void checkEdges() {
+    if (location.y > height) {
+      velocity.y = -velocity.y;
+    } else if (location.y < 0) {
+      velocity.y = velocity.y*-1;
+    }
+  }
+
+  void applyForce(PVector force) {
+    // A = F/m
+    // with m = 1
+    acceleration.add(force);
+  }
+}
+
+Mover mover;
+
+PVector helium = new PVector(0, -0.09); // this force is up
+PVector gravity = new PVector(0, 0.0001); // this force is down
+
+void setup() {
+  size(640, 360);
+  mover = new Mover();
+}
+
+void draw() {
+  background(255);
+
+  mover.applyForce(helium);
+  mover.applyForce(gravity);
+  mover.update();
+  mover.checkEdges();
+  mover.display();
+}
+````
+
 Next week:
 
 Mass
