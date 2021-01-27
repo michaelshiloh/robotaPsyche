@@ -83,11 +83,7 @@ https://www.youtube.com/watch?v=SNg4KZKG96o
 - [Transformations](https://processing.org/tutorials/transform2d/)
 
 ### Week 2
-##### todays-lecture
 ### January 25
-#### Administration
-- Notifications off
-- Record 
 
 #### PVectors
 
@@ -355,55 +351,165 @@ void draw() {
 - Acceleration towards the mouse
 	- Aha! Finally we get to something that resembles our vehicles!
 		Follow along in the last section "Interactivity with Acceleration"
-
 	
 
-	### January 27
+### January 27
+##### todays-lecture
+#### Administration
+- Notifications off
+- Record 
 
-	### Week 3
-	### February 1
-	### February 3
+#### Review
 
-	### Week 4
-	### February 8
-	### February 10
+Review the Mover class we created at the end of Monday's session
 
-	### Week 5
-	### February 15
-	### February 17
+Multiple Mover objects in an array (did we do this already?) from the book
 
-	### Week 6
-	### February 22
-	### February 24
+#### Forces
 
-	### Week 7
-	### March 1
-	### March 3
+Why do we care about forces?
 
-	### Week 8
-	### March 17
-	### March 22
+Newton's first law of mechanics:
 
-	### Week 9
-	### March 24
-	### March 29
+- An object at rest stays at rest and an object in motion stays in motion at a
+	constant speed and direction (i.e. velocity) **unless acted upon by an
+	unbalanced force**.
 
-	### Week 10
-	### March 31
-	### April 5
+(What's the difference between speed and velocity?)
 
-	### Week 11
-	### April 7
-	### April 12
+Newton's second law:
 
-	### Week 12
-	### April 14
-	### April 19
+- A force acts on an object by changing its acceleration: **F**=m**A** or
+	**A**=**F**/m
 
-	### Week 13
-	### April 21
-	### April 26
+Acceleration is directly proportional to force and inversely proportional to
+mass. 
 
-	### Week 14
-	### April 28
-	### May 3
+What does this mean in common language?
+
+How do we apply this in our programs?
+
+Let's start with the last example we did on Monday. We'd like to add a new
+member function (method) so that in our main `draw()` loop we might say :
+
+````
+mover.applyForce(wind);
+````
+
+It might look like this:
+
+````
+void applyForce(PVector force) {
+  acceleration = force; // Let's pretend mass = 1
+}
+````
+
+There's a problem though. Suppose we have wind and gravity. Then in `draw()`
+we would say
+
+````
+mover.applyForce(wind);
+mover.applyForce(gravity);
+mover.update();
+mover.display();
+````
+
+The trouble is that applying the force of gravity would erase the force of
+wind. We need to *accumulate* all the relevant forces. A more accurate
+statement of Newton's third law is
+
+- **Net** Force equals mass times acceleration
+
+so now our function looks like this:
+
+`
+void applyForce(PVector force) {
+  // Newton’s second law, but with force accumulation.
+  // We now add each force to acceleration, one at a time.
+    acceleration.add(force);
+ }
+ `
+
+ One more slight problem. If we keep adding all the accelerations with each
+ iteration of `draw()`, the acceleration keeps getting bigger and bigger, but
+ that's not really what happens in real life. In real life, each time we
+ evaluate the total forces, we start from zero and add them one at a time.
+ This means that each time through `draw()` we need to first zero out the
+ acceleration. Is there a way to zero out an existing vector?
+
+
+````
+ void update() {
+    velocity.add(acceleration);
+    location.add(velocity);
+    acceleration.mult(0);
+ }
+````
+
+Why do this in`update()`?
+
+Next week:
+
+Mass
+
+The problem with the simplistic version of applyForce() presented below this
+paragraph: 
+
+- "This isn’t so great since things only become interesting once we have
+	objects with varying mass, but it’ll get us started. Where does mass come
+	in? We use it while applying Newton’s second law to our object."
+
+Example w/ wind and gravity
+
+Example w/ array of 100 objects
+
+Friction
+
+
+### Week 3
+### February 1
+### February 3
+
+### Week 4
+### February 8
+### February 10
+
+### Week 5
+### February 15
+### February 17
+
+### Week 6
+### February 22
+### February 24
+
+### Week 7
+### March 1
+### March 3
+
+### Week 8
+### March 17
+### March 22
+
+### Week 9
+### March 24
+### March 29
+
+### Week 10
+### March 31
+### April 5
+
+### Week 11
+### April 7
+### April 12
+
+### Week 12
+### April 14
+### April 19
+
+### Week 13
+### April 21
+### April 26
+
+### Week 14
+### April 28
+### May 3
