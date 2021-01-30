@@ -40,3 +40,4 @@ This document: Student Github repositories
 [Rashid](https://github.com/raq217/RobotaPsyche)  
 [Fatima](https://github.com/FatimaAlmaazmi/RobotaPsyche)  
 [Sharauya](https://github.com/shaurya-io/RobotaPsyche)  
+[Pangna](https://github.com/pangnasun/RobotaPsyche)
