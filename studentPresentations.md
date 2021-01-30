@@ -33,12 +33,12 @@ This document: Student Presentations
 
 Katie: *The future of AI and how humans can prepare for its emergence to the
 world*
-Amina: *how robots, software, and specifically A.I. can create a more accessible world for people with different abilities*   
-Fatima: *Akira Kanayama and his use of a robotic creature to create contemporary art*
-Tori: *Boston Dynamic Dancing robots, the role of robots in art, and critique*
-Leo: *The ethics and use of robots/AI in military technology*
-Pangna: *Compare the concepts of robots in mythology and those in our modern world*
-Maria: *Robots as Weapons* (Tentative title)
+Amina: *how robots, software, and specifically A.I. can create a more accessible world for people with different abilities*     
+Fatima: *Akira Kanayama and his use of a robotic creature to create contemporary art*  
+Tori: *Boston Dynamic Dancing robots, the role of robots in art, and critique*  
+Leo: *The ethics and use of robots/AI in military technology*  
+Pangna: *Compare the concepts of robots in mythology and those in our modern world*  
+Maria: *Robots as Weapons* (Tentative title)  
 
 **Student Lead Discussions**
 
