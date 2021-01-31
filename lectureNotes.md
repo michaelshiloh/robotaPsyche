@@ -354,10 +354,6 @@ void draw() {
 	
 
 ### January 27
-##### todays-lecture
-#### Administration
-- Notifications off
-- Record 
 
 #### Review
 
@@ -526,26 +522,252 @@ void draw() {
 }
 ````
 
-Next week:
-
-Mass
-
-The problem with the simplistic version of applyForce() presented below this
-paragraph: 
-
-- "This isn’t so great since things only become interesting once we have
-	objects with varying mass, but it’ll get us started. Where does mass come
-	in? We use it while applying Newton’s second law to our object."
-
-Example w/ wind and gravity
-
-Example w/ array of 100 objects
-
-Friction
-
-
 ### Week 3
 ### February 1
+##### todays-lecture
+#### Administration
+- Notifications off
+- Record 
+
+##### Review
+
+What have we learned so far?
+- How to use PVectors to store location and velocity,
+and how to make a simple ball bouncing off the walls using PVectors
+- About **force** which causes acceleration (another PVector)
+- How to combine multiple forces to calculate a total acceleration
+- How to zero out the acceleration after each frame, and why that's necessary
+- How to apply the acceleration to modify the velocity
+
+We also made a simplification:
+- Let the mass equal 1 so that Newton’s second law 
+(**F**=m**a**) 
+becomes
+**F**=**a**
+
+Review the helium balloon example from last week
+
+##### Mass
+
+Interesting things happen when objects can have different mass. How do we
+incorporate that?
+- Pretty easy: Just add a scalar variable *mass* to the class variables
+and for now give it an arbitrary fixed number e.g. 10.
+- How do we use this new value?
+
+````
+void applyForce(PVector force) {
+   // Newton’s second law (with force accumulation and mass)
+	 // Since F=ma
+	 // then a=F/m
+   force.div(mass);
+   acceleration.add(force);
+	 }
+````
+
+and then
+
+````
+Mover m1 = new Mover();
+Mover m2 = new Mover();
+
+PVector wind = new PVector(1,0);
+
+m1.applyForce(wind);
+m2.applyForce(wind);
+````
+
+Uh oh. Big problem. Can anyone see it?
+
+Explain this:
+
+````
+void scalarFunction(int s) {
+  s = 0;
+}
+
+void pvectorFunction(PVector pv) {
+  pv.x = 0;
+  pv.y = 0;
+}
+
+void setup() {
+  int a = 9;
+  scalarFunction(a);
+  println("The scalar a is now " + a);
+  
+  PVector vectorA = new PVector(9, 7);
+  pvectorFunction(vectorA);
+  println("The vector x component is now = " + vectorA.x + " and the vector y component is now = " + vectorA.y);
+}
+````
+
+Once we understand that, we see that we have to do this:
+
+````
+void applyForce(PVector force) {
+  PVector f = force.get(); // Make a copy of the PVector before using it!
+  f.div(mass);
+  acceleration.add(f);
+}
+````
+
+(Why didn't we have this problem last week?)
+
+Ok, we're getting closer. Now modify the class to allow
+objects to have different mass and different initial locations.
+(Do this as an exercise in class)
+
+Now we can make multiple objects of different masses 
+and different initial locations. An array is a great way 
+to manage them. Can you combine these things with what we have up to now to
+make an array of bouncing objects?
+
+````
+Mover[] movers = new Mover[100];
+
+void setup() {
+  for (int i = 0; i < movers.length; i++) {
+		// same starting location but differen masses
+    movers[i] = new Mover(random(0.1,5),0,0);
+  }
+}
+
+void draw() {
+  background(255);
+
+	// You can make up all kinds of forces!
+  PVector wind = new PVector(0.01,0);
+  PVector gravity = new PVector(0,0.1);
+
+
+	// Loop through all objects and apply both forces to each object.
+  for (int i = 0; i < movers.length; i++) {
+    movers[i].applyForce(wind);
+    movers[i].applyForce(gravity);
+
+    movers[i].update();
+    movers[i].display();
+    movers[i].checkEdges();
+  }
+}
+````
+
+To make the different masses visible, we can draw them different sizes:
+
+````
+void display() {
+    stroke(0);
+    fill(175);
+    // Scale the size according to mass
+    ellipse(location.x,location.y,mass*16,mass*16);
+  }
+````
+
+##### The general procedure for incorporating a force
+We're going to learn about two new forces:
+1. The force caused by friction. 
+1. The force caused by gravitational attraction between two objects
+You may not always need either of these, just as you may not always need
+gravity or wind.  The point is to evaluate these as case
+studies for the following general procedure:
+
+- Understand the concept behind a force
+- Deconstruct the force’s effect into two parts:
+	- How do we compute the force’s direction?
+	- How do we compute the force’s magnitude?
+- Translating that force's effect into Processing code that calculates a
+	`PVector` to be sent through our Mover's `applyForce()` function
+
+##### Friction
+Look at Figure 2.3 in Shiffman's book *The Nature of Code*
+- Explain the forumula **Friction Force** = -1 * mu * **N** * **unit_v**
+	- mu = coefficient of friction
+	- **N** = normal force (force perpendicular to the surface)
+	- **unit_v** = unit velocity vector (i.e. the direction of motion scaled to
+		value of 1)
+- Let's start with the -1 * **unit_v**:
+
+````
+PVector friction = velocity.get();
+friction.normalize();
+friction.mult(-1);
+````
+
+- What about the coefficient of friction? Let's pick an arbitrary value:
+
+````
+float c = 0.01;
+````
+
+- What about normal force? Again, simplify:
+
+````
+float normal = 1;
+````
+
+Putting it all together we have:
+
+````
+void draw() {
+  background(255);
+
+  PVector wind = new PVector(0.001,0);
+  PVector gravity = new PVector(0,0.1);
+
+  for (int i = 0; i < movers.length; i++) {
+
+    float c = 0.01; 
+    PVector friction = movers[i].velocity.get(); 
+    friction.mult(-1); 
+    friction.normalize(); 
+    friction.mult(c); 
+
+    // Apply the friction force vector to the object.
+    movers[i].applyForce(friction); 
+    movers[i].applyForce(wind);
+    movers[i].applyForce(gravity);
+
+    movers[i].update();
+    movers[i].display();
+    movers[i].checkEdges();
+  }
+
+}
+````
+
+##### Gravitational Attraction
+
+**Gravitational Force** = (G * m1 * m2 **unit vector pointing from m1 to
+m2**)/r * r
+- G = Gravitational constant
+- m1, m2 = mass of the two bodies
+- r = distance between objects
+
+What does this mean intuitively?
+
+````
+// The vector that points from one object to another
+PVector force = PVector.sub(location1,location2);
+
+// The length (magnitude) of that vector is the distance between the two objects
+float distance = force.magnitude();
+
+// Use the formula for gravity to compute the strength of the force.
+float m = (G * mass1 * mass2) / (distance * distance);
+
+// Normalize and scale the force vector
+// to the appropriate magnitude.
+force.normalize();
+force.mult(m);
+````
+
+Next meeting:
+
+##### An Attractor class
+
+
+
 ### February 3
 
 ### Week 4
