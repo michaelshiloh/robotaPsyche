@@ -41,6 +41,7 @@ Pangna: *Comparing the concepts of robots in mythology to those in our modern wo
 Maria: *Robots as Weapons* (Tentative title)  
 Alpha: *Third world perspectives on robotics and AI*   
 Zheki: *Ancient Robots: History of the Karakuri Puppets*  
+Nathan: *The Legality of Robot Abuse*
 
 **Student Lead Discussions**
 

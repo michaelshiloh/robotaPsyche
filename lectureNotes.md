@@ -528,6 +528,9 @@ void draw() {
 #### Administration
 - Notifications off
 - Record 
+- **Important**: The point of your presentation is to study, think about, and
+	critique your subject and the underlying assumptions and ethics. It is not
+	meant to be a simple presentation of history or facts.
 
 ##### Review
 
@@ -738,33 +741,256 @@ void draw() {
 
 ##### Gravitational Attraction
 
-**Gravitational Force** = (G * m1 * m2 **unit vector pointing from m1 to
-m2**)/r * r
+Remember that gravity isn't just the earth pulling us down. We are also
+pulling the earth with exactly as much force
+
+**Gravitational Force** 
+= (G * m1 * m2 **unit vector pointing from m1 to m2**)/r * r
 - G = Gravitational constant
 - m1, m2 = mass of the two bodies
 - r = distance between objects
 
 What does this mean intuitively?
+- The more mass, the more force
+- The more distance, the **less** force
+
+(If the force is the same, why do we move towards the earth (e.g. if we jump)
+and not the earth move towards us?)
+
+We can also separate this into two components:
+
+The magnitude (scalar valufe) of the force = (G * m1 * m2)/r * r
+The direction (vector) of the force = **unit vector pointing from m1 to m2**
 
 ````
 // The vector that points from one object to another
+// Will give us the direction (vector) of the force 
 PVector force = PVector.sub(location1,location2);
 
-// The length (magnitude) of that vector is the distance between the two objects
+// The length (magnitude) of that vector
+// conveniently gives us the distance
 float distance = force.magnitude();
 
 // Use the formula for gravity to compute the strength of the force.
-float m = (G * mass1 * mass2) / (distance * distance);
+float magnitude = (G * mass1 * mass2) / (distance * distance);
 
-// Normalize and scale the force vector
-// to the appropriate magnitude.
+// Normalize the force vector
 force.normalize();
-force.mult(m);
+
+// Scale the force vector to the appropriate magnitude.
+force.mult(magnitude);
 ````
 
-Next meeting:
-
 ##### An Attractor class
+
+Now let's apply this force in a simple example: A moving object (a Mover) and
+a stationary attractive object (an Attractor)
+
+(Figure 2.9 in book)
+
+Here is a simple Attractor class:
+
+````
+class Attractor {
+  // Our Attractor is a simple object that doesn’t move.
+  // We just need a mass and a location.
+  float mass;
+  PVector location;
+
+  Attractor() {
+    location = new PVector(width/2,height/2);
+    mass = 20;
+  }
+
+  void display() {
+    stroke(0);
+    fill(175,200);
+    ellipse(location.x,location.y,mass*2,mass*2);
+  }
+}
+````
+
+And to use it:
+
+````
+Mover m;
+Attractor a;
+
+void setup() {
+  size(640,360);
+  m = new Mover();
+  // Initialize Attractor object.
+  a = new Attractor();
+}
+
+void draw() {
+  background(255);
+
+  // Display Attractor object.
+  a.display();
+
+  m.update();
+  m.display();
+}
+````
+
+The challenge now is how to get the Attractor object to have an effect on 
+a Mover object. How does one object communicate with another?
+
+(See some options in book)
+
+We will do option #4 because it makes use of the `applyForce()` function we
+developed earlier. In other words, where we earlier made up a force:
+
+````
+// Made-up force
+PVector f = new PVector(0.1,0);
+m.applyForce(f);
+````
+
+We will now have:
+
+````
+void draw() {
+  background(255);
+
+	//Get the attractive force to mover m from attractor a
+  PVector f = a.attract(m); 
+	// Apply this force to the mover
+  m.applyForce(f); 
+
+  m.update();
+
+  a.display();
+  m.display();
+}
+````
+
+and now we need to write the `attract()` method in the Attractor class,
+using the math that we worked out just above:
+
+````
+PVector attract(Mover m) {
+
+  // What’s the force’s direction?
+  PVector force = PVector.sub(location,m.location);
+  float distance = force.mag();
+  force.normalize();
+  //[offset-down] What’s the force’s magnitude?
+  float strength = (G * mass * m.mass) / (distance * distance);
+  force.mult(strength);
+
+  // Return the force so that it can be applied!
+  return force;
+}
+````
+
+Any problems with this?
+
+What happens if the distance is really, really small, like 0.0000000001?
+
+It might be useful to constrain the force to reasonable values (which you can
+play around with) 
+
+````
+	distance = constrain(distance,5,25);
+````
+
+So finally we can combine all of this:
+
+````
+// A Mover and an Attractor
+Mover m;
+Attractor a;
+
+void setup() {
+  size(640,360);
+  m = new Mover();
+  a = new Attractor();
+}
+
+void draw() {
+  background(255);
+
+  // Apply the attraction force from the Attractor on the Mover.
+  PVector force = a.attract(m);
+  m.applyForce(force);
+  m.update();
+
+  a.display();
+  m.display();
+}
+
+class Attractor {
+  float mass;
+  PVector location;
+  float G;
+
+  Attractor() {
+    location = new PVector(width/2,height/2);
+    mass = 20;
+    G = 0.4;
+  }
+
+  PVector attract(Mover m) {
+    PVector force = PVector.sub(location,m.location);
+    float distance = force.mag();
+    // Remember, we need to constrain the distance
+    // so that our circle doesn’t spin out of control.
+    distance = constrain(distance,5.0,25.0);
+
+
+    force.normalize();
+    float strength = (G * mass * m.mass) / (distance * distance);
+    force.mult(strength);
+    return force;
+  }
+
+  void display() {
+    stroke(0);
+    fill(175,200);
+    ellipse(location.x,location.y,mass*2,mass*2);
+  }
+}
+
+class Attractor {
+  // Our Attractor is a simple object that doesn’t move.
+  // We just need a mass and a location.
+  float mass;
+  PVector location;
+
+  Attractor() {
+    location = new PVector(width/2,height/2);
+    mass = 20;
+  }
+
+  void display() {
+    stroke(0);
+    fill(175,200);
+    ellipse(location.x,location.y,mass*2,mass*2);
+  }
+}
+
+PVector attract(Mover m) {
+
+  // What’s the force’s direction?
+  PVector force = PVector.sub(location,m.location);
+  float distance = force.mag();
+	distance = constrain(distance,5,25);
+  force.normalize();
+  //[offset-down] What’s the force’s magnitude?
+  float strength = (G * mass * m.mass) / (distance * distance);
+  force.mult(strength);
+
+  // Return the force so that it can be applied!
+  return force;
+}
+
+````
+
+
+
+
 
 
 
