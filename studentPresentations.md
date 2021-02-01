@@ -42,6 +42,7 @@ Maria: *Robots as Weapons* (Tentative title)
 Alpha: *Third world perspectives on robotics and AI*   
 Zheki: *Ancient Robots: History of the Karakuri Puppets*  
 Nathan: *The Legality of Robot Abuse*
+Rashid: *Does AI limit the creative agency of humans or provoke it?*
 
 **Student Lead Discussions**
 
