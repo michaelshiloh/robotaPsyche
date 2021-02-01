@@ -135,7 +135,9 @@ Reading Assignment:
 - Read or watch the videos for chapters 1 and 2 of 
 	- [The Nature of Code](https://natureofcode.com/book/)
 	- Video tutorials for chapter 
-	[1](https://www.youtube.com/watch?v=mWJkvxQXIa8&list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc) and chapter [2](https://www.youtube.com/watch?v=II1A3bBo6gM)
+	[1](https://www.youtube.com/watch?v=mWJkvxQXIa8&list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc) 
+	and chapter 
+	[2](https://www.youtube.com/watch?v=II1A3bBo6gM&list=PLRqwX-V7Uu6ZRrqLcQ5BkBKmBLiGD8n4O)
 
 Production Assignment:
 
