@@ -952,40 +952,46 @@ class Attractor {
     ellipse(location.x,location.y,mass*2,mass*2);
   }
 }
+class Mover {
 
-class Attractor {
-  // Our Attractor is a simple object that doesn’t move.
-  // We just need a mass and a location.
-  float mass;
   PVector location;
+  PVector velocity;
+  PVector acceleration;
+  float mass;
 
-  Attractor() {
-    location = new PVector(width/2,height/2);
-    mass = 20;
+  Mover() {
+    location = new PVector(0, 0);
+    velocity = new PVector(0, 0);
+    acceleration = new PVector(0, 0);
+    mass = .1;
+  }
+
+  void update() {
+    velocity.add(acceleration);
+    acceleration.mult(0); // this makes sure the acceleration is zer0 for the next fram
+    location.add(velocity);
   }
 
   void display() {
     stroke(0);
-    fill(175,200);
-    ellipse(location.x,location.y,mass*2,mass*2);
+    fill(175);
+    ellipse(location.x, location.y, 16, 16);
+  }
+
+  void checkEdges() {
+    if (location.y > height) {
+      velocity.y = -velocity.y;
+    } else if (location.y < 0) {
+      velocity.y = velocity.y*-1;
+    }
+  }
+
+  void applyForce(PVector force) {
+    // A = F/m
+    // with m = 1
+    acceleration.add(force);
   }
 }
-
-PVector attract(Mover m) {
-
-  // What’s the force’s direction?
-  PVector force = PVector.sub(location,m.location);
-  float distance = force.mag();
-	distance = constrain(distance,5,25);
-  force.normalize();
-  //[offset-down] What’s the force’s magnitude?
-  float strength = (G * mass * m.mass) / (distance * distance);
-  force.mult(strength);
-
-  // Return the force so that it can be applied!
-  return force;
-}
-
 ````
 
 
