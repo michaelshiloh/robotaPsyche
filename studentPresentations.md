@@ -40,6 +40,7 @@ Leo: *The ethics and use of robots/AI in military technology*
 Pangna: *Comparing the concepts of robots in mythology to those in our modern world*  
 Maria: *Robots as Weapons* (Tentative title)  
 Alpha: *Third world perspectives on robotics and AI*   
+Zheki: *Ancient Robots: History of the Karakuri Puppets*  
 
 **Student Lead Discussions**
 
