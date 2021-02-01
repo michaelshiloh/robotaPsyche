@@ -36,7 +36,7 @@ This includes:
 - Projects
 
 ### Week 1 (January 18, 20)
-Introductions, Getting Started
+Introductions, Getting Started, Review classes and arrays
 
 #### Assignments Due January 20
 
@@ -60,7 +60,6 @@ Email Assignment:
 
 -	Email me a link to your repository for this class.
 
-##### todays-assignment
 #### Assignments Due January 25
 
 Reading Assignment:
@@ -118,7 +117,7 @@ Production Assignment:
 	chosen [here](studentPresentations.md)
 
 ### Week 2 (January 25, 27)
-Desire, Variability
+Using PVectors to simulate physics, part I
 
 #### Assignments Due February 1
 
@@ -127,11 +126,16 @@ Reading Assignment:
 Production Assignment:
 
 ### Week 3 February 1 3
-Introduction to Cybernetics
+Using PVectors to simulate physics, part II
 
+##### todays-assignment
 #### Assignments Due February 8
 
 Reading Assignment:
+- Read or watch the videos for chapters 1 and 2 of 
+	- [The Nature of Code](https://natureofcode.com/book/)
+	- Video tutorials for chapter 
+	[1](https://www.youtube.com/watch?v=mWJkvxQXIa8&list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc) and chapter [2](https://www.youtube.com/watch?v=II1A3bBo6gM)
 
 Production Assignment:
 

@@ -576,7 +576,7 @@ Mover m2 = new Mover();
 
 PVector wind = new PVector(1,0);
 
-m1.applyForce(wind);
+m1.applyForce(wind); // apply wind force to object 1
 m2.applyForce(wind);
 ````
 
@@ -978,18 +978,10 @@ class Mover {
     ellipse(location.x, location.y, 16, 16);
   }
 
-  void checkEdges() {
-    if (location.y > height) {
-      velocity.y = -velocity.y;
-    } else if (location.y < 0) {
-      velocity.y = velocity.y*-1;
-    }
-  }
-
   void applyForce(PVector force) {
-    // A = F/m
-    // with m = 1
-    acceleration.add(force);
+		PVector f = force.get(); // Make a copy of the PVector before using it!
+		f.div(mass);
+		acceleration.add(f);
   }
 }
 ````
