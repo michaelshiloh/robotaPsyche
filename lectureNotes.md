@@ -524,13 +524,6 @@ void draw() {
 
 ### Week 3
 ### February 1
-##### todays-lecture
-#### Administration
-- Notifications off
-- Record 
-- **Important**: The point of your presentation is to study, think about, and
-	critique your subject and the underlying assumptions and ethics. It is not
-	meant to be a simple presentation of history or facts.
 
 ##### Review
 
@@ -986,13 +979,34 @@ class Mover {
 }
 ````
 
-
-
-
-
-
-
 ### February 3
+##### todays-lecture
+#### Administration
+- Notifications off
+- Record 
+- **Important**: The point of your presentation is to study, think about, and
+	critique your subject and the underlying assumptions and ethics. It is not
+	meant to be a simple presentation of history or facts.
+
+
+
+  void display() {
+
+
+    stroke(0);
+    fill(175);
+
+    pushMatrix();
+    rectMode(CENTER);
+    translate(location.x,location.y);
+    rotate(velocity.heading());
+    rect(0,0,30,10);
+    popMatrix();
+  }
+
+make a car you can drive around with the arrows that points to which way you
+are going
+
 
 ### Week 4
 ### February 8
