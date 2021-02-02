@@ -45,6 +45,8 @@ Nathan: *The Legality of Robot Abuse*
 Rashid: *Does AI limit the creative agency of humans or provoke it?*
 Shaurya: *Would computer-enhanced humans be a more practical approach towards
 building advanced robots?*
+Kyrie: *If an AI system appears to be conscious, should we consider it to be
+conscious?*
 
 **Student Lead Discussions**
 
