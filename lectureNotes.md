@@ -1107,9 +1107,9 @@ class Mover {
 
 - Look at homework for next week
 
-	- Review 
-		- Trigonometry
-		- Polar coordinates
+- Review 
+	- Trigonometry
+	- Polar coordinates
 
 ### Week 4
 ### February 8
