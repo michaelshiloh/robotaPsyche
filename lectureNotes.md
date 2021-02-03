@@ -972,9 +972,9 @@ class Mover {
   }
 
   void applyForce(PVector force) {
-		PVector f = force.get(); // Make a copy of the PVector before using it!
-		f.div(mass);
-		acceleration.add(f);
+    PVector f = force.get(); // Make a copy of the PVector before using it!
+    f.div(mass);
+    acceleration.add(f);
   }
 }
 ````
@@ -985,28 +985,33 @@ class Mover {
 - Notifications off
 - Record 
 - **Important**: The point of your presentation is to study, think about, and
-	critique your subject and the underlying assumptions and ethics. It is not
-	meant to be a simple presentation of history or facts.
+	critique your subject and the underlying assumptions and ethics. It is 
+	**not** meant to be a simple presentation of history,technology, or facts.
 
+- `PVector.get()` deprecated; use `PVector.copy()` instead.
+- How to make an object rotate in the direction of travel
 
-
+````
   void display() {
-
 
     stroke(0);
     fill(175);
 
-    pushMatrix();
     rectMode(CENTER);
+    pushMatrix();
     translate(location.x,location.y);
     rotate(velocity.heading());
     rect(0,0,30,10);
     popMatrix();
   }
+````
 
-make a car you can drive around with the arrows that points to which way you
-are going
+- Look at homework for next week
 
+- Time permitting: 
+	- Review 
+		- Trigonometry
+		- Polar coordinates
 
 ### Week 4
 ### February 8
