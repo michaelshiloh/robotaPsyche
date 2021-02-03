@@ -992,6 +992,105 @@ class Mover {
 - How to make an object rotate in the direction of travel
 
 ````
+// A Mover and an Attractor
+Mover m;
+Attractor a;
+
+void setup() {
+  size(640, 360);
+  m = new Mover();
+  a = new Attractor();
+}
+
+void draw() {
+  background(255);
+
+  // Apply the attraction force from the Attractor on the Mover.
+  PVector force = a.attract(m);
+  m.applyForce(force);
+  m.update();
+
+  a.display();
+  m.display();
+}
+
+class Attractor {
+  float mass;
+  PVector location;
+  float G;
+
+  Attractor() {
+    location = new PVector(0, 0);
+    mass = 20;
+    G = 0.4;
+  }
+
+  PVector attract(Mover m) {
+    // Move the attractor to wherever the mouse is
+    location.set(mouseX, mouseY);
+
+    PVector force = PVector.sub(location, m.location);
+    float distance = force.mag();
+    // Remember, we need to constrain the distance
+    // so that our circle doesn’t spin out of control.
+    distance = constrain(distance, 5.0, 25.0);
+
+
+    force.normalize();
+    float strength = (G * mass * m.mass) / (distance * distance);
+    force.mult(strength);
+    return force;
+  }
+
+  void display() {
+    stroke(0);
+    fill(175, 200);
+    ellipse(location.x, location.y, mass*2, mass*2);
+  }
+}
+class Mover {
+
+  PVector location;
+  PVector velocity;
+  PVector acceleration;
+  float mass;
+
+  Mover() {
+    location = new PVector(0, 0);
+    velocity = new PVector(0, 0);
+    acceleration = new PVector(0, 0);
+    mass = .1;
+  }
+
+  void update() {
+    velocity.add(acceleration);
+    acceleration.mult(0); // this makes sure the acceleration is zer0 for the next fram
+    location.add(velocity);
+  }
+
+  void display() {
+    stroke(0);
+    fill(175);
+
+    // Rotate the mover to point in the direction of travel
+    rectMode(CENTER);
+    pushMatrix();
+    translate(location.x, location.y);
+    rotate(velocity.heading());
+    rect(0, 0, 30, 10);
+    popMatrix();
+  }
+
+  void applyForce(PVector force) {
+    PVector f = force.get(); // Make a copy of the PVector before using it!
+    f.div(mass);
+    acceleration.add(f);
+  }
+}
+````
+
+
+````
   void display() {
 
     stroke(0);
@@ -1008,7 +1107,6 @@ class Mover {
 
 - Look at homework for next week
 
-- Time permitting: 
 	- Review 
 		- Trigonometry
 		- Polar coordinates

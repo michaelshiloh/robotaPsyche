@@ -134,21 +134,37 @@ Using PVectors to simulate physics, part II
 Reading Assignment:
 - Read or watch the videos for chapters 1 and 2 of The Nature of Code
 	- [Book](https://natureofcode.com/book/)
-	- Video tutorials for chapter 
-	[1](https://www.youtube.com/watch?v=mWJkvxQXIa8&list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc) 
+	- Video tutorials for 
+	[chapter 1](https://www.youtube.com/watch?v=mWJkvxQXIa8&list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc) 
 	and chapter 
-	[2](https://www.youtube.com/watch?v=II1A3bBo6gM&list=PLRqwX-V7Uu6ZRrqLcQ5BkBKmBLiGD8n4O)
+	[chapter 2](https://www.youtube.com/watch?v=II1A3bBo6gM&list=PLRqwX-V7Uu6ZRrqLcQ5BkBKmBLiGD8n4O)
 - Read or watch the videos for chapter 6 of The Nature of Code: . Autonomous Agents. Don't worry too much about the details of the math (such as 6.7 The Dot Product) as I will go over that.
 	- [Book](https://natureofcode.com/book/)
 	- [Video](https://www.youtube.com/watch?v=JIz2L4tn5kM&list=PLRqwX-V7Uu6YHt0dtyf4uiw8tKOxQLvlW)
 
 Production Assignment:
 
-- Incorporate the rotating code into the last exercise we did on Monday
-- Instead of having the attractor fixed in the middle of the screen, make
-it follow the mouse
 - Make a car (or rocket) you can drive around with the arrows that points to
-	which way you are going
+	which way you are going. Use the Mover class. There is no Attractor in this
+	exercise. The left and right arrows make the mover move faster in that
+	direction. You can use this code to detect the arrow keys:
+
+````
+void draw() {
+}
+
+// Register an interest in keyboard events
+// by creating a keyPressed() function
+void keyPressed() {
+  if (key == CODED) {
+    if (keyCode == LEFT) {
+      println("you pressed the left arrow");
+
+      // do something to make the mover move faster to the left
+    }
+  }
+}
+````
 
 
 
