@@ -980,7 +980,6 @@ class Mover {
 ````
 
 ### February 3
-##### todays-lecture
 #### Administration
 - Notifications off
 - Record 
@@ -1095,7 +1094,363 @@ class Mover {
 	- Polar coordinates
 
 ### Week 4
+##### todays-lecture
 ### February 8
+
+##### Autonomouse Agents: Action Selection and Steering
+
+The term autonomous agent generally refers to an entity that makes its own
+choices about how to act in its environment without any influence from a
+leader or global plan.
+
+* An autonomous agent has a limited ability to perceive environment. 
+* An autonomous agent processes the information from its environment and
+calculates an action. This action is a force.
+
+##### Vehicles and Steering
+Action Selection: A vehicle has a goal (or goals) and can select an action (or
+a combination of actions) based on that goal. This is essentially where we
+left off with autonomous agents. The vehicle takes a look at its environment
+and calculates an action based on a desire
+
+Steering: Once an action has been selected, the vehicle has to calculate its
+next move. For us, the next move will be a force; more specifically, a
+steering force: 
+
+**steering force = desired velocity - current velocity**
+
+##### Cybernetics
+
+The core concept of Cybernetics is circular causality or feedback—that is,
+where the outcomes of actions are taken as inputs for further action.
+
+(*cyber* comes from the Greek word for *steer*. We also get the word *govern*
+from *cyber*)
+
+We will think literally in this chapter (follow that pixel!), but you can
+build on this by thinking more abstractly (like Braitenberg). What would it
+mean for your vehicle to have “love” or “fear” as its goal, its driving force?
+
+For you to be creative (to make these steering behaviors your own) you might
+combine multiple actions within the same vehicle. So view these examples not
+as singular behaviors to be emulated, but as pieces of a larger puzzle that
+you will eventually assemble.
+
+######  The Steering Force
+
+Again, from above:
+
+**steering force = desired velocity - current velocity**
+
+This is super important. How do we implement it?
+
+````
+PVector steer = PVector.sub(desiredVelocity,currentVelocity);
+````
+
+What is the `desiredVelocity`? It is the vector that will get us to the
+target, in other words, the target's location:j
+
+````
+PVector desiredVelocity = PVector.sub(targetLocation, ourCurrentLocation);
+````
+
+But if we just used this directly it would just instantly move there. To make
+it more lifelike, we might start by saying:
+
+**The vehicle desires to move towards the target at maximum speed**
+
+How do we apply this? We scale the `desiredVelocity` to fit:
+
+````
+// Get the vector to the target
+// this gives us the direction
+PVector desiredVelocity = PVector.sub(targetLocation, ourCurrentLocation);
+
+// Make the magnitude of the vector our maximum speed:
+desiredVelocity.normalize();
+desiredVelocity.mult(maxspeed);
+````
+
+We can implement this in a new method for our Vehicle class:
+
+````
+void seek(PVector target) {
+	PVector desired = PVector.sub(target,location);
+	desired.normalize();
+	// Heading to the target at maximum speed
+	desired.mult(maxspeed);
+
+	// Reynolds’s formula for steering force
+	// Also the foundation of cybernetics
+	PVector steer = PVector.sub(desired,velocity);
+	// Using our physics model and applying the force
+	// to the object’s acceleration
+	applyForce(steer);
+}
+````
+
+The nice thing about vectors is you can inspect them visually as well:
+See Figure 6.4
+
+As another example of making it more lifelike, we might limit the force:
+
+````
+void seek(PVector target) {
+	PVector desired = PVector.sub(target,location);
+	desired.normalize();
+	desired.mult(maxspeed);
+	PVector steer = PVector.sub(desired,velocity);
+
+	// Limit the magnitude of the steering force.
+	steer.limit(maxforce);
+
+	applyForce(steer);
+}
+````
+
+(assuming our Vehicle class has those variables:
+
+````
+class Vehicle {
+  PVector location;
+  PVector velocity;
+  PVector acceleration;
+  // Maximum speed
+  float maxspeed;
+  // And maximum force
+  float maxforce;
+````
+
+Putting this all together we have:
+
+````
+class Vehicle {
+
+  PVector location;
+  PVector velocity;
+  PVector acceleration;
+  // Additional variable for size
+  float r;
+  float maxforce;
+  float maxspeed;
+
+  Vehicle(float x, float y) {
+    acceleration = new PVector(0,0);
+    velocity = new PVector(0,0);
+    location = new PVector(x,y);
+    r = 3.0;
+    //[full] Arbitrary values for maxspeed and
+    // force; try varying these!
+    maxspeed = 4;
+    maxforce = 0.1;
+    //[end]
+  }
+
+  // Our standard “Euler integration” motion model
+  void update() {
+    velocity.add(acceleration);
+    velocity.limit(maxspeed);
+    location.add(velocity);
+    acceleration.mult(0);
+  }
+
+  // Newton’s second law; we could divide by mass if we wanted.
+  void applyForce(PVector force) {
+    acceleration.add(force);
+  }
+
+  // Our seek steering force algorithm
+  void seek(PVector target) {
+    PVector desired = PVector.sub(target,location);
+    desired.normalize();
+    desired.mult(maxspeed);
+    PVector steer = PVector.sub(desired,velocity);
+    steer.limit(maxforce);
+    applyForce(steer);
+  }
+
+  void display() {
+    // Vehicle is a triangle pointing in
+    // the direction of velocity; since it is drawn
+    // pointing up, we rotate it an additional 90 degrees.
+    float theta = velocity.heading() + PI/2;
+    fill(175);
+    stroke(0);
+    pushMatrix();
+    translate(location.x,location.y);
+    rotate(theta);
+    beginShape();
+    vertex(0, -r*2);
+    vertex(-r, r*2);
+    vertex(r, r*2);
+    endShape(CLOSE);
+    popMatrix();
+  }
+}
+
+````
+
+What do we need to test this? Let's put the target wherever we click the
+mouse 
+(Try to figure this out on your own before scrolling down)
+
+````
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+````
+
+````
+PVector target = new PVector(0,0);
+void mouseClicked() {
+  target.x = mouseX;
+  target.y = mouseY;
+}
+````
+
+setup() just needs to create a new Vehicle object.
+What does draw() do?
+(Try to figure this out on your own before scrolling down)
+
+````
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+````
+
+````
+void draw() {
+  background(255);
+
+  // Draw the target
+  circle(target.x, target.y, 20);
+
+  // Now tell the vehicle to go there
+  v.seek(target);
+  v.update();
+  v.display();
+}
+````
+
+Exercises 6.1, 6.2, 6.3
+
+#####  Arriving Behavior
+
+- What are we doing that causes it to movershoot?
+- How can we avoid this?
+(Try to figure this out on your own before scrolling down)
+
+````
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+````
+````
+void arrive(PVector target) {
+	PVector desired = PVector.sub(target,location);
+
+	// The distance is the magnitude of
+	// the vector pointing from
+	// location to target.
+	float d = desired.mag();
+	desired.normalize();
+	// If we are closer than 100 pixels...
+	if (d < 100) {
+		//[full] ...set the magnitude
+		// according to how close we are.
+		float m = map(d,0,100,0,maxspeed);
+		desired.mult(m);
+		//[end]
+	} else {
+		// Otherwise, proceed at maximum speed.
+		desired.mult(maxspeed);
+	}
+
+	// The usual steering = desired - velocity
+	PVector steer = PVector.sub(desired,velocity);
+	steer.limit(maxforce);
+	applyForce(steer);
+}
+````
+
+*The steering force, therefore, is essentially a manifestation of the current
+velocity’s error: "I’m supposed to be going this fast in this direction, but
+I’m actually going this fast in another direction. My error is the difference
+between where I want to go and where I am currently going." Taking that error
+and applying it as a steering force results in more dynamic, lifelike
+simulations. With gravitational attraction, you would never have a force
+pointing away from the target, no matter how close. But with arriving via
+steering, if you are moving too fast towards the target, the error would
+actually tell you to slow down!*
+
+##### Your Own Desires: Desired Velocity
+
+What behaviours do we have so far?
+- Seek 
+- Arrive
+
+We will now look at some more behaviours.
+These are meant to be inspiration for other behaviours you can come up with.
+**As long as you can come up with a vector that describes a vehicle’s desired
+velocity, then you have created your own steering behaviour.**
+
+
+
+
+
+
+
+
+
 ### February 10
 
 ### Week 5

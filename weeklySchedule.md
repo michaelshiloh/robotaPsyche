@@ -177,7 +177,7 @@ Presentation dates:
 
 
 ### Week 4 February 8 10
-Logic and Selection
+Autonomouse Agents: Action Selection and Steering
 
 #### Assignments Due February 15
 
