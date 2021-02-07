@@ -1088,23 +1088,6 @@ class Mover {
   }
 }
 ````
-
-
-````
-  void display() {
-
-    stroke(0);
-    fill(175);
-
-    rectMode(CENTER);
-    pushMatrix();
-    translate(location.x,location.y);
-    rotate(velocity.heading());
-    rect(0,0,30,10);
-    popMatrix();
-  }
-````
-
 - Look at homework for next week
 
 - Review 
