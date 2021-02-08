@@ -1097,7 +1097,13 @@ class Mover {
 ##### todays-lecture
 ### February 8
 
+##### Look at Homework
+
 ##### Autonomouse Agents: Action Selection and Steering
+
+Today we will be looking at simulating desires. Try to keep in mind that these
+are just suggestions, and you should start thinking of synthetic desires you
+might implement
 
 The term autonomous agent generally refers to an entity that makes its own
 choices about how to act in its environment without any influence from a
@@ -1136,7 +1142,7 @@ combine multiple actions within the same vehicle. So view these examples not
 as singular behaviors to be emulated, but as pieces of a larger puzzle that
 you will eventually assemble.
 
-######  The Steering Force
+#####  The Steering Force
 
 Again, from above:
 
@@ -1149,7 +1155,7 @@ PVector steer = PVector.sub(desiredVelocity,currentVelocity);
 ````
 
 What is the `desiredVelocity`? It is the vector that will get us to the
-target, in other words, the target's location:j
+target, in other words, the target's location:
 
 ````
 PVector desiredVelocity = PVector.sub(targetLocation, ourCurrentLocation);
@@ -1160,7 +1166,8 @@ it more lifelike, we might start by saying:
 
 **The vehicle desires to move towards the target at maximum speed**
 
-How do we apply this? We scale the `desiredVelocity` to fit:
+How do we apply this? We set the `desiredVelocity` magnitude to 
+our maximum speed (which we arbitrarily set at some number):
 
 ````
 // Get the vector to the target
@@ -1209,7 +1216,7 @@ void seek(PVector target) {
 }
 ````
 
-(assuming our Vehicle class has those variables:
+Assuming our Vehicle class has these variables:
 
 ````
 class Vehicle {
@@ -1367,9 +1374,9 @@ void draw() {
 
 Exercises 6.1, 6.2, 6.3
 
-#####  Arriving Behavior
+#####  Arriving Behaviour
 
-- What are we doing that causes it to movershoot?
+- What are we doing that causes it to overshoot?
 - How can we avoid this?
 (Try to figure this out on your own before scrolling down)
 
@@ -1422,6 +1429,14 @@ void arrive(PVector target) {
 }
 ````
 
+*Gravity always points straight down, no matter how close you are, and no
+matter how weak or strong the force is. The steering function, however, says:
+“I have the ability to perceive the environment.” The force isn’t based on
+just the desired velocity, but on the desired velocity relative to the current
+velocity. Only things that are alive can know their current velocity. A box
+falling off a table doesn’t know it’s falling. A cheetah chasing its prey,
+however, knows it is chasing.*
+
 *The steering force, therefore, is essentially a manifestation of the current
 velocity’s error: "I’m supposed to be going this fast in this direction, but
 I’m actually going this fast in another direction. My error is the difference
@@ -1443,6 +1458,67 @@ These are meant to be inspiration for other behaviours you can come up with.
 **As long as you can come up with a vector that describes a vehicle’s desired
 velocity, then you have created your own steering behaviour.**
 
+##### Wandering
+
+*Figure 6.12 illustrates how the vehicle predicts its future location as a
+fixed distance in front of it (in the direction of its velocity), draws a
+circle with radius r at that location, and picks a random point along the
+circumference of the circle. That random point moves randomly around the
+circle in each frame of animation. And that random point is the vehicle’s
+target, its desired vector pointing in that direction.*
+
+*But the seemingly random and arbitrary nature of this solution should drive
+home the point I’m trying to make—these are made-up behaviors inspired by
+real-life motion. You can just as easily concoct some elaborate scenario to
+compute a desired velocity yourself. And you should.*
+
+Exercise 6.4
+
+Review polar coordinates:
+
+Converting from  Cartesian (x,y) to polar (r,theta):
+
+````
+PVector v = new PVector(10, 20);
+
+float theta = v.heading();
+float r = v.mag();
+````
+
+Converting from polar (r,theta) to Cartesian (x,y):
+
+````
+float r = 75;
+float theta = PI / 4;
+
+float x = r * cos(theta);
+float y = r * sin(theta);
+````
+
+##### Stay within walls
+
+##### Flow fields
+
+A field of vectors which we might use in some way 
+- the scent of food 
+- slipperiness of the floor
+- slope of hills
+- aggressiveness of zombies
+- difficulty of classes that you might want to avoid
+- can you suggest other ideas?
+
+First we need an array of PVectors to store our field:
+
+````
+FlowField() {
+    resolution = 10;
+    // Total columns equals width divided by resolution.
+    cols = width/resolution;
+    // Total rows equals height divided by resolution.
+    rows = height/resolution;
+    field = new PVector[cols][rows];
+  }
+````
 
 
 
