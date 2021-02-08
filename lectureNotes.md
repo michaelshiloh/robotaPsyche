@@ -1511,15 +1511,57 @@ First we need an array of PVectors to store our field:
 
 ````
 FlowField() {
-    resolution = 10;
-    // Total columns equals width divided by resolution.
-    cols = width/resolution;
-    // Total rows equals height divided by resolution.
-    rows = height/resolution;
-    field = new PVector[cols][rows];
+	resolution = 10;
+	// Total columns equals width divided by resolution.
+	cols = width/resolution;
+	// Total rows equals height divided by resolution.
+	rows = height/resolution;
+	field = new PVector[cols][rows];
+}
+
+// to make a random force field
+for (int i = 0; i < cols; i++) {
+  for (int j = 0; j < rows; j++) {
+    field[i][j] = PVector.2D();
   }
+}
+
+// To make a random field using Perlin noise, mapped to an angle
+float xoff = 0;
+for (int i = 0; i < cols; i++) {
+  float yoff = 0;
+  for (int j = 0; j < rows; j++) {
+    //[offset-up] Noise
+    float theta = map(noise(xoff,yoff),0,1,0,TWO_PI);
+    field[i][j] = new PVector(cos(theta),sin(theta));
+    yoff += 0.1;
+  }
+  xoff += 0.1;
+}
 ````
 
+Now the vehicle needs to know where it is in this force field:
+
+````
+int column = int(location.x/resolution);
+int row = int(location.y/resolution);
+````
+
+and our force field class should provide a method which return
+the force vector at that that location:
+
+````
+ PVector lookup(PVector lookup) {
+
+	// Using constrain()
+	int column = int(constrain(lookup.x/resolution,0,cols-1));
+	int row = int(constrain(lookup.y/resolution,0,rows-1));
+
+	// Note the use of get() to ensure
+	// we return a copy of the PVector.
+	return field[column][row].get();
+}
+````
 
 
 
