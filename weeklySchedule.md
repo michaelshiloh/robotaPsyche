@@ -186,7 +186,7 @@ Reading Assignment:
 huge numbers of vehicles to create artwork, especially the algorithms
 used to guide the vehicles and the
 methods used to generate the artwork.
-- Read the Vehicles 4 in *Vehicles* (Braitenberg) 
+- Read **Vehicles 4** in *Vehicles* (Braitenberg) 
   accessible through our NYU Classes portal under *Resources*
 - Work on your presentation so that you will be ready on the date assigned to
 	you
@@ -197,6 +197,12 @@ Production Assignment:
 	should use a force field. Write them down in your notebook (or a computer
 	file or on Github) and be prepared to share your ideas in class. You are
 	not required to implement your ideas or to document them in your repository.
+
+#### Assignments Due February 15
+
+Reading Assignment:
+- Read Chapter 5: Toys, Totems, and Tools, in *The Living Brain* (Walter)
+  accessible through our NYU Classes portal under *Resources*
 
 ### Week 5 February 15 17
 Integration I
