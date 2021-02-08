@@ -128,7 +128,6 @@ Production Assignment:
 ### Week 3 February 1 3
 Using PVectors to simulate physics, part II
 
-##### todays-assignment
 #### Assignments Due February 8
 
 Reading Assignment:
@@ -179,11 +178,25 @@ Presentation dates:
 ### Week 4 February 8 10
 Autonomouse Agents: Action Selection and Steering
 
-#### Assignments Due February 15
+##### todays-assignment
+#### Assignments Due February 10
 
 Reading Assignment:
+- Watch [this](https://vimeo.com/45851523) video. Pay attention to the use of
+huge numbers of vehicles to create artwork, especially the algorithms
+used to guide the vehicles and the
+methods used to generate the artwork.
+- Read the Vehicles 4 in *Vehicles* (Braitenberg) 
+  accessible through our NYU Classes portal under *Resources*
+- Work on your presentation so that you will be ready on the date assigned to
+	you
 
 Production Assignment:
+- Come up with three different ideas for behaviour, such as *seeking*,
+	*arriving*, *wandering*, or *staying away from walls*. At least one of thse
+	should use a force field. Write them down in your notebook (or a computer
+	file or on Github) and be prepared to share your ideas in class. You are
+	not required to implement your ideas or to document them in your repository.
 
 ### Week 5 February 15 17
 Integration I
