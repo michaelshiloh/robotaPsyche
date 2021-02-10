@@ -1566,7 +1566,52 @@ the force vector at that that location:
 ##### todays-lecture
 - Record!
 - Ideas for behaviour:
-	- (your ideas here)
+	- Amina:
+		- Asteroids, rocket to avoid asteroids
+		- Planet, rocket to seek the planet
+	- Katie
+		- Cat follows light
+		- parking car/landing airplane
+		- trying to find your phone when it makes a sound
+	- Kyrie
+		- looking for a hole
+		- smart mouse (avoid cheese in trap)
+		- navigating maze of traps
+	- Maria
+		- moving a ball using the mouse
+		- cirlce items inside moves freely, outside of circle move slower
+	- Nathan
+		- gliding on wind currents
+		- ship sinking in water vortex
+		- bugs scatter from dots
+	- Fatima
+		- Creeping (slowly inching towards an object)
+		- Observing (coming close and then slowing down and then leaving)
+		- Contemplation (vehicles converge and then chose a direction)
+	- Alpha
+		- Game: catching something thrown (wandering, following)
+		- Force field to create water effect (also curls)
+	- Shaurya
+		- approach something by being sneaky 
+		- "reverse tetris" 
+	- Tori
+		- dog pulling on leash
+		- fish in school
+		- predator stalking prey (like Shaurya's sneaky)
+	- Pangna
+		- object in space influenced by black holes, planets
+		- maze: find exit 
+		- ship on sea affected by water and wind currents while trying explore islands
+	- Leo
+		- leaf being blown by wind
+		- boat on a calm lake pushed by wind
+		- boat on a stormy sea in huge waves
+	- Zheki
+		- 2 types of beings (hunters, gatherers) and food
+	- Rashid
+		- solar system planets wander around sun 
+		- particles wander and then come together to form a picture
+
 
 #### Perlin Noise
 
