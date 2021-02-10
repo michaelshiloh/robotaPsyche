@@ -1094,7 +1094,6 @@ class Mover {
 	- Polar coordinates
 
 ### Week 4
-##### todays-lecture
 ### February 8
 
 ##### Look at Homework
@@ -1563,13 +1562,45 @@ the force vector at that that location:
 }
 ````
 
-
-
-
-
-
-
 ### February 10
+##### todays-lecture
+- Record!
+- Ideas for behaviour:
+	- (your ideas here)
+
+#### Perlin Noise
+
+````
+void draw() {
+  background(204);
+  float n = random(0, width);
+  line(n, 0, n, height);
+}
+````
+
+What if we wanted the line to move in a more organic, lifelike
+fashion? Organic things (e.g. butterflys, leaves blowing in the wind, clouds) 
+don't jump instantly from one place to another,
+they tend to move close to where they were last time
+
+````
+float offset = 0.0;
+
+void draw() {
+  background(204);
+  offset = offset + .01;
+  float n = noise(offset) * width;
+  line(n, 0, n, height);
+}
+````
+
+##### Flow fields
+
+Let's review what we started on Monday. Let's put that into a program. 
+How do we know it's working? Let's show the flow field like Shiffman does in
+the book.
+
+Next, let's make a vehicle follow it. How would we do that?
 
 ### Week 5
 ### February 15
