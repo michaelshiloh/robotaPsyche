@@ -178,7 +178,6 @@ Presentation dates:
 ### Week 4 February 8 10
 Autonomouse Agents: Action Selection and Steering
 
-##### todays-assignment
 #### Assignments Due February 10
 
 Reading Assignment:
@@ -198,11 +197,24 @@ Production Assignment:
 	file or on Github) and be prepared to share your ideas in class. You are
 	not required to implement your ideas or to document them in your repository.
 
+##### todays-assignment
 #### Assignments Due February 15
 
 Reading Assignment:
 - Read Chapter 5: Toys, Totems, and Tools, in *The Living Brain* (Walter)
   accessible through our NYU Classes portal under *Resources*
+
+Youssef
+arraylist code
+arraylist documentation
+short practice
+- simple flow field
+- multiple vehicles
+- documetnation
+	- upload code
+	- describe
+		- interesting discoveries
+		- problems
 
 ### Week 5 February 15 17
 Integration I
