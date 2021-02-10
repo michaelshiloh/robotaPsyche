@@ -203,18 +203,34 @@ Production Assignment:
 Reading Assignment:
 - Read Chapter 5: Toys, Totems, and Tools, in *The Living Brain* (Walter)
   accessible through our NYU Classes portal under *Resources*
+- If you're new to ArrayLists, you might want to watch
+	[this](https://www.youtube.com/watch?v=HnSJZ4qTcwY) tutorial. Dan 
+	uses the Particles class as an examnple, but you can substitute any
+	class or variable.
 
-Youssef
-arraylist code
-arraylist documentation
-short practice
-- simple flow field
-- multiple vehicles
-- documetnation
-	- upload code
-	- describe
-		- interesting discoveries
-		- problems
+Production Assignment:
+The purpose of this assignment is to get some practice creating and following
+a flow field, so make sure you can get that to work with something simple
+before you get ambitious and try to make a very elaborate flow field
+- Create some sort of a flow field, You can either:
+	- All vectors point to the middle of the canvas 
+	(this is Exercise 6.6 in the book)
+	- All vectors point to the mouse
+	- Make a flow field from a PImage; for example, the
+	PVectors point from dark to light colors (or vice versa)
+	(this is Exercise 6.8 in the book)
+	- Make up your own 
+- Make a vehicle follow the flow field (code is in the lecture notes)
+- Using an array list, add vehicles in some way (maybe on mouse clicks or key
+	press)
+- In your Github repository, create a new folder named the date this assignment
+is due (February_15)
+	- Upload the code
+	- Create a README.md and put in it
+		- Any image of your finished assignment
+		- Any difficulties you had
+		- Any interesting things you learned or discovered
+		- Any questions you have 
 
 ### Week 5 February 15 17
 Integration I
