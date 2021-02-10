@@ -209,6 +209,7 @@ Reading Assignment:
 	class or variable.
 
 Production Assignment:
+
 The purpose of this assignment is to get some practice creating and following
 a flow field, so make sure you can get that to work with something simple
 before you get ambitious and try to make a very elaborate flow field
@@ -223,6 +224,7 @@ before you get ambitious and try to make a very elaborate flow field
 - Make a vehicle follow the flow field (code is in the lecture notes)
 - Using an array list, add vehicles in some way (maybe on mouse clicks or key
 	press)
+	- You do not need to worry about any interactions between vehicles
 - In your Github repository, create a new folder named the date this assignment
 is due (February_15)
 	- Upload the code
