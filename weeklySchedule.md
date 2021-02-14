@@ -222,7 +222,7 @@ before you get ambitious and try to make a very elaborate flow field
 	(this is Exercise 6.8 in the book)
 	- Make up your own 
 - Make a vehicle follow the flow field (code is in the lecture notes)
-- Using an array list, add vehicles in some way (maybe on mouse clicks or key
+- Using an ArrayList, add vehicles in some way (maybe on mouse clicks or key
 	press)
 	- You do not need to worry about any interactions between vehicles
 - In your Github repository, create a new folder named the date this assignment
