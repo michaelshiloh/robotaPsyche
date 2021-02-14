@@ -1563,8 +1563,6 @@ the force vector at that that location:
 ````
 
 ### February 10
-##### todays-lecture
-- Record!
 - Ideas for behaviour:
 	- Amina:
 		- Asteroids, rocket to avoid asteroids
@@ -1871,6 +1869,7 @@ void draw() {
 Here is a short example showing how to work with ArrayLists:
 
 ````
+// ArrayLists have a special syntax:
 ArrayList<PVector> myVectors = new ArrayList<PVector>();
 
 void setup() {
@@ -1879,7 +1878,7 @@ void setup() {
   println(myVectors.size());
 
   for (int i = 0; i < 10; i++) {
-    myVectors.add(new PVector(i, i));
+    myVectors.add(new PVector(i, 0));
     println(myVectors.size()); // not that size() is a function!
   }
 
@@ -1915,6 +1914,492 @@ void draw() {
 
 ### Week 5
 ### February 15
+##### todays-lecture
+- Record!
+
+##### Field follows mouse
+
+How would we make a flow field that follows the mouse?
+
+````
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+````
+
+````
+void fieldFollowsMouse() {
+	for (int i = 0; i < cols; i++) {
+		for (int j = 0; j < rows; j++) {
+			// PVector of mouse location
+			PVector mouseAt = new PVector(mouseX, mouseY);
+			// PVector of current location
+			PVector weAt = new PVector(i*resolution, j*resolution);
+			// PVector from our current position to mouse
+			PVector toMouse = PVector.sub( mouseAt, weAt);
+			// Normalize
+			toMouse.normalize();
+			field[i][j] = toMouse;
+		}
+	}
+}
+````
+
+````
+void mouseClicked() {
+  f = new FlowField(15);
+  background(200);
+  f.display(); // display the flow field
+}
+````
+
+##### Multiple vehicles
+
+````
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+````
+
+````
+ArrayList<Vehicle> vehicles = new ArrayList<Vehicle>();
+
+vehicles.add(new Vehicle(width, height/2));
+
+for (Vehicle v : vehicles) { 
+
+vehicles.add(new Vehicle(mouseX, mouseY));
+````
+
+##### complexity
+
+A complex system is typically defined as a system that is “more than the sum
+of its parts.” While the individual elements of the system may be incredibly
+simple and easily understood, the behavior of the system as a whole can be
+highly complex, intelligent, and difficult to predict. Here are three key
+principles of complex systems:
+
+- Simple units with short-range relationships. This is what we’ve been
+	building all along: vehicles that have a limited perception of their
+	environment.
+- Simple units operate in parallel. This is what we need to simulate in code.
+	For every cycle through Processing’s draw() loop, each unit will decide how
+	to move (to create the appearance of them all working in parallel).
+- System as a whole exhibits emergent phenomena. Out of the interactions
+	between these simple units emerges complex behavior, patterns, and
+	intelligence (we hope).
+
+Following are three additional features of complex systems that will help
+frame the discussion, as well as provide guidelines for features we will want
+to include in our software simulations. It’s important to acknowledge that
+this is a fuzzy set of characteristics and not all complex systems have all of
+them.
+
+- Non-linearity. This aspect of complex systems is often casually referred
+		to as “the butterfly effect,” the theory is that a single butterfly
+		flapping its wings on the other side of the world could cause a massive
+		weather shift and ruin our weekend at the beach. We call it “non-linear”
+		because there isn’t a linear relationship between a change in initial
+		conditions and a change in outcome. A small change in initial conditions
+		can have a massive effect on the outcome. Non-linear systems are a
+		superset of chaotic systems. 
+
+-Competition and cooperation. One of the things that often makes a complex
+system tick is the presence of both competition and cooperation between the
+elements. In our system, we will have:
+	- alignment (cooperation)
+	- cohesion (cooperation)
+	- separation (competition) Competition and cooperation are found in living
+		complex systems, but not in non-living complex systems like the weather.
+
+- Feedback. Complex systems often include a feedback loop where the the
+		output of the system is fed back into the system to influence its behavior
+		in a positive or negative direction. 
+
+Complexity will serve as a theme for this class.
+
+We’ll begin by adding one more feature to our Vehicle class: an
+ability to look at neighboring vehicles.
+
+Let's start with a bunch of vehicles. What do we need to do in `setup()` and
+`draw()`?
+
+````
+// Declare an ArrayList of Vehicle objects.
+ArrayList<Vehicle> vehicles;
+
+void setup() {
+  // Initialize and fill the ArrayList
+  // with a bunch of Vehicles.
+  vehicles = new ArrayList<Vehicle>;
+  for (int i = 0; i < 100; i++) {
+    vehicles.add(new Vehicle(random(width),random(height)));
+  }
+}
+
+void draw(){
+  for (Vehicle v : vehicles) {
+    v.update();
+    v.display();
+  }
+}
+````
+
+Now we want to add some behaviours. We could make them e.g. follow the mouse, 
+but the whole purpose now is to have them relate to each other in various
+ways, so how about keeping away from neighbors:
+
+````
+    v.separate(vehicles);
+````
+
+Note the huge difference here! Each vehicle needs to look at what all the
+other vehicles is doing! This is how real living beings operate.
+
+what does the `separate()` function do?
+- If a given vehicle is too close to you, steer away from that vehicle. How do
+	we do this?
+	- We already know how to steer towards a target. Reverse that force and we
+		have the flee behavior.  
+- If more than one vehicle is too close, we’ll define separation as the
+	average of all the vectors pointing away from any close vehicles.
+
+Let's get to it:
+
+We know that `separate()` gets the entire ArrayList:
+
+````
+void separate (ArrayList<Vehicle> vehicles) {
+````
+
+Now check separation:
+
+````
+  float desiredseparation = 20; // how close is too close.
+
+  for (Vehicle other : vehicles) {
+
+    // What is the distance between me and another Vehicle?
+    float d = PVector.dist(location, other.location);
+
+    if ((d > 0) && (d < desiredseparation)) {
+      // Here we avoid any vehicle that is too close
+    }
+  }
+````
+
+Why did we also check that `d > 0`?
+
+This part calculates the way to go to avoid a vehicle that is too close:
+
+````
+	if ((d > 0) && (d < desiredseparation)) {
+		// A PVector pointing away from the other’s location
+		PVector diff = PVector.sub(location, other.location);
+		diff.normalize();
+	}
+````
+
+What if more than one is close? How do we take the average?
+
+````
+PVector sum = new PVector();  // Start with an empty PVector.
+int count = 0;  // We have to keep track of how many Vehicles are too close.
+
+for (Vehicle other : vehicles) {
+float d = PVector.dist(location, other.location);
+	if ((d > 0) && (d < desiredseparation)) {
+		PVector diff = PVector.sub(location, other.location); 
+		diff.normalize();
+		// Add all the vectors together and increment the count.
+		sum.add(diff); 
+		count++;
+	}
+}
+
+// now calculate the average:
+if (count > 0) { // mustn't divide by zero
+	sum.div(count); 
+} 
+
+// sum now contains the average vector away from neighbors
+````
+
+How do we apply this? It's the same thing as before; this vector represents
+a *desire* to avoid neighbors, so we treat it as a **force**.
+
+````
+if (count > 0) {
+	sum.div(count);
+
+	// Scale average to maxspeed
+	// (this becomes desired).
+	sum.setMag(maxspeed);
+
+	// Apply Reynolds’s steering formula:
+	// error is our current velocty minus our desired velocity
+	PVector steer = PVector.sub(sum,vel);
+	steer.limit(maxforce);
+
+	// Apply the force to the Vehicle’s
+	// acceleration.
+	applyForce(steer);
+}
+````
+
+In-class exercise: implement this!
+
+If we're going to apply multiple forces, it would be nicer to consolidate this
+in some organized way:
+
+1. Each behavior does not apply but returns the force
+1. We adjust the relative forces if we wish
+1. Apply the forces
+
+````
+void applyBehaviors(ArrayList<Vehicle> vehicles) {
+	// seek() and separate() do not apply the force
+	PVector separate = separate(vehicles);
+	PVector seek = seek(new PVector(mouseX,mouseY));
+	applyForce(separate);
+	applyForce(seek);
+}
+````
+
+so how do `seek()` and `separate()` change?
+
+````
+PVector seek(PVector target) {
+	PVector desired = PVector.sub(target,loc);
+	desired.normalize();
+	desired.mult(maxspeed);
+	PVector steer = PVector.sub(desired,vel);
+	steer.limit(maxforce);
+
+	// Instead of applying the force we return the PVector.
+	// applyForce(steer); // No longer done here
+	return steer;
+}
+````
+
+So now we can do this:
+
+````
+void applyBehaviors(ArrayList<Vehicle> vehicles) {
+	// Apply the behaviours to get the component forces
+  PVector separate = separate(vehicles);
+  PVector seek = seek(new PVector(mouseX,mouseY));
+
+  // These values can be whatever you want them to be!
+  // They can be variables that are customized for
+  // each vehicle, or they can change over time, over location,
+	// or whatever you can imagine (and code).
+  separate.mult(1.5); 
+  seek.mult(0.5); 
+
+  applyForce(separate);
+  applyForce(seek);
+}
+````
+
+In-class exercise: Modify this function so that the behavior weights are not
+constants. What happens if they change over time (according to a sine wave or
+Perlin noise)? Or if some vehicles are more concerned with seeking and others
+more concerned with separating? Can you introduce other steering behaviors as
+well?
+
+Look at the ideas from last week. Can we implement any yet?
+
+##### Flocking
+
+Now we'll take another step towards autonomy. Can we describe individual 
+behaviors which will cause a group?
+
+The three rules of flocking.
+
+- Separation (also known as “avoidance”): Steer to avoid colliding with your
+	neighbors.
+- Alignment (also known as “copy”): Steer in the same direction as your
+	neighbors.
+- Cohesion (also known as “center”): Steer towards the center of your
+	neighbors (stay with the group).
+
+````
+void flock(ArrayList<Boid> boids) {
+	// The three flocking rules
+	PVector sep = separate(boids);
+	PVector ali = align(boids);
+	PVector coh = cohesion(boids);
+
+	// Arbitrary weights for these forces
+	// (Try different ones!)
+	sep.mult(1.5);
+	ali.mult(1.0);
+	coh.mult(1.0);
+
+	// Applying all the forces
+	applyForce(sep);
+	applyForce(ali);
+	applyForce(coh);
+}
+````
+
+Why *boids*?
+
+Separation we did.
+
+Alignment is steering in the same direction as your neighbors:
+the boid’s desired velocity is the average velocity of its neighbors.
+
+````
+PVector align (ArrayList<Boid> boids) {
+	// Add up all the velocities
+	// and divide by the total
+	// to calculate the average velocity.
+	PVector sum = new PVector(0,0);
+	for (Boid other : boids) {
+		sum.add(other.velocity);
+	}
+	sum.div(boids.size());
+
+	// We desire to go in that
+	// direction at maximum speed.
+	sum.setMag(maxspeed); // sum is our desired velocity
+
+	// Reynolds’s steering
+	// force formula
+	PVector steer = PVector.sub(sum,velocity);
+	steer.limit(maxforce);
+	return steer;
+}
+````
+
+But this differs from how real insects move. Can you spot how?
+
+````
+PVector align (ArrayList<Boid> boids) {
+	// This is an arbitrary value and could
+	// vary from boid to boid.
+	float neighbordist = 50;
+	PVector sum = new PVector(0,0);
+	int count = 0;
+	for (Boid other : boids) {
+		float d = PVector.dist(location,other.location);
+		if ((d > 0) && (d < neighbordist)) {
+			sum.add(other.velocity);
+			// For an average, we need to keep track of
+			// how many boids are within the distance.
+			count++;
+		}
+	}
+	if (count > 0) {
+		sum.div(count);
+		sum.normalize();
+		sum.mult(maxspeed);
+		PVector steer = PVector.sub(sum,velocity);
+		steer.limit(maxforce);
+		return steer;
+	// If we don’t find any close boids,
+	// the steering force is zero.
+	} else {
+		return new PVector(0,0);
+	}
+}
+````
+
+This is is purely by distance and could be different, e.g. only boids
+that are in front of us (as if we had eyes) or some other rule
+
+Now what about cohesion. What does that mean exactly?
+How would you implement it?
+
+````
+PVector cohesion (ArrayList<Boid> boids) {
+	float neighbordist = 50;
+	PVector sum = new PVector(0,0);
+	int count = 0;
+	for (Boid other : boids) {
+		float d = PVector.dist(location,other.location);
+		if ((d > 0) && (d < neighbordist)) {
+			// Adding up all the others’ locations
+			sum.add(other.location);
+			count++;
+		}
+	}
+	if (count > 0) {
+		sum.div(count);
+		// Here we make use of the seek() function we
+		// wrote in Example 6.8.  The target
+		// we seek is the average location of
+		// our neighbors.
+		return seek(sum); 
+	} else {
+		return new PVector(0,0);
+	}
+}
+````
+
+Now that we have a whole colony of beings, it might be worth writing a class
+to collect them:
+
+````
+class Flock {
+  ArrayList<Vehicle> vehicles;
+
+  Flock() {
+    vehicles = new ArrayList<Vehicle>();
+  }
+
+  void run() {
+    for (Vehicle b : vehicles) {
+      // Each Boid object must know about
+      // all the other Boids.
+      b.run(boids); 
+    }
+  }
+
+  void addVehicle(Vehicle v) {
+    vehicles.add(v);
+  }
+}
+````
+
+
+
+
 ### February 17
 
 ### Week 6
