@@ -1917,6 +1917,11 @@ void draw() {
 ##### todays-lecture
 - Record!
 
+Look at homework
+
+Respond to questions that came up
+
+
 ##### Field follows mouse
 
 How would we make a flow field that follows the mouse?
