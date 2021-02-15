@@ -185,7 +185,7 @@ Reading Assignment:
 huge numbers of vehicles to create artwork, especially the algorithms
 used to guide the vehicles and the
 methods used to generate the artwork.
-- Read **Vehicles 4** in *Vehicles* (Braitenberg) 
+- Read **Vehicle 4** in *Vehicles* (Braitenberg) 
   accessible through our NYU Classes portal under *Resources*
 - Work on your presentation so that you will be ready on the date assigned to
 	you
@@ -197,7 +197,6 @@ Production Assignment:
 	file or on Github) and be prepared to share your ideas in class. You are
 	not required to implement your ideas or to document them in your repository.
 
-##### todays-assignment
 #### Assignments Due February 15
 
 Reading Assignment:
@@ -235,11 +234,14 @@ is due (February_15)
 		- Any questions you have 
 
 ### Week 5 February 15 17
-Integration I
 
+##### todays-assignment
 #### Assignments Due February 22
 
 Reading Assignment:
+- Read the Preface, Chapter 1, and Chapter 2 up to Linear versus Nonlinear
+	Rabbits (page 22) in *Complexity: A Guided Tour* (Melanie Mitchell)
+- Read **Vehicle 4** and **Vehicle 6** in *Vehicles* (Braitenberg) 
 
 Production Assignment:
 
