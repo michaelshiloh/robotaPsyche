@@ -2185,12 +2185,15 @@ if (count > 0) {
 }
 ````
 
+[Here](https://github.com/michaelshiloh/resourcesForClasses/blob/master/src/processingSketches/robotaPsyche/separate/separate.pde)
+is the program we developed in class putting this all together
+
 In-class exercise: implement this!
 
 If we're going to apply multiple forces, it would be nicer to consolidate this
 in some organized way:
 
-1. Each behavior does not apply but returns the force
+1. Each behaviour does not apply but returns the force
 1. We adjust the relative forces if we wish
 1. Apply the forces
 
