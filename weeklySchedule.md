@@ -241,9 +241,17 @@ is due (February_15)
 Reading Assignment:
 - Read the Preface, Chapter 1, and Chapter 2 up to Linear versus Nonlinear
 	Rabbits (page 22) in *Complexity: A Guided Tour* (Melanie Mitchell)
-- Read **Vehicle 4** and **Vehicle 6** in *Vehicles* (Braitenberg) 
+- Read **Vehicle 5** and **Vehicle 6** in *Vehicles* (Braitenberg) 
 
 Production Assignment:
+- Start implementing evolution:
+	- All weights and other numbers become input to the constructors
+		- Thus each vehicle can have its own personality
+	- Vehicles that go beyond the canvas are removed from the ArrayList
+	- Every so often, a vehicle is copied, with minor "errors"
+		- The weights and other numbers that made up a vehicles personality
+			are copied with minor random variations
+		- The new vehicle is added to the ArrayList
 
 ### Week 6 February 22 24
 Feedback and Selection

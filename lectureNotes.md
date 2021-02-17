@@ -1914,7 +1914,6 @@ void draw() {
 
 ### Week 5
 ### February 15
-##### todays-lecture
 - Record!
 
 Look at homework
@@ -2188,14 +2187,64 @@ if (count > 0) {
 [Here](https://github.com/michaelshiloh/resourcesForClasses/blob/master/src/processingSketches/robotaPsyche/separate/separate.pde)
 is the program we developed in class putting this all together
 
-In-class exercise: implement this!
 
-If we're going to apply multiple forces, it would be nicer to consolidate this
-in some organized way:
+##### todays-lecture
+### February 17
+
+Error in reading assignment for next week: Read Vehicles 5 and 6
+
+Discussion:
+- Introductory readings
+- Casey Reas' Eyeo talk
+- Vehicles 4
+- Toys, Totems, and Tools (The Living Brain)
+
+Questions
+- How do we distinguish between humans and other beings (what does Descarte
+	say?)
+- How do you think we make this distinction now?
+- How might we decide whether another being is conscious?
+- Does this change if the other being is a machine?
+- How do we distinguish between something that appears to be conscious and
+	something that really is coscious? Does this change depending on whether the
+	other being is an animal, machine, or alien?
+- How do we know that other humans are conscious? How do we know that we are
+	conscious?
+- Can, and should, machines be held responsible for actions that affect
+	humans?
+- Can machines understand the difference between what is right and what is
+	wrong? 
+- Is "right" and "wrong" universal? What if aliens have different notions of
+	this? How should we treat them? How should they treat us?
+- What responsibilities do we have towards conscious machines?
+- Do conscious machines have rights?
+- Is emergent behaviour real?
+- How are Ross Ashby's Homeostat and Grey Walter's tortoises different from 
+animals?
+
+##### Reorganize the code we have:
+
+Vehicle
+- Behaviours
+	- Seek (target) 
+	- Follow (flowfield)
+	- Separate (ArrayList of all objects)
+- all behaviours do this:
+	- Calculate the force
+	- apply the force 
+		- which adds it to the cumulative acceleration
+- update()
+	- apply acceleration to velocity
+	- apply velocity to location
+	- clear the acceleration for the next frame
+
+
+If we're going to apply multiple forces, it turns out to be useful
+to modify this slightly:
 
 1. Each behaviour does not apply but returns the force
-1. We adjust the relative forces if we wish
-1. Apply the forces
+1. Main program adjust the relative forces if we wish
+1. Main program applies the forces
 
 ````
 void applyBehaviors(ArrayList<Vehicle> vehicles) {
@@ -2210,6 +2259,7 @@ void applyBehaviors(ArrayList<Vehicle> vehicles) {
 so how do `seek()` and `separate()` change?
 
 ````
+// note that now this function returns a PVector which is the force
 PVector seek(PVector target) {
 	PVector desired = PVector.sub(target,loc);
 	desired.normalize();
@@ -2230,6 +2280,7 @@ void applyBehaviors(ArrayList<Vehicle> vehicles) {
 	// Apply the behaviours to get the component forces
   PVector separate = separate(vehicles);
   PVector seek = seek(new PVector(mouseX,mouseY));
+	// Possibly other behaviours
 
   // These values can be whatever you want them to be!
   // They can be variables that are customized for
@@ -2243,18 +2294,16 @@ void applyBehaviors(ArrayList<Vehicle> vehicles) {
 }
 ````
 
-In-class exercise: Modify this function so that the behavior weights are not
+In-class exercise: Modify this function so that the behaviour weights are not
 constants. What happens if they change over time (according to a sine wave or
 Perlin noise)? Or if some vehicles are more concerned with seeking and others
-more concerned with separating? Can you introduce other steering behaviors as
+more concerned with separating? Can you introduce other steering behaviours as
 well?
-
-Look at the ideas from last week. Can we implement any yet?
 
 ##### Flocking
 
 Now we'll take another step towards autonomy. Can we describe individual 
-behaviors which will cause a group?
+behaviours which will cause a group?
 
 The three rules of flocking.
 
@@ -2297,7 +2346,7 @@ PVector align (ArrayList<Boid> boids) {
 	// Add up all the velocities
 	// and divide by the total
 	// to calculate the average velocity.
-	PVector sum = new PVector(0,0);
+	PVector sum = new PVector(0,0); // Initialize to zero
 	for (Boid other : boids) {
 		sum.add(other.velocity);
 	}
@@ -2408,7 +2457,6 @@ class Flock {
 
 
 
-### February 17
 
 ### Week 6
 ### February 22
