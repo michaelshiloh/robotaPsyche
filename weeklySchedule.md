@@ -244,7 +244,43 @@ Reading Assignment:
 - Read **Vehicle 5** and **Vehicle 6** in *Vehicles* (Braitenberg) 
 
 Production Assignment:
-- Start implementing evolution:
+- Modify your behaviours as discussed in class:
+	- Each behaviour returns the force but does not apply it
+	- Create a new method called `applyForce()`
+	which applies the force
+- Start implementing evolution. Your code does not need to function yet:
+	- Create a new class consisting of all the weights, 
+		limits, and other fixed numbers that might make up an individual
+		vehicle's personality. You may invent new ones (size? color?)
+		Do not include velocity or location. Call this new class DNA. 
+	- Each vehicle gets its own DNA object
+	- The constructor for a vehicle should take the DNA as 
+	an argument, along with any other necessary information you wish
+	(such as initial location)
+	- Create a new method in the Vehicle class called getDNA()
+	which returns a vehicle's DNA object
+	- In order to simulate  selection, in each frame, some vehicles do not
+		survive, and some vehicles are copied.
+		- Each vehicle is checked in some way, and some vehicles do not survive to
+			the next frame. You get to decide what criterion to use. Note that if
+			selection works, then the criterion you use to determine whether a
+			vehicle lives or dies will determine what features will be selected
+			(e.g. if you chose to let vehicles die when they leave the canvas, then
+			your system will select vehicles that stay on the canvas.) Be creative!
+			Write a method to test whether this vehicle survives or not.
+		- How will you determine when vehicles are copied?
+		- Think about what other changes will be necessary in order to simulate
+			selection. 
+- Documentation 
+	- New folder called "February22" to include:
+		- Your code
+		- Readme:
+			- Describe what decisions you made in implementing the above
+			- Describe what you included in your DNA
+			- Describe your criterion for survival
+		
+
+
 
 ### Week 6 February 22 24
 Feedback and Selection
