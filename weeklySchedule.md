@@ -235,7 +235,6 @@ is due (February_15)
 
 ### Week 5 February 15 17
 
-##### todays-assignment
 #### Assignments Due February 22
 
 Reading Assignment:
@@ -285,11 +284,31 @@ Production Assignment:
 ### Week 6 February 22 24
 Feedback and Selection
 
+##### todays-assignment
 #### Assignments Due March 1
 
-Reading Assignment:
-
 Production Assignment:
+- **Don't wait until Sunday to work on your assignment!**
+- **If you have trouble ask for help on Discord!**
+- Develop further your evolution project. 
+	- Simplify your project as much as necessary in order to make it run
+	- I had to remove the `applyForce()` change discussed above. 
+		It prevented me from doing something which I can't recall now.
+		Feel free to remove it if it causes you trouble.
+	- Your code should have the following features at a minimum:
+		- New vehicles (or fish or rockets) are generated using the DNA of
+			existing vehicles (or whatever). You may chose any means to decide 
+			when to generate a new one, and whose DNA you copy.
+		- Vehicles (or whatever) die at some point. Use any criteria.
+	- If you get the minimal features working, then add this:
+		- When the DNA is copied, make some minor changes to it 
+- Two hints to help you debug:
+	- Make only one or two vehicles
+	- Use `println()` to help see what's going on
+	- You may look at [my
+		code](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/processingSketches/robotaPsyche/evolution)
+		for ideas or inspiration but note that I think it has some bugs. I will
+		continue revising this. Feel free to ask me about it.
 
 ### Week 7 March 1 3
 Memory, Space
