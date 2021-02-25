@@ -981,8 +981,6 @@ class Mover {
 
 ### February 3
 #### Administration
-- Notifications off
-- Record 
 - **Important**: The point of your presentation is to study, think about, and
 	critique your subject and the underlying assumptions and ethics. It is 
 	**not** meant to be a simple presentation of history,technology, or facts.
@@ -2188,7 +2186,6 @@ if (count > 0) {
 is the program we developed in class putting this all together
 
 
-##### todays-lecture
 ### February 17
 
 Error in reading assignment for next week: Read Vehicles 5 and 6
@@ -2460,7 +2457,16 @@ class Flock {
 
 ### Week 6
 ### February 22
+Further work on evolution
 ### February 24
+##### todays-lecture
+- Record 
+- Notifications off
+- Student presentation (Youssef)
+
+Debugging
+- Pause, Single step, Run, slow down, speed up
+- inspector
 
 ### Week 7
 ### March 1

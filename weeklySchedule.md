@@ -75,8 +75,7 @@ shiffman's [Object Oriented
 - You can learn much more about the PVector class in Dan
 		Shiffman's book The Nature Of Code Chapter 1:
 	- [Text](https://natureofcode.com/book/chapter-1-vectors/) 
-	- [Video
-		tutorials](https://www.youtube.com/watch?v=mWJkvxQXIa8&list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc)
+	- [Video tutorials](https://www.youtube.com/watch?v=mWJkvxQXIa8&list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc)
 
 #### Assignments Due February 1
 
@@ -91,8 +90,7 @@ to *Computer Power and Human Reason* (Weizenbaum)
 1. Preface and Introduction to *Science Fiction, Alien Encounters, and the Ethics of Posthumanism* (Gomel), (NYU Classes)
 1. *The Adaptive Brian* and *Ontological Theater* in *The Cybernetic Brain*
 	 (Pickering) (NYU Classes) 
-1. Preface and Introduction to [The Machine
-	 Question](https://bobcat.library.nyu.edu/permalink/f/1f01u8g/nyu_aleph004814605)
+1. Preface and Introduction to [The Machine Question](https://bobcat.library.nyu.edu/permalink/f/1f01u8g/nyu_aleph004814605)
 
 Production Assignment: 
 
@@ -282,7 +280,7 @@ Production Assignment:
 
 
 ### Week 6 February 22 24
-Feedback and Selection
+Evolution
 
 ##### todays-assignment
 #### Assignments Due March 1
@@ -290,7 +288,7 @@ Feedback and Selection
 Production Assignment:
 - **Don't wait until Sunday to work on your assignment!**
 - **If you have trouble ask for help on Discord!**
-- Develop further your evolution project. 
+- Finish your evolution project. 
 	- Simplify your project as much as necessary in order to make it run
 	- I had to remove the `applyForce()` change discussed above. 
 		It prevented me from doing something which I can't recall now.
@@ -309,6 +307,15 @@ Production Assignment:
 		code](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/processingSketches/robotaPsyche/evolution)
 		for ideas or inspiration but note that I think it has some bugs. I will
 		continue revising this. Feel free to ask me about it.
+- Documentation 
+	- New folder called "March1" to include:
+		- Your code
+		- Readme:
+			- Describe what decisions you made in implementing the above
+			- Describe what you included in your DNA
+			- Describe your criterion for survival, removal, and regeneration
+			- Describe any problems 
+			- Describe any simplifications you had to make to meet the deadline
 
 ### Week 7 March 1 3
 Memory, Space
