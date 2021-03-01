@@ -31,28 +31,35 @@ This document: Student Presentations
 
 **Student Presentations**
 
-Katie: *The future of AI and 
-	how humans can prepare for its emergence to the world*  
-Amina: *how robots, software, and specifically A.I. 
-	can create a more accessible world for people with different abilities*       
-Fatima: *Akira Kanayama 
+February 24: Youssef: *A social contract for robots*  
+
+March 1: Rashid: *Does AI limit the creative agency of humans or provoke it?*  
+
+March 3: Leo: *The ethics and use of robots/AI in military technology*    
+
+March 17: Fatima: *Akira Kanayama 
 	and his use of a robotic creature to create contemporary art*    
-Tori: *Boston Dynamic dancing robots: 
-	Discussion and critique of the role of robots in art*    
-Leo: *The ethics and use of robots/AI in military technology*    
-Pangna: *Comparing the concepts of robots in mythology 
-	to those in our modern world*    
-Maria: *Robots as Weapons* (Tentative title)    
-Alpha: *Third world perspectives on robotics and AI*     
-Zheki: *Ancient Robots: History of the Karakuri Puppets*    
-Nathan: *The Legality of Robot Abuse*  
-Rashid: *Does AI limit the creative agency of humans or provoke it?*  
-Shaurya: *Would computer-enhanced humans 
+
+March 22: Alpha: *Third world perspectives on robotics and AI*     
+
+March 24: Katie: *The future of AI and 
+	how humans can prepare for its emergence to the world*  
+
+March 29: Amina: *how robots, software, and specifically A.I. 
+	can create a more accessible world for people with different abilities*       
+
+March 31: Shaurya: *Would computer-enhanced humans 
 	be a more practical approach towards building advanced robots?*  
-Kyrie: *If an AI system appears to be conscious, 
+
+April 5: Zheki: *Ancient Robots: History of the Karakuri Puppets*    
+
+April 7: Nathan: *The Legality of Robot Abuse*  
+
+April 12: Tori: *Boston Dynamic dancing robots: 
+	Discussion and critique of the role of robots in art*    
+
+April 14: Kyrie: *If an AI system appears to be conscious, 
 	should we consider it to be conscious?*  
-Youssef: *A social contract for robots*  
 
-**Student Lead Discussions**
-
-
+April 19: Pangna: *Comparing the concepts of robots in mythology 
+	to those in our modern world*    
