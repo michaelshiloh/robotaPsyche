@@ -282,7 +282,6 @@ Production Assignment:
 ### Week 6 February 22 24
 Evolution
 
-##### todays-assignment
 #### Assignments Due March 1
 
 Production Assignment:
@@ -318,11 +317,18 @@ Production Assignment:
 			- Describe any simplifications you had to make to meet the deadline
 
 ### Week 7 March 1 3
-Memory, Space
+Memory
 
+##### todays-assignment
 #### Assignments Due March 17
 
 Reading Assignment:
+
+- Watch the episode [*The Measure of A
+Man*}(https://stream.nyu.edu/media/Star+Trek+TNG+-+The+Measure+of+a+Man/1_qjeerkgv) from
+*Star Trek: The Next Generation*
+- Read  [*No Woman Born*](https://hell.pl//agnus/anglistyka/2211/C.%20L.%20Moore%20-%20No%20Woman%20Born.pdf)
+	by C. L. Moore
 
 Production Assignment:
 

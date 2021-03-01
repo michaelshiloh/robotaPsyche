@@ -2456,20 +2456,38 @@ class Flock {
 
 
 ### Week 6
+
 ### February 22
 Further work on evolution
+
 ### February 24
-##### todays-lecture
-- Record 
-- Notifications off
-- Student presentation (Youssef)
+
+Student Presentation: Youssef
 
 Debugging
 - Pause, Single step, Run, slow down, speed up
 - inspector
 
 ### Week 7
+
 ### March 1
+##### todays-lecture
+##### Administration
+- Record 
+- Notifications off
+- One presentation each day rather than two on Wednesday
+
+##### Look at evolution projects
+
+##### Student Presentation: Rashid
+
+##### Memory
+- Reset
+- New class
+- When did something happen?
+
+
+
 ### March 3
 
 ### Week 8
