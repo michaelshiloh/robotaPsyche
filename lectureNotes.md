@@ -2465,7 +2465,6 @@ Further work on evolution
 Student Presentation: Youssef
 
 Debugging
-- Pause, Single step, Run, slow down, speed up
 - inspector
 
 ### Week 7
@@ -2481,12 +2480,13 @@ Debugging
 
 ##### Student Presentation: Rashid
 
+##### Debugging
+- Pause, Single step, Run, slow down, speed up
+
 ##### Memory
 - Reset
 - New class
 - When did something happen?
-
-
 
 ### March 3
 
