@@ -312,7 +312,7 @@ Memory
 Reading Assignment:
 
 - Watch the episode [*The Measure of A
-Man*}(https://stream.nyu.edu/media/Star+Trek+TNG+-+The+Measure+of+a+Man/1_qjeerkgv) from
+Man*](https://stream.nyu.edu/media/Star+Trek+TNG+-+The+Measure+of+a+Man/1_qjeerkgv) from
 *Star Trek: The Next Generation*
 - Read  [*No Woman Born*](https://hell.pl//agnus/anglistyka/2211/C.%20L.%20Moore%20-%20No%20Woman%20Born.pdf)
 	by C. L. Moore
