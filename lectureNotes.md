@@ -2483,15 +2483,81 @@ Debugging
 ##### Debugging
 - Pause, Single step, Run, slow down, speed up
 
-##### Memory
-- Reset
-- New class
-- When did something happen?
+##### Detecting the first occurance of a collision:
+
+````
+/* edge triggered collision detection */
+
+
+class Vehicle {
+  // In order to detect a new collision,
+  // we need to remember whethere there was a collision in the last frame
+  // Initialize this to false
+  boolean collisionLastFrame = false;
+
+  int radius = 50;
+  int x, y;
+
+  Vehicle(int _x, int _y) {
+    x = _x;
+    y = _y;
+  }
+
+  boolean checkNewCollision(int _x, int _y, int _r) {
+    boolean returnValue = false; // assume there is no collision
+
+    // Check for a collision
+    if (dist(x, y, _x, _y) < ((radius + _r)/2)) {
+      // println("collision detected");
+
+      // Check to see if this is a new collision, by lookin at whether there
+      // was no collision in the previous frame
+      if (!collisionLastFrame) {
+
+        // Aha! We have a new collision
+        collisionLastFrame = true; // remember this for next time
+        returnValue = true;
+      }
+    } else {
+      // If there is no collision now, we need to clear collisionLastFrame
+      // in case it was set
+      collisionLastFrame = false; // remember this for next time
+    }
+    return returnValue;
+  }
+
+  void draw() {
+    circle(x, y, radius);
+  }
+}
+
+Vehicle v;
+
+void setup() {
+  size(500, 500);
+  v = new Vehicle(width/2, height/2);
+}
+
+void draw() {
+  background(128);
+  circle(mouseX, mouseY, 50);
+  if (v.checkNewCollision(mouseX, mouseY, 50)) {
+    println("New collision detected at frameCount = " + frameCount);
+  }
+  v.draw();
+}
+
+````
 
 ### March 3
 
 ### Week 8
 ### March 17
+
+##### Memory
+- Reset
+- New class
+- When did something happen?
 ### March 22
 
 ### Week 9
