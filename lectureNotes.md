@@ -2470,11 +2470,6 @@ Debugging
 ### Week 7
 
 ### March 1
-##### todays-lecture
-##### Administration
-- Record 
-- Notifications off
-- One presentation each day rather than two on Wednesday
 
 ##### Look at evolution projects
 
@@ -2551,8 +2546,17 @@ void draw() {
 
 ### March 3
 
+- Student presentation
+
+- Evolution problem solving
+
 ### Week 8
 ### March 17
+##### todays-lecture
+##### Administration
+- Record 
+- Notifications off
+- Homework due march 17
 
 ##### Memory
 - Reset
