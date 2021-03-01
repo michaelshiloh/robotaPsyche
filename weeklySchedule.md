@@ -163,18 +163,8 @@ void keyPressed() {
 }
 ````
 
-Presentation dates:
-- February 24: Youssef Rashid
-- March 3: Leo Fatima
-- March 17: Maria Alpha
-- March 24: Katie Amina
-- March 31: Shaurya Zheki
-- April 7: Nathan Tori
-- April 14: Kyrie Pangna
-
-
 ### Week 4 February 8 10
-Autonomouse Agents: Action Selection and Steering
+Autonomous Agents: Action Selection and Steering
 
 #### Assignments Due February 10
 
@@ -275,9 +265,6 @@ Production Assignment:
 			- Describe what decisions you made in implementing the above
 			- Describe what you included in your DNA
 			- Describe your criterion for survival
-		
-
-
 
 ### Week 6 February 22 24
 Evolution
@@ -329,8 +316,12 @@ Man*}(https://stream.nyu.edu/media/Star+Trek+TNG+-+The+Measure+of+a+Man/1_qjeerk
 *Star Trek: The Next Generation*
 - Read  [*No Woman Born*](https://hell.pl//agnus/anglistyka/2211/C.%20L.%20Moore%20-%20No%20Woman%20Born.pdf)
 	by C. L. Moore
+- Read **Vehicle 7** in *Vehicles* (Braitenberg) 
 
 Production Assignment:
+
+- If you have not done so, finish your evolution project.
+
 
 ### Week 8 March 17 22
 Ideas
