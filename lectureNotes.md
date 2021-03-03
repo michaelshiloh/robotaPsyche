@@ -2545,6 +2545,11 @@ void draw() {
 ````
 
 ### March 3
+##### todays-lecture
+##### Administration
+- Record 
+- Notifications off
+- Homework due march 17
 
 - Student presentation
 
@@ -2552,11 +2557,6 @@ void draw() {
 
 ### Week 8
 ### March 17
-##### todays-lecture
-##### Administration
-- Record 
-- Notifications off
-- Homework due march 17
 
 ##### Memory
 - Reset

@@ -320,7 +320,8 @@ Man*](https://stream.nyu.edu/media/Star+Trek+TNG+-+The+Measure+of+a+Man/1_qjeerk
 
 Production Assignment:
 
-- If you have not done so, finish your evolution project.
+- If you have not done so, finish your evolution project. This is the final
+	deadline.
 
 
 ### Week 8 March 17 22
