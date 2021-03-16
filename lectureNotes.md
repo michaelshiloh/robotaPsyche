@@ -2545,10 +2545,6 @@ void draw() {
 ````
 
 ### March 3
-##### todays-lecture
-##### Administration
-- Record 
-- Notifications off
 - Homework due march 17
 
 - Student presentation
@@ -2557,11 +2553,31 @@ void draw() {
 
 ### Week 8
 ### March 17
+##### todays-lecture
+##### Administration
+- Record 
+- Notifications off
 
-##### Memory
-- Reset
-- New class
-- When did something happen?
+- Student presentation (Fatima)
+- Discussion:
+	- The Measure of a Man
+		- Do you think that Data's sentience was programmed or could it have
+			developed? What circumstances could hypothetically forge that sentience?
+		- Is there a difference between programmed sentience and developed
+			sentience, and if so, what is it? If you can discern no difference, but
+			later on find out that one is and one isn't, how does that change your
+			attitude?
+		- How can arguments be applied to real word events (something about
+			connecting to slavery) and (something about why it's important to be
+			aware of these patterns for the future)
+	- No Woman Born
+		- Is Deidre still human?
+		- Do you agree with Maltzer when he says "[The audience is] going to
+			persecute you because you are different"
+	- Compare and contrast Data and Deidre
+
+
+
 ### March 22
 
 ### Week 9
