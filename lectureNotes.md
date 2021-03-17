@@ -2558,7 +2558,10 @@ void draw() {
 - Record 
 - Notifications off
 
+Lot's to do today! Whatever we don't get to we'll do next week:
+
 - Student presentation (Fatima)
+- Remaining evolution assignments
 - Discussion:
 	- The Measure of a Man
 		- Do you think that Data's sentience was programmed or could it have
@@ -2574,6 +2577,8 @@ void draw() {
 		- Is Deidre still human?
 		- Do you agree with Maltzer when he says "[The audience is] going to
 			persecute you because you are different"
+		- Does it make a difference that Deidre has only two senses, sight and
+			sound?
 	- Compare and contrast Data and Deidre
 
 
