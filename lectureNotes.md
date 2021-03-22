@@ -2579,6 +2579,9 @@ Lot's to do today! Whatever we don't get to we'll do next week:
 
 ### March 22
 ##### todays-lecture
+
+- Off-record check in
+
 ##### Administration
 - Record 
 - Notifications off
@@ -2591,16 +2594,21 @@ Lot's to do today! Whatever we don't get to we'll do next week:
 
 1. Start with empty framework (e.g. the one we constructed working through 
 *The Nature Of Code*)
-1. Add just two behaviors:
+	1. Some number of vehicles at random locations moving in random directions
+	1. Add a colour attribute
+	1. Either red or green
+1. Add just two behaviours:
 	1. Notice red (but take no particular action i.e. don't generate a force)
 		1. What does it mean to "notice"?
 	1. Notice when a nearby vehicle is red (but take no particular action)
 		1. Nearby?
-	1. Notice aggressive neighbors
+	1. Notice aggressive neighbours
 		1. What defines *aggression*?
 		1. Generate a force to move away from aggresive vehicles
 	1. Implement **association**
 		1. Whenever things are noticed together, form some tie between them
+			1. How will we know when things are noticed together?
+			1. How will we form ties between them?
 
 ### Week 9
 ### March 24
