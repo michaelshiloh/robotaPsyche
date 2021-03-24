@@ -305,7 +305,6 @@ Production Assignment:
 
 ### Week 7 March 1 3
 
-##### todays-assignment
 #### Assignments Due March 17
 
 Reading Assignment:
@@ -334,6 +333,7 @@ Production Assignment:
 ### Week 9 March 24 29
 Association
 
+##### todays-assignment
 #### Assignments Due March 31
 
 Reading Assignment:
