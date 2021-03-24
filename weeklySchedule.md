@@ -337,7 +337,7 @@ Association
 #### Assignments Due March 31
 
 Reading Assignment:
-[The Five Robots—A Taxonomy for Roboethics](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theFiveRobotsATaxonomyForRoboethics.pdf)
+[The Five Robots—A Taxonomy for Roboethics](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theFiveRobotsATaxonomyForRoboethics.pdf). Read closely and be prepared to discuss.
 
 Production Assignment:
 - Create a new directory named March31 in your Github repository
