@@ -304,7 +304,6 @@ Production Assignment:
 			- Describe any simplifications you had to make to meet the deadline
 
 ### Week 7 March 1 3
-Memory
 
 ##### todays-assignment
 #### Assignments Due March 17
@@ -325,7 +324,6 @@ Production Assignment:
 
 
 ### Week 8 March 17 22
-Ideas
 
 #### Assignments Due March 24
 
@@ -334,13 +332,17 @@ Reading Assignment:
 Production Assignment:
 
 ### Week 9 March 24 29
-Diversity and Selection
+Association
 
 #### Assignments Due March 31
 
 Reading Assignment:
+[The Five Robots—A Taxonomy for Roboethics](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theFiveRobotsATaxonomyForRoboethics.pdf)
 
 Production Assignment:
+- Create a new directory named March31 in your Github repository
+- In that directory create a README.md
+- In that file write 5 topics for discussion inspired by the reading
 
 ### Week 10 March 31 April 5
 Integration II
