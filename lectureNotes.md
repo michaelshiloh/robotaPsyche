@@ -2578,13 +2578,9 @@ Lot's to do today! Whatever we don't get to we'll do next week:
 
 
 ### March 22
-##### todays-lecture
 
 - Off-record check in
 
-##### Administration
-- Record 
-- Notifications off
 
 - Alpha's presentation
 - Remaining evolution assignments
@@ -2612,6 +2608,22 @@ Lot's to do today! Whatever we don't get to we'll do next week:
 
 ### Week 9
 ### March 24
+##### todays-lecture
+##### Administration
+- Record 
+- Notifications off
+
+##### Presentation: Katie and the Future of AI
+
+(Time permitting):
+
+##### How do we align machine intelligence with human interests?
+Discuss the first two paragraphs of
+[Agent Foundations for Aligning Machine Intelligence with Human Interests:
+A Technical Research Agenda](https://intelligence.org/files/TechnicalAgenda.pdf)
+paper
+
+
 ### March 29
 
 ### Week 10
