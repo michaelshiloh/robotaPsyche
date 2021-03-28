@@ -322,7 +322,7 @@ Production Assignment:
 	deadline.
 
 
-### Week 8 March 17 22
+### Week 8 March 17 
 
 #### Assignments Due March 24
 
@@ -330,11 +330,11 @@ Reading Assignment:
 
 Production Assignment:
 
-### Week 9 March 24 29
+### Week 9 March 22 24
 Association
 
 ##### todays-assignment
-#### Assignments Due March 31
+#### Assignments Due March 29
 
 Reading Assignment:
 Read closely and be prepared to discuss the following two papers:
@@ -342,49 +342,48 @@ Read closely and be prepared to discuss the following two papers:
 - [The Ethical Treatment of Artificially Conscious Robots](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theEthicalTreatmentOfArtificiallyConsciousRobots.pdf).
 
 Production Assignment:
-- Create a new directory named March31 in your Github repository
+- Create a new directory named March29 in your Github repository
 - In that directory create a README.md
 - In that file write 5 topics for discussion inspired by the readings
 
-### Week 10 March 31 April 5
-Integration II
+### Week 10 March 29 31 
 
-#### Assignments Due April 7
+#### Assignments Due April 
 
 Reading Assignment:
 
 Production Assignment:
 
-### Week 11 April 7 12
+### Week 11 April 5 7
 Learning
 
-#### Assignments Due April 14
+#### Assignments Due April 
 
 Reading Assignment:
 
 Production Assignment:
 
-### Week 12 April 14 19
+### Week 12 April 12 14
 Art
 
-#### Assignments Due April 21
+#### Assignments Due April 
 
 Reading Assignment:
 
 Production Assignment:
 
-### Week 13 April 21 26
+### Week 13 April 19 21
 Final Project
 
-#### Assignments Due April 28
+#### Assignments Due April 
 
 Reading Assignment:
 
 Production Assignment:
 
-### Week 14 April 28 May 3
+### Week 14 April 26 28
 
-#### Assignments Due May 3
+#### Assignments Due 
 
 Reading Assignment:
 
