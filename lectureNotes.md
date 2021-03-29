@@ -2608,11 +2608,6 @@ Lot's to do today! Whatever we don't get to we'll do next week:
 
 ### Week 9
 ### March 24
-##### todays-lecture
-##### Administration
-- Record 
-- Notifications off
-
 ##### Presentation: Katie and the Future of AI
 
 (Time permitting):
@@ -2625,6 +2620,21 @@ paper
 
 
 ### March 29
+##### todays-lecture
+##### Administration
+- Record 
+- Notifications off
+
+##### Presentation: Amina: *how robots, software, and specifically A.I. 
+  can create a more accessible world for people with different abilities*
+
+##### Discussion: 
+- The Five Robots—A Taxonomy for Roboethics
+- The Ethical Treatment of Artificially Conscious Robots
+
+(time permitting)
+##### Projections of vectors
+
 
 ### Week 10
 ### March 31
