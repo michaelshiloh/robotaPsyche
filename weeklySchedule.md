@@ -348,11 +348,22 @@ Production Assignment:
 
 ### Week 10 March 29 31 
 
-#### Assignments Due April 
+#### Assignments Due April 5
 
 Reading Assignment:
 
 Production Assignment:
+
+Write a Processing program that does this. It should be entirely static (i.e.
+no `setup()` or `draw()`)
+
+- Given three points, P1, P2, P3
+	- P1 is near the top left
+	- P2 is some distance below P1
+	- P3 is off to the right somewhere between the two
+- Define the vector V to go between P1 and P3
+- Find VM, the projection of V that lies on the line from P1 and P2
+	using the method discussed in class today
 
 ### Week 11 April 5 7
 Learning

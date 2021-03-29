@@ -116,11 +116,11 @@ https://www.youtube.com/watch?v=SNg4KZKG96o
 			pixels/frame at a 39 degree angle)
 		- wait, isn't a vector just a pair of coordinates? Yes! This specifies a
 			magnitued and a direction!
-	- ````PVector```` is a Processing class that stores this information and makes
+	- `PVector` is a Processing class that stores this information and makes
 		manipulating it easy
 		- Basically, a PVector stores the two numbers that make up the vector e.g.
 			xLocation and yLocation.
-	- Vector (and ````PVector````) Math
+	- Vector (and `PVector`) Math
 		- A typical vector manipulation would be to add two vectors. This is exactly
 					what we do when we add the velocity to the position to obtain the new
 					position
@@ -2625,15 +2625,23 @@ paper
 - Record 
 - Notifications off
 
-##### Presentation: Amina: *how robots, software, and specifically A.I. 
-  can create a more accessible world for people with different abilities*
+##### Presentation: Amina: *how robots, software, and specifically A.I. can create a more accessible world for people with different abilities*
 
 ##### Discussion: 
 - The Five Robots—A Taxonomy for Roboethics
 - The Ethical Treatment of Artificially Conscious Robots
 
-(time permitting)
 ##### Projections of vectors
+
+How to find VM, the projection of a vector V onto a line 
+between two points P1 and P2:
+
+````
+PVector B = PVector.sub(P1,P2);
+B.normalize();
+PVector VM = B.mult(V.dot(B));
+````
+
 
 
 ### Week 10
