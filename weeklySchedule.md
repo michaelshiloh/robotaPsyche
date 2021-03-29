@@ -360,7 +360,7 @@ no `setup()` or `draw()`)
 - Given three points, P1, P2, P3
 	- P1 is near the top left
 	- P2 is some distance below P1
-	- P3 is off to the right somewhere between the two
+	- P3 is off to the right somewhere between the other two
 - Define the vector V to go between P1 and P3
 - Find VM, the projection of V that lies on the line from P1 and P2
 	using the method discussed in class today
