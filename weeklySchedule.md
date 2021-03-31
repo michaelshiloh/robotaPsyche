@@ -351,6 +351,7 @@ Production Assignment:
 #### Assignments Due April 5
 
 Reading Assignment:
+
 Read closely and be prepared to discuss the 
 Introduction and the first two stories (Robbie and Runaround) in
 [*I, Robot*](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/I_Robot.pdf)
