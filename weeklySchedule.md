@@ -351,10 +351,10 @@ Production Assignment:
 #### Assignments Due April 5
 
 Reading Assignment:
-Read closely and be prepared to discuss the following 
-two stories in *I, Robot* by Isaac Asimov:
-- [Introduction and the story Robbie](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/IRobot/robbie.pdf)
-- [Runaround](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/IRobot/runaround.pdf)
+Read closely and be prepared to discuss the 
+Introduction and the first two stories (Robbie and Runaround) in
+[*I, Robot*](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/I_Robot.pdf)
+by Isaac Asimov
 
 Production Assignment:
 
