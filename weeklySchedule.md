@@ -322,7 +322,7 @@ Production Assignment:
 	deadline.
 
 
-### Week 8 March 17 
+### Week 7.5 March 17 
 
 #### Assignments Due March 24
 
@@ -330,10 +330,9 @@ Reading Assignment:
 
 Production Assignment:
 
-### Week 9 March 22 24
+### Week 8 March 22 24
 Association
 
-##### todays-assignment
 #### Assignments Due March 29
 
 Reading Assignment:
@@ -346,11 +345,16 @@ Production Assignment:
 - In that directory create a README.md
 - In that file write 5 topics for discussion inspired by the readings
 
-### Week 10 March 29 31 
+### Week 9 March 29 31 
 
+##### todays-assignment
 #### Assignments Due April 5
 
 Reading Assignment:
+Read closely and be prepared to discuss the following 
+two stories in *I, Robot* by Isaac Asimov:
+- [Introduction and the story Robbie](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/IRobot/robbie.pdf)
+- [Runaround](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/IRobot/runaround.pdf)
 
 Production Assignment:
 
@@ -364,8 +368,14 @@ no `setup()` or `draw()`)
 - Define the vector V to go between P1 and P3
 - Find VM, the projection of V that lies on the line from P1 and P2
 	using the method discussed in class today
+- Create a new directory named April5 in your Github repository
+- In that directory create a README.md
+- In that file write 5 topics for discussion inspired by the readings
+- Add your code for the production assignment
+- In the README.md discuss any difficulties you encountered, how you overcame
+	them, and anything interesting you learned
 
-### Week 11 April 5 7
+### Week 10 April 5 7
 Learning
 
 #### Assignments Due April 
@@ -374,7 +384,7 @@ Reading Assignment:
 
 Production Assignment:
 
-### Week 12 April 12 14
+### Week 11 April 12 14
 Art
 
 #### Assignments Due April 
@@ -383,7 +393,7 @@ Reading Assignment:
 
 Production Assignment:
 
-### Week 13 April 19 21
+### Week 12 April 19 21
 Final Project
 
 #### Assignments Due April 
@@ -392,7 +402,7 @@ Reading Assignment:
 
 Production Assignment:
 
-### Week 14 April 26 28
+### Week 13 April 26 28
 
 #### Assignments Due 
 
@@ -400,3 +410,4 @@ Reading Assignment:
 
 Production Assignment:
 
+### Week 13.5 May 3

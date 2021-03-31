@@ -2551,7 +2551,7 @@ void draw() {
 
 - Evolution problem solving
 
-### Week 8
+### Week 7.5
 ### March 17
 
 Lot's to do today! Whatever we don't get to we'll do next week:
@@ -2577,6 +2577,7 @@ Lot's to do today! Whatever we don't get to we'll do next week:
 	- Compare and contrast Data and Deidre
 
 
+### Week 8
 ### March 22
 
 - Off-record check in
@@ -2606,7 +2607,6 @@ Lot's to do today! Whatever we don't get to we'll do next week:
 			1. How will we know when things are noticed together?
 			1. How will we form ties between them?
 
-### Week 9
 ### March 24
 ##### Presentation: Katie and the Future of AI
 
@@ -2618,12 +2618,9 @@ Discuss the first two paragraphs of
 A Technical Research Agenda](https://intelligence.org/files/TechnicalAgenda.pdf)
 paper
 
+### Week 9
 
 ### March 29
-##### todays-lecture
-##### Administration
-- Record 
-- Notifications off
 
 ##### Presentation: Amina: *how robots, software, and specifically A.I. can create a more accessible world for people with different abilities*
 
@@ -2642,24 +2639,31 @@ B.normalize();
 PVector VM = B.mult(V.dot(B));
 ````
 
+### March 31
+##### todays-lecture
+##### Administration
+- Record 
+- Notifications off
 
+Presentation: Shaurya: *Would computer-enhanced humans be a more practical approach towards building advanced robots?*
+
+Time permitting: Vector Projections
 
 ### Week 10
-### March 31
 ### April 5
+### April 7
 
 ### Week 11
-### April 7
 ### April 12
+### April 14
 
 ### Week 12
-### April 14
 ### April 19
+### April 21
 
 ### Week 13
-### April 21
 ### April 26
-
-### Week 14
 ### April 28
+
+### Week 13.5
 ### May 3
