@@ -2640,17 +2640,22 @@ PVector VM = B.mult(V.dot(B));
 ````
 
 ### March 31
+
+Presentation: Shaurya: *Would computer-enhanced humans be a more practical approach towards building advanced robots?*
+
+
+### Week 10
+### April 5
 ##### todays-lecture
 ##### Administration
 - Record 
 - Notifications off
 
-Presentation: Shaurya: *Would computer-enhanced humans be a more practical approach towards building advanced robots?*
+- Presentation: Zheki: *Ancient Robots: History of the Karakuri Puppets*
+- Discussion: The 3 Laws of Robotics
+- Vector Projections
+- Avoiding aggression
 
-Time permitting: Vector Projections
-
-### Week 10
-### April 5
 ### April 7
 
 ### Week 11
