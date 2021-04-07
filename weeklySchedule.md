@@ -347,7 +347,6 @@ Production Assignment:
 
 ### Week 9 March 29 31 
 
-##### todays-assignment
 #### Assignments Due April 5
 
 Reading Assignment:
@@ -378,6 +377,7 @@ no `setup()` or `draw()`)
 
 ### Week 10 April 5 7
 
+##### todays-assignment
 #### Assignments Due April 11
 
 Reading Assignment:
