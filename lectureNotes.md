@@ -2646,17 +2646,19 @@ Presentation: Shaurya: *Would computer-enhanced humans be a more practical appro
 
 ### Week 10
 ### April 5
-##### todays-lecture
-##### Administration
-- Record 
-- Notifications off
 
 - Presentation: Zheki: *Ancient Robots: History of the Karakuri Puppets*
 - Discussion: The 3 Laws of Robotics
 - Vector Projections
-- Avoiding aggression
 
 ### April 7
+##### todays-lecture
+##### Administration
+- Record 
+
+##### Topics
+- Nathan: *The Legality of Robot Abuse*
+- Avoiding aggression
 
 ### Week 11
 ### April 12

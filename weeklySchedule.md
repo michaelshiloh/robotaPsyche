@@ -377,13 +377,13 @@ no `setup()` or `draw()`)
 	them, and anything interesting you learned
 
 ### Week 10 April 5 7
-Learning
 
-#### Assignments Due April 
+#### Assignments Due April 11
 
 Reading Assignment:
 
 Production Assignment:
+- Implement avoidRed();
 
 ### Week 11 April 12 14
 Art
