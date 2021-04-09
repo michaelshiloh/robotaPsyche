@@ -390,8 +390,8 @@ by Isaac Asimov
 Production Assignment:
 - Implement `avoidRed()` in the
 	[association](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/processingSketches/robotaPsyche/association)
-	program that I showed you in class
-Use the `separate()` function as a model
+program that I showed you in class.
+Use the `separate()` function as a model.
 
 ### Week 11 April 12 14
 Art
