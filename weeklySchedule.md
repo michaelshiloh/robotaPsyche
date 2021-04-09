@@ -382,8 +382,16 @@ no `setup()` or `draw()`)
 
 Reading Assignment:
 
+Read 
+the  third story (Reason) in
+[*I, Robot*](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/I_Robot.pdf) 
+by Isaac Asimov
+
 Production Assignment:
-- Implement avoidRed();
+- Implement `avoidRed()` in the
+	[association](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/processingSketches/robotaPsyche/association)
+	program that I showed you in class
+Use the `separate()` function as a model
 
 ### Week 11 April 12 14
 Art
