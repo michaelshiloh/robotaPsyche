@@ -403,8 +403,9 @@ Reading Assignment:
 Production Assignment:
 
 - Think about your final project, which can be either:
-	- A program which uses association in some creative way. Write a brief
-		description of your initial concept. This can change later.
+	- A program which uses association in some creative way. 
+		- Create a new folder called 14April
+		- Write a brief description of your initial concept. This can change later.
 	- A paper on something that came up for you as a result of this class
 
 ### Week 12 April 19 21
