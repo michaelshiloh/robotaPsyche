@@ -377,7 +377,6 @@ no `setup()` or `draw()`)
 
 ### Week 10 April 5 7
 
-##### todays-assignment
 #### Assignments Due April 11
 
 Reading Assignment:
@@ -396,11 +395,17 @@ Use the `separate()` function as a model.
 ### Week 11 April 12 14
 Art
 
-#### Assignments Due April 
+#### Assignments Due April 14
 
 Reading Assignment:
 
+##### todays-assignment
 Production Assignment:
+
+- Think about your final project, which can be either:
+	- A program which uses association in some creative way. Write a brief
+		description of your initial concept. This can change later.
+	- A paper on something that came up for you as a result of this class
 
 ### Week 12 April 19 21
 Final Project
