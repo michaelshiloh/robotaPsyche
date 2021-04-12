@@ -48,18 +48,15 @@ March 24: Katie: *The future of AI and
 March 29: Amina: *how robots, software, and specifically A.I. 
 	can create a more accessible world for people with different abilities*       
 
-March 31: Shaurya: *Would computer-enhanced humans 
-	be a more practical approach towards building advanced robots?*  
+March 31: Shaurya: *Would computer-enhanced humans be a more practical approach towards building advanced robots?*  
 
 April 5: Zheki: *Ancient Robots: History of the Karakuri Puppets*    
 
 April 7: Nathan: *The Legality of Robot Abuse*  
 
-April 12: Tori: *Boston Dynamic dancing robots: 
-	Discussion and critique of the role of robots in art*    
+April 12: Tori: *Boston Dynamic dancing robots: Discussion and critique of the role of robots in art*    
 
 April 14: Kyrie: *If an AI system appears to be conscious, 
 	should we consider it to be conscious?*  
 
-April 19: Pangna: *Comparing the concepts of robots in mythology 
-	to those in our modern world*    
+April 19: Pangna: *Comparing the concepts of robots in mythology to those in our modern world*    

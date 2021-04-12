@@ -2652,15 +2652,23 @@ Presentation: Shaurya: *Would computer-enhanced humans be a more practical appro
 - Vector Projections
 
 ### April 7
-##### todays-lecture
-##### Administration
-- Record 
-
 ##### Topics
 - Nathan: *The Legality of Robot Abuse*
 - Avoiding aggression
 
 ### Week 11
+##### todays-lecture
+##### Administration
+- Record 
+
+##### Topics
+- Tori: *Boston Dynamic dancing robots: Discussion and critique of the role of robots in art*
+- Avoiding red vehicles
+	- Is it working?
+	- How to consolidate `avoidRedVehicles()` and `avoidAggressive()`
+- Association
+- Discuss reading (*Reason*) (Time Permitting)
+
 ### April 12
 ### April 14
 
