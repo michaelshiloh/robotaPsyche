@@ -409,7 +409,6 @@ Production Assignment:
 	- A paper on something that came up for you as a result of this class
 
 ### Week 12 April 19 21
-Final Project
 
 #### Assignments Due April 
 

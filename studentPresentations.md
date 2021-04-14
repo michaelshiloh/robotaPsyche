@@ -56,7 +56,6 @@ April 7: Nathan: *The Legality of Robot Abuse*
 
 April 12: Tori: *Boston Dynamic dancing robots: Discussion and critique of the role of robots in art*    
 
-April 14: Kyrie: *If an AI system appears to be conscious, 
-	should we consider it to be conscious?*  
+April 14: Kyrie: *If an AI system appears to be conscious, should we consider it to be conscious?*  
 
 April 19: Pangna: *Comparing the concepts of robots in mythology to those in our modern world*    

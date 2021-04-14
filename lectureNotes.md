@@ -2657,9 +2657,7 @@ Presentation: Shaurya: *Would computer-enhanced humans be a more practical appro
 - Avoiding aggression
 
 ### Week 11
-##### todays-lecture
-##### Administration
-- Record 
+### April 12
 
 ##### Topics
 - Tori: *Boston Dynamic dancing robots: Discussion and critique of the role of robots in art*
@@ -2669,8 +2667,16 @@ Presentation: Shaurya: *Would computer-enhanced humans be a more practical appro
 - Association
 - Discuss reading (*Reason*) (Time Permitting)
 
-### April 12
 ### April 14
+##### todays-lecture
+##### Administration
+- Record 
+
+##### Topics
+- Kyrie: *If an AI system appears to be conscious, should we consider it to be conscious?*
+- Final projects
+	- Program or Paper?
+	- 
 
 ### Week 12
 ### April 19
