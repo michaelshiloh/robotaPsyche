@@ -399,7 +399,6 @@ Art
 
 Reading Assignment:
 
-##### todays-assignment
 Production Assignment:
 
 - Think about your final project, which can be either:
@@ -410,11 +409,21 @@ Production Assignment:
 
 ### Week 12 April 19 21
 
-#### Assignments Due April 
+##### todays-assignment
+#### Assignments Due April 19
 
 Reading Assignment:
 
 Production Assignment:
+
+Work on your final project, which is either a paper or a program:
+- Create a new folder called finalProject
+- In this folder create a README.md which describes very briefly your project
+- In this folder create a journal.md and start making dated journal 
+	entries every time you work on your project describing:
+	- What you got done
+	- What difficulties you had
+	- What your next step is
 
 ### Week 13 April 26 28
 
