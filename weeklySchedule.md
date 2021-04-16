@@ -393,7 +393,6 @@ program that I showed you in class.
 Use the `separate()` function as a model.
 
 ### Week 11 April 12 14
-Art
 
 #### Assignments Due April 14
 
