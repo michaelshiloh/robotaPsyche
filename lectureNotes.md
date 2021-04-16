@@ -2668,18 +2668,23 @@ Presentation: Shaurya: *Would computer-enhanced humans be a more practical appro
 - Discuss reading (*Reason*) (Time Permitting)
 
 ### April 14
-##### todays-lecture
-##### Administration
-- Record 
 
 ##### Topics
 - Kyrie: *If an AI system appears to be conscious, should we consider it to be conscious?*
 - Final projects
 	- Program or Paper?
-	- 
 
 ### Week 12
 ### April 19
+##### todays-lecture
+##### Administration
+- Record 
+
+##### Topics
+- Pangna: *Comparing the concepts of robots in mythology to those in our modern world*
+- Discussion: *Reason* by Isaac Asimov
+- Final projects
+
 ### April 21
 
 ### Week 13

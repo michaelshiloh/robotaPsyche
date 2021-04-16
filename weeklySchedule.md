@@ -416,6 +416,11 @@ Reading Assignment:
 
 Production Assignment:
 
+Reflect on last week's reading (*Reason* by Isaac Asimov)
+- Create a new directory named April19 in your Github repository
+- In that directory create a README.md
+- In that file write 3 topics for discussion inspired by the story
+
 Work on your final project, which is either a paper or a program:
 - Create a new folder called finalProject
 - In this folder create a README.md which describes very briefly your project
