@@ -406,9 +406,6 @@ Production Assignment:
 		- Write a brief description of your initial concept. This can change later.
 	- A paper on something that came up for you as a result of this class
 
-### Week 12 April 19 21
-
-##### todays-assignment
 #### Assignments Due April 19
 
 Reading Assignment:
@@ -429,12 +426,27 @@ Work on your final project, which is either a paper or a program:
 	- What difficulties you had
 	- What your next step is
 
-### Week 13 April 26 28
 
-#### Assignments Due 
+### Week 12 April 19 21
+
+##### todays-assignment
+#### Assignments Due April 26
 
 Reading Assignment:
 
+Read 
+*Little Lost Robot* on page 112
+in
+[*I, Robot*](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/I_Robot.pdf) 
+by Isaac Asimov
+- Create a new directory named April26 in your Github repository
+- In that directory create a README.md
+- In that file write 5 topics for discussion inspired by the story
+
 Production Assignment:
+
+Work on your final project, updating your journal as you go 
+
+### Week 13 April 26 28
 
 ### Week 13.5 May 3
