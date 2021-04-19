@@ -2681,14 +2681,15 @@ Presentation: Shaurya: *Would computer-enhanced humans be a more practical appro
 - Record 
 
 ##### Topics
-- Pangna: *Comparing the concepts of robots in mythology to those in our modern world*
 - Discussion: *Reason* by Isaac Asimov
 - Final projects
 
 ### April 21
+- Pangna: *Comparing the concepts of robots in mythology to those in our modern world*
 
 ### Week 13
 ### April 26
+- Spring course evaluations
 ### April 28
 
 ### Week 13.5
