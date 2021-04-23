@@ -43,16 +43,20 @@ Students will develop software "vehicles" which will embody the ideas being expl
 creating and simulating multiple and increasingly complex vehicles, interactions and behaviors
 will be explored.
 
-### Learning Outcomes: 
-1. Develop a critical understanding of the historical and contemporary meaning of cybernetics
-1. Create a software robot to simulate and exhibit various synthetic psychologies
-1. Create multiple software robots with minor variations and explore how these robots interact
+### Course Learning Outcomes: 
+The Course Learning Outcomes are indicated below, along with the corresponding
+Program Learning Outcome. A description of the Program Learning Outcomes
+(PLOs) is at the end of this document:
+
+1. Develop a critical understanding of the historical and contemporary meaning of cybernetics (PLO 1)
+1. Create a software robot to simulate and exhibit various synthetic psychologies (PLO 5, 6)
+1. Create multiple software robots with minor variations and explore how these robots interact 
 with each other, and explore how successful variations can be propagated while unsuccessful
-variation die out
-1. Use software robots to create artwork
+variation die out (PLO 3, 5, 6)
+1. Use software robots to create artwork (PLO 6)
 1. Understand the fundamental concept of chaos, that small changes in initial conditions result in
-vastly different outcomes
-1. Understand how seemingly human behavior can emerge from a relatively simple set of rules
+vastly different outcomes (PLO 2, 5)
+1. Understand how seemingly human behavior can emerge from a relatively simple set of rules (PLO 3)
 
 
 ### Teaching and Learning Methodology
@@ -337,4 +341,13 @@ Third, we all make extensive use of online resources generously created by
 others. By sharing our own work, we pay forward, making what we learned
 available in the hopes that others might benefit.
 
-
+### Interactive Media Program Learning Outcomes
+Upon completion of the major in Interactive Media at NYU Abu Dhabi, all students are expected to have fulfilled the following:
+1. Research and Understanding: IM students will cultivate a substantive understanding of the past, present, and future landscape of Interactive Media.
+2. Analytical Thinking: IM students will be challenged to answer fundamental questions relating to the field of Interactive Media.
+3. Conceptual Thinking: IM students will develop conceptual skills through the use of computational and interactive media tools to create project-based work and project oriented research.
+4. Critical Thinking: IM students will refine their critical thinking skills by analyzing and critiquing work in cultural, social, historical, ethical, and aesthetic contexts.
+5. Technical Implementation: IM students will cultivate technical skills with contemporary media technologies to execute their coursework.
+6. Creative Processes: IM students will gain the ability to explore, innovate, and realize creative ideas in multiple fields of inquiry and interest.
+7. Organization and Communication: IM students will develop professional practices of delivering and sharing their work.
+8. Collaboration: IM Students will gain experience in collaboration through active participation in group and team-based work.
