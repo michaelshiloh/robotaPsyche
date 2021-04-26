@@ -449,4 +449,18 @@ Work on your final project, updating your journal as you go
 
 ### Week 13 April 26 28
 
+#### Assignments Due May 3
+
+Production Assignment:
+
+Final Project due, which is either
+- A program which uses association in some creative way and is properly
+	documented, following procedures established in this class
+- A paper on something that came up for you as a result of this class
+	- 5 pages, double spaced, 12 point font, excluding citations
+	- Proper citations
+
+The final project must be properly documented and must include 
+
 ### Week 13.5 May 3
+

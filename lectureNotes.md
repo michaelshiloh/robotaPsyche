@@ -2690,6 +2690,8 @@ Presentation: Shaurya: *Would computer-enhanced humans be a more practical appro
 ### Week 13
 ### April 26
 - Spring course evaluations
+- Discussion: *Little Lost Robot*
+- Final project progress
 ### April 28
 
 ### Week 13.5
