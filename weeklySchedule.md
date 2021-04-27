@@ -458,9 +458,16 @@ Final Project due, which is either
 	documented, following procedures established in this class
 - A paper on something that came up for you as a result of this class
 	- 5 pages, double spaced, 12 point font, excluding citations
-	- Proper citations
-
-The final project must be properly documented and must include 
+	- Citations must follow one of the following guides:
+		- OWL (stands for Online Writing Lab) at Purdue. This resource has 
+			been around forever, is known to be authoritative, and is recommended
+			by our library who find it very easy to use. The guide demonstrates 
+			in-text citations and works cited pages, with sample papers included. 
+			Their MLA guide is
+			[here](https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_general_format.html) 
+			and their APA guide is
+			[here](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html). 
+		- [NYU Citation Style Guide](https://guides.nyu.edu/citations)
 
 ### Week 13.5 May 3
 
