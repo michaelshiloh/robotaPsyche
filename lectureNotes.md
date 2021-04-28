@@ -2676,7 +2676,6 @@ Presentation: Shaurya: *Would computer-enhanced humans be a more practical appro
 
 ### Week 12
 ### April 19
-##### todays-lecture
 ##### Administration
 - Record 
 
@@ -2692,7 +2691,11 @@ Presentation: Shaurya: *Would computer-enhanced humans be a more practical appro
 - Spring course evaluations
 - Discussion: *Little Lost Robot*
 - Final project progress
+
+##### todays-lecture
 ### April 28
+- Course evaluations
+- Final project progress
 
 ### Week 13.5
 ### May 3

@@ -468,6 +468,10 @@ Final Project due, which is either
 			and their APA guide is
 			[here](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html). 
 		- [NYU Citation Style Guide](https://guides.nyu.edu/citations)
+	- You might also find [this](https://www.zotero.org/) 
+		"personal research assistant" useful to collect,
+		organize, and generate citations from your sources. It is recommended for
+		IM capstone papers.
 
 ### Week 13.5 May 3
 
