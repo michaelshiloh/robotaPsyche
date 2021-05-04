@@ -456,6 +456,7 @@ Production Assignment:
 Final Project due, which is either
 - A program which uses association in some creative way and is properly
 	documented, following procedures established in this class
+	- Documentation is due on Friday, 6 May, at 10am
 - A paper on something that came up for you as a result of this class
 	- 5 pages, double spaced, 12 point font, excluding citations
 	- Citations must follow one of the following guides:
@@ -472,6 +473,4 @@ Final Project due, which is either
 		"personal research assistant" useful to collect,
 		organize, and generate citations from your sources. It is recommended for
 		IM capstone papers.
-
-### Week 13.5 May 3
 
