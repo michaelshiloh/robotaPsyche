@@ -28,7 +28,6 @@ Session: Spring 2021
 This document: Student Github repositories
 
 [Youssef](https://github.com/youssef-ahamid/robotaPsyche)    
-[Maria](https://github.com/mariaalkhaja/RobotaPsyche)  
 [Alpha](https://github.com/Alphaam/RobotaPsyche)    
 [Leo](https://github.com/leodunadan/RobotaPsyche)    
 [Katie](https://github.com/katieferreol/RobotaPsyche)    
@@ -41,3 +40,6 @@ This document: Student Github repositories
 [Fatima](https://github.com/FatimaAlmaazmi/RobotaPsyche)  
 [Shaurya](https://github.com/shaurya-io/RobotaPsyche)  
 [Pangna](https://github.com/pangnasun/RobotaPsyche)
+
+Dropped or transferred out:
+[Maria](https://github.com/mariaalkhaja/RobotaPsyche)  
