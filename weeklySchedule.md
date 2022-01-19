@@ -36,7 +36,7 @@ This includes:
 - Projects
 
 ### Week 1 (January 24, 26)
-Introductions, Getting Started, Review classes and arrays
+Introductions, getting started, review classes and pvectors
 
 #### Assignments Due January 26
 
@@ -46,7 +46,6 @@ Reading Assignment:
 1. Review the tutorials we mentioned in class
   - [Classes](https://github.com/michaelshiloh/simpleProcessingClassExample)
   - [PVectors](https://processing.org/tutorials/pvector/)
-  - [Transformations](https://processing.org/tutorials/transform2d/)
 
 Production Assignment:
 
