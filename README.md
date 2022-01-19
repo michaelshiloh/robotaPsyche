@@ -10,6 +10,6 @@ Student Github [repositories](studentRepositories.md)
 
 Student [presentations](studentPresentations.md)
 
-The current session is Spring 2021. 
+The current session is Spring 2022
 
 **This is subject to change**
