@@ -33,6 +33,8 @@ This document: Lecture Notes
 
 ### January 24
 
+#### Download Processing from [here](https://processing.org/download)
+
 #### Introduction
 
 - Who am I?
