@@ -328,7 +328,11 @@ Details will be provided in class
 
 #### Textbooks
 
-All required and supplemental textbooks will be provided by the library through NYU Classes.
+All required and supplemental textbooks will be provided by the library through NYU Brightspace. To access them follow these steps:
+1. Log in to nyu.bright
+2. Select the "Content" tab
+4. Click on the arrow in "External Resources" to show the list of available
+	 books
 Textbooks are listed
 [here](https://github.com/michaelshiloh/resourcesForClasses#resources-for-robota-psyche)
 
@@ -352,7 +356,7 @@ abide by the expectation of academic honesty.  The full policies and
 procedures relating to Academic Integrity may be found on the [NYUAD Student
 Portal](https://students.nyuad.nyu.edu/campus-life/student-policies/community-standards-policies/academic-integrity/)
 
-#### Online Journal
+#### Documentation
 
 Students must document all their work in their Github repository. This must
 include:
@@ -366,19 +370,15 @@ include:
 * drawings of mechanisms
 * highlight both successes and failures
 
-The purpose of the journal is threefold. First, it is a valuable way for you to communicate that you are keeping up with the work in the class and that you are grasping the material. I read the journals to see how you are doing. 
+Your papers will also be handed in on your Github repository
 
-Second, the journal is a way to document your work for your own use. You must
-update the journal each week with the work you have done for class. You should
-use the journal as an opportunity to write clearly write your thoughts,
-questions, and analysis based on the class assignments. The writing is
-expected to be well reasoned and grammatically correct. You should link to any
-relevant sources, and provide context, such as images, video or audio, when
-appropriate. 
+The writing is expected to be well reasoned and grammatically correct. You
+should link to any relevant sources, and provide context, such as images,
+video or audio, when appropriate. 
 
-Third, we all make extensive use of online resources generously created by
-others. By sharing our own work, we pay forward, making what we learned
-available in the hopes that others might benefit.
+We all make extensive use of online resources generously created by others. By
+sharing our own work, we pay forward, making what we learned available in the
+hopes that others might find it useful.
 
 ### Interactive Media Program Learning Outcomes
 Upon completion of the major in Interactive Media at NYU Abu Dhabi, all students are expected to have fulfilled the following:

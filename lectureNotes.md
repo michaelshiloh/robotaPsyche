@@ -47,8 +47,8 @@ This document: Lecture Notes
   - Allow lots of time for homework 
 		as debugging programs can be very time consuming.
 - All class material will be on this Github repository 
-	with the exception of some reading material which might be
-	accessible through the library or Brightspace
+	with the exception of some reading material which will be
+	accessible through the Brightspace
 - [weekly schedule](weeklySchedule.md)
 - This class is a work in progress; your input is crucial
 - Who are you?

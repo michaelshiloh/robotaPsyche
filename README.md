@@ -1,4 +1,5 @@
-Welcome to Robota Psyche! All class material can be found here. 
+Welcome to Robota Psyche! All class material can be found here with the
+exception of some reading material which will be available on Brightspace.  
 
 [Syllabus](syllabus.md)
 
