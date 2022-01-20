@@ -38,6 +38,7 @@ This includes:
 ### Week 1 (January 24, 26)
 Introductions, getting started, review classes and pvectors
 
+##### todays-assignment
 #### Assignments Due January 26
 
 All required and supplemental textbooks will be provided by the library through NYU Brightspace. To access them follow these steps:

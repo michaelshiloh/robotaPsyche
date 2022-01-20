@@ -31,6 +31,7 @@ This document: Lecture Notes
 
 ### Week 1
 
+##### todays-lecture
 ### January 24
 
 #### Download Processing from [here](https://processing.org/download). If you
