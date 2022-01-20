@@ -40,6 +40,14 @@ Introductions, getting started, review classes and pvectors
 
 #### Assignments Due January 26
 
+All required and supplemental textbooks will be provided by the library through NYU Brightspace. To access them follow these steps:
+1. Log in to nyu.bright
+1. Select the "Content" tab
+1. Note that some books are in the "Resources" tab and some are in "External Resources"
+1. Click on the arrow in "Resources" and then again in "Textbooks" to show the
+	 available books
+1. Click on the arrow in "External Resources" to show the available books
+
 Reading Assignment:
 1. Read the Forward, Introduction and Vehicles 1-3 in *Vehicles* (Braitenberg) 
   accessible through our NYU Classes portal under *Resources*

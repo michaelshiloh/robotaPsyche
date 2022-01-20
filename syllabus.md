@@ -330,9 +330,8 @@ Details will be provided in class
 
 All required and supplemental textbooks will be provided by the library through NYU Brightspace. To access them follow these steps:
 1. Log in to nyu.bright
-2. Select the "Content" tab
-4. Click on the arrow in "External Resources" to show the list of available
-	 books
+1. Select the "Content" tab
+1. Note that some books are in the "Resources" tab and some are in "External Resources" 
 Textbooks are listed
 [here](https://github.com/michaelshiloh/resourcesForClasses#resources-for-robota-psyche)
 

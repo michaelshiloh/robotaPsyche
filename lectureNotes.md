@@ -33,7 +33,8 @@ This document: Lecture Notes
 
 ### January 24
 
-#### Download Processing from [here](https://processing.org/download)
+#### Download Processing from [here](https://processing.org/download). If you
+prefer, you may use [p5.js](https://editor.p5js.org/)
 
 #### Introduction
 
