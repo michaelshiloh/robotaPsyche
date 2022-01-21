@@ -47,9 +47,14 @@ All required and supplemental textbooks will be provided by the library through 
 1. Note that some books are in the "Resources" tab and some are in "External Resources"
 1. Click on the arrow in "Resources" and then again in "Textbooks" to show the
 	 available books
-1. Click on the arrow in "External Resources" to show the available books
+1. External Resources are a little more complicated:
+1.1. Click on the arrow in "External Resources" to show the available books
+1.1. Select the book
+1.1. Click on "Open Link" to open in a new browser tab
+1.1. Select one of the "View Online" options.
 
 Reading Assignment:
+1. Watch [this](https://www.youtube.com/watch?v=A-fxij3zM7g) short introduction to Braitenberg vehicles. You may speed it up if you wish.
 1. Read the Forward, Introduction and Vehicles 1-3 in *Vehicles* (Braitenberg) 
   accessible through our NYU Classes portal under *Resources*
 1. Review the tutorials we mentioned in class
