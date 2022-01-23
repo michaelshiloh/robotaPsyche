@@ -54,6 +54,7 @@ All required and supplemental textbooks will be provided by the library through 
 1.1. Select one of the "View Online" options.
 
 Reading Assignment:
+
 1. Watch [this](https://www.youtube.com/watch?v=A-fxij3zM7g) short introduction to Braitenberg vehicles. You may speed it up if you wish.
 1. Read the Forward, Introduction and Vehicles 1-3 in *Vehicles* (Braitenberg) 
   accessible through our NYU Classes portal under *Resources*
@@ -73,3 +74,10 @@ Email Assignment:
 
 -	Email me a link to your repository for this class.
 
+#### Assignments Due January 31
+
+You will be writing a paper on a topic related to this class. 
+Your proposed topic is due on January 31.
+You might find
+[this](https://github.com/michaelshiloh/resourcesForClasses#resources-for-robota-psyche)
+list useful, or the readings in Brightspace, or you may chose something else.

@@ -34,7 +34,7 @@ This document: Lecture Notes
 ##### todays-lecture
 ### January 24
 
-#### Download Processing from [here](https://processing.org/download). If you
+Download Processing from [here](https://processing.org/download). If you
 prefer, you may use [p5.js](https://editor.p5js.org/)
 
 #### Introduction
@@ -52,7 +52,7 @@ prefer, you may use [p5.js](https://editor.p5js.org/)
 	with the exception of some reading material which will be
 	accessible through the Brightspace
 - [weekly schedule](weeklySchedule.md)
-- This class is a work in progress; your input is crucial
+- This class is a work in progress; your input is welcome and desired
 - Who are you?
 	- What attracted you to this class?
 	- If you could design an ideal robot friend, what would they be like?
@@ -66,4 +66,4 @@ prefer, you may use [p5.js](https://editor.p5js.org/)
 
 #### Homework
 
-- Look at homework
+- Look at homework which is always in [weeklySchedule.md](weeklySchedule.md)
