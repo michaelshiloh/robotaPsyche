@@ -1,5 +1,6 @@
-Shortcut to [today's lecture](lectureNotes.md/#todays-lecture)    
-Class [Zoom](https://nyu.zoom.us/j/97138428314)
+- Shortcut to [today's assignment](#todays-assignment)    
+- Class [Zoom](https://nyu.zoom.us/j/97138428314)
+- Shortcut to [today's lecture](lectureNotes.md/#todays-lecture)    
 
 ## New York University Abu Dhabi  
 ## Interactive Media Program
