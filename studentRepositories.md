@@ -35,4 +35,4 @@ This document: Student Github repositories
 - [Maitha](https://github.com/maithaalghfeli/RobotaPsyche)
 - [Brian](https://github.com/briankim113/RobotaPsyche)
 - [Badr](https://github.com/ubadr/RobotaPsyche)
-- [
+- [Yeji](https://github.com/yk1932/RobotaPsyche)
