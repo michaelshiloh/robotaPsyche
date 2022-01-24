@@ -48,10 +48,10 @@ All required and supplemental textbooks will be provided by the library through 
 1. Click on the arrow in "Resources" and then again in "Textbooks" to show the
 	 available books
 1. External Resources are a little more complicated:
-1.1. Click on the arrow in "External Resources" to show the available books
-1.1. Select the book
-1.1. Click on "Open Link" to open in a new browser tab
-1.1. Select one of the "View Online" options.
+	1.1. Click on the arrow in "External Resources" to show the available books
+	1.1. Select the book
+	1.1. Click on "Open Link" to open in a new browser tab
+	1.1. Select one of the "View Online" options.
 
 Reading Assignment:
 

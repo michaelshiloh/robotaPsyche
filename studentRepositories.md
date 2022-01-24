@@ -27,3 +27,10 @@ Session: Spring 2022
 
 This document: Student Github repositories
 
+- [Yiyang](https://github.com/XSeanU/RobotaPsyche)
+- [Benjamin](https://github.com/molarmanful/RobotaPsyche)
+- [Aakarsh](https://github.com/AakSin/robotaPsyche)
+- [Maitha](https://github.com/maithaalghfeli/RobotaPsyche)
+- [Brian](https://github.com/briankim113/RobotaPsyche)
+- [Badr](https://github.com/ubadr/RobotaPsyche)
+- [
