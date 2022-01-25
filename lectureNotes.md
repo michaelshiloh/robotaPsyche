@@ -60,11 +60,6 @@ prefer, you may use [p5.js](https://editor.p5js.org/)
 - What is this class about?
 	- What is synthetic psychology?
 
-#### Review
-
-- [Classes](https://github.com/michaelshiloh/simpleProcessingClassExample)
-- [PVectors](https://processing.org/tutorials/pvector/)
-
 #### Homework
 
 - Look at homework which is always in [weeklySchedule.md](weeklySchedule.md)
@@ -81,3 +76,12 @@ prefer, you may use [p5.js](https://editor.p5js.org/)
 	find that meeting recording in Brightspace. However you can access
 	the first meeting recording
 	[here](https://nyu.zoom.us/rec/share/tQRkXacgvLkqUDX6ad8ynEdxvA9r6r4ykmuTULpRTFogmlWFajUc7UPNm7gM-CtC.GV4Cue80NDdWXG3i)
+
+#### Questions
+
+Did the readings inspire any questions?
+
+#### Review
+
+- [Object Oriented Programming](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/p5jsSketches/simpleP5jsClassExample)
+- [PVectors](https://processing.org/tutorials/pvector/)
