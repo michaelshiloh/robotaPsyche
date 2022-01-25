@@ -1,5 +1,5 @@
 
-- Class [Zoom](https://nyu.zoom.us/j/97138428314)
+- Class [Zoom](https://nyu.zoom.us/j/98342686561)
 - Shortcut to [today's assignment](weeklySchedule.md/#todays-assignment)    
 - Shortcut to [today's lecture](lectureNotes.md/#todays-lecture)    
 
@@ -33,7 +33,6 @@ This document: Lecture Notes
 
 ### Week 1
 
-##### todays-lecture
 ### January 24
 
 Download Processing from [here](https://processing.org/download). If you
@@ -69,3 +68,16 @@ prefer, you may use [p5.js](https://editor.p5js.org/)
 #### Homework
 
 - Look at homework which is always in [weeklySchedule.md](weeklySchedule.md)
+
+##### todays-lecture
+### January 26
+
+#### Announcements
+
+- I made a mistake and had to change the Zoom meeting URL. I have updated all
+	the pages on Github with the new Zoom URL which is
+	[this](https://nyu.zoom.us/j/98342686561)
+- Since the first meeting was with the old link, you won't be able to
+	find that meeting recording in Brightspace. However you can access
+	the first meeting recording
+	[here](https://nyu.zoom.us/rec/share/tQRkXacgvLkqUDX6ad8ynEdxvA9r6r4ykmuTULpRTFogmlWFajUc7UPNm7gM-CtC.GV4Cue80NDdWXG3i)
