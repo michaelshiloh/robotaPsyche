@@ -42,3 +42,4 @@ This document: Student Github repositories
 - [Abdul](https://github.com/asgomda/robotaPsyche)
 - [Snehil](https://github.com/Snehil16/RobotaPsyche)
 - [Sarah](https://github.com/sarahalyahya/robotapsyche)
+- [Sonya](https://github.com/yaya1721/robota_psyche)
