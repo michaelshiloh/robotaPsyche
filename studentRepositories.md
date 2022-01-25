@@ -46,3 +46,4 @@ This document: Student Github repositories
 - [Genie](https://github.com/FairyyGenie/RobotPsyche)
 - [Hassan]( https://github.com/hassanhamdani/RobotaPsyche)
 - [Ehtisham](https://github.com/ehtishamoas/RobotaPsyche)
+- [Adina](https://github.com/renaidn/Robota-Psyche)
