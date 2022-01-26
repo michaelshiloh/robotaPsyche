@@ -15,6 +15,9 @@ Student Github [repositories](studentRepositories.md)
 
 Student [presentations](studentPresentations.md)
 
+A [collection](references.md) of articles, books, movies, and talks related to
+this class
+
 The current session is Spring 2022
 
 **This is subject to change**
