@@ -84,4 +84,4 @@ Did the readings inspire any questions?
 #### Review
 
 - [Object Oriented Programming](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/p5jsSketches/simpleP5jsClassExample)
-- [PVectors](https://processing.org/tutorials/pvector/)
+- [PVectors](https://natureofcode.com/book/)
