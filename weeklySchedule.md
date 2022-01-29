@@ -101,6 +101,7 @@ Reading:
 1. [Do Large language models understand
 	 us?](https://medium.com/@blaisea/do-large-language-models-understand-us-6f881d6d8e75)
 1.  [Introduction](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/godsAndRobots/%255BGods%2520and%2520Robots%255D%2520INTRODUCTION.%2520MADE%252C%2520NOT%2520BORN.pdf) to *Gods and Robots*
-1.  [Preface]((https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theMachineQuestion/preface.pdf) and 
-1. [Introduction]((https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theMachineQuestion/introduction.pdf)
+1.  [Preface](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theMachineQuestion/preface.pdf) 
+to The Machine Question
+1. [Introduction](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theMachineQuestion/introduction.pdf)
 to The Machine Question
