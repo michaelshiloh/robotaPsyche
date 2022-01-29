@@ -88,14 +88,6 @@ shiffman's [Object Oriented
   Programming](https://www.youtube.com/watch?v=YcbcfkLzgvs&list=PLRqwX-V7Uu6bb7z2IJaTlzwzIg_5yvL4i)
   tutorials.
 
-Writing:
-
-1. You will be writing a paper on a topic related to this class.  Your
-	 proposed topic is due on January 31.  You might find
-	 [this](https://github.com/michaelshiloh/resourcesForClasses#resources-for-robota-psyche)
-	 list useful, or the readings in Brightspace, or you may chose something
-	 else.
-
 Reading:
 
 1. [Do Large language models understand
@@ -105,3 +97,12 @@ Reading:
 to The Machine Question
 1. [Introduction](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theMachineQuestion/introduction.pdf)
 to The Machine Question
+
+Writing:
+
+1. You will be writing a paper on a topic related to this class.  Your
+	 proposed topic is due on January 31.  You might find
+	 [this](https://github.com/michaelshiloh/resourcesForClasses#resources-for-robota-psyche)
+	 list useful, or the readings in Brightspace, or you may chose something
+	 else.
+
