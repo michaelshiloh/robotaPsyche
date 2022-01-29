@@ -40,7 +40,6 @@ This includes:
 ### Week 1 (January 24, 26)
 Introductions, getting started, review classes and pvectors
 
-##### todays-assignment
 #### Assignments Due January 26
 
 All required and supplemental textbooks will be provided by the library through NYU Brightspace. To access them follow these steps:
@@ -76,10 +75,33 @@ Email Assignment:
 
 -	Email me a link to your repository for this class.
 
+##### todays-assignment
 #### Assignments Due January 31
 
-You will be writing a paper on a topic related to this class. 
-Your proposed topic is due on January 31.
-You might find
-[this](https://github.com/michaelshiloh/resourcesForClasses#resources-for-robota-psyche)
-list useful, or the readings in Brightspace, or you may chose something else.
+Review:
+
+- If you feel you need to review functions watch Dan
+Shiffman's [functions](https://www.youtube.com/watch?v=XCu7JSkgl04&list=PLRqwX-V7Uu6ajGB2OI3hl5DZsD1Fw1WzR) tutorials.
+There are four videos, each less than 10 minutes.
+- If you feel you need to review classes, watch at least the first four of Dan
+shiffman's [Object Oriented
+  Programming](https://www.youtube.com/watch?v=YcbcfkLzgvs&list=PLRqwX-V7Uu6bb7z2IJaTlzwzIg_5yvL4i)
+  tutorials.
+
+Writing:
+
+1. You will be writing a paper on a topic related to this class.  Your
+	 proposed topic is due on January 31.  You might find
+	 [this](https://github.com/michaelshiloh/resourcesForClasses#resources-for-robota-psyche)
+	 list useful, or the readings in Brightspace, or you may chose something
+	 else.
+1. Read [Do Large language models understand
+	 us?](https://medium.com/@blaisea/do-large-language-models-understand-us-6f881d6d8e75)
+
+Reading:
+
+1.  [Introduction](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/godsAndRobots/%255BGods%2520and%2520Robots%255D%2520INTRODUCTION.%2520MADE%252C%2520NOT%2520BORN.pdf) to *Gods and Robots*
+1.
+[Preface]((https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theMachineQuestion/preface) and 
+[Introduction]((https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theMachineQuestion/introduction)
+to The Machine Question
