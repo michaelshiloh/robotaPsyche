@@ -107,7 +107,7 @@ Writing:
 	 else.
     1. Make a new folder called `january31`
     1. Put your proposal in a README.md in that new folder
-      1. Instrcutions for making a new folder are 
-        [here](https://github.com/michaelshiloh/resourcesForClasses#github-resources)
+        1.    Instrcutions for making a new folder are 
+              [here](https://github.com/michaelshiloh/resourcesForClasses#github-resources)
     1. Your proposal should be a markdown file; not pdf, word, or anything else
 
