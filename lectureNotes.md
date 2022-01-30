@@ -64,7 +64,6 @@ prefer, you may use [p5.js](https://editor.p5js.org/)
 
 - Look at homework which is always in [weeklySchedule.md](weeklySchedule.md)
 
-##### todays-lecture
 ### January 26
 
 #### Announcements
@@ -83,5 +82,25 @@ Did the readings (Vehicles) inspire any questions?
 
 #### Review
 
-- [Object Oriented Programming](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/p5jsSketches/simpleP5jsClassExample)
 - [PVectors](https://natureofcode.com/book/)
+
+##### todays-lecture
+### January 31
+
+#### Homework (maybe after the break)
+- Let's take a quick look at your ideas
+
+#### Review
+
+- [Object Oriented Programming](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/p5jsSketches/simpleP5jsClassExample)
+
+- [PVectors](https://natureofcode.com/book/)
+	- I think we got to vector subtraction, and the example that draws
+		a line from center of the canvas to the mouse
+	- Continue with Vector multiplication (and division)
+	- 1.5 Vector Magnitude
+	- 1.6 Normalizing Vectors
+- Finally let's put this to use
+	- 1.7 Vector Motion: Velocity (we looked at this last week)
+	- 1.8 Vector Motion: Acceleration
+	- 1.9 Static vs. Non-Static Functions
