@@ -1,5 +1,5 @@
 
-- Class [Zoom](https://nyu.zoom.us/j/98342686561)
+- Class [Zoom](https://nyu.zoom.us/j/92332634151)
 - Shortcut to [today's assignment](weeklySchedule.md/#todays-assignment)    
 - Shortcut to [today's lecture](lectureNotes.md/#todays-lecture)    
 
@@ -86,6 +86,20 @@ Did the readings (Vehicles) inspire any questions?
 
 ##### todays-lecture
 ### January 31
+
+#### Announcements
+
+- I made a mistake **again**and had to change the Zoom meeting URL. 
+	I have updated all
+	the pages on Github with the new Zoom URL which is
+	[this](https://nyu.zoom.us/j/92332634151)
+- Since the first **and second**
+	meeting was with the old link, you won't be able to
+	find that meeting recording in Brightspace. 
+	- You can access the first meeting recording
+	[here](https://nyu.zoom.us/rec/share/tQRkXacgvLkqUDX6ad8ynEdxvA9r6r4ykmuTULpRTFogmlWFajUc7UPNm7gM-CtC.GV4Cue80NDdWXG3i)
+	- You can access the second meeting recording
+	[here](https://nyu.zoom.us/rec/play/d9_XmF2KN0wsrsEqFM3tRGX8d-0FFoZnqoEe56Hy8StgeHqdmbbKeHq8NHC8B4MRcCc4Ehy5RX8zim8J.i6GxNEJkcjl959_T)
 
 #### Homework (maybe after the break)
 - Let's take a quick look at your ideas

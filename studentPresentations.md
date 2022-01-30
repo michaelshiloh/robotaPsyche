@@ -1,4 +1,5 @@
-- Class [Zoom](https://nyu.zoom.us/j/98342686561)
+
+- Class [Zoom](https://nyu.zoom.us/j/92332634151)
 - Shortcut to [today's assignment](weeklySchedule.md/#todays-assignment)    
 - Shortcut to [today's lecture](lectureNotes.md/#todays-lecture)    
 
