@@ -33,7 +33,7 @@ This document: Student Presentations
 
 **Student Presentations**
 
-- February 9: Liyang
+- February 9: Yiyang
 - February 14: Brian
 - February 16: Benjamin
 - February 21: Sarah
