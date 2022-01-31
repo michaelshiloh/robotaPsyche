@@ -33,3 +33,27 @@ This document: Student Presentations
 
 **Student Presentations**
 
+- February 9: Liyang
+- February 14: Brian
+- February 16: Benjamin
+- February 21: Sarah
+- February 23: Adina
+- February 28: Abdul
+- March 2: Chinonyerem
+- March 7: (midterm project)
+- March 9: (midterm project)
+- March 23: Hassan
+- March 28: Sonya
+- March 30: Snehil
+- April 4: Genie
+- April 6: Maitha
+- April 11: Ehtisham
+- April 13: Fatima
+- April 18: Yeji
+- April 20: Phillip
+- April 25: Badr
+- April 27: Jiayi
+- May 5: (final project)
+- May 9: (final project)
+- May 11: (final project)
+

@@ -112,6 +112,21 @@ Writing:
 
 
 ##### todays-assignment
-#### Assignments Due February 2? 7?
-presentation
-discussions
+#### Assignments Due February 2
+
+In class today we finished learning about PVectors and saw an example of how 
+we could create an array of objects (movers, bugs, robots, etc.) that would
+each be governed by the same set of rules, but each object would respond in
+slightly different ways. Think about other movers you might define and what
+rules would govern them. No writing is necessary.
+
+#### Assignments Due February 9
+Starting on February 9 we will have one presentations and reading discussions:
+- Monday: One presentation and one reading discussion
+- Wednesday: One presentation
+
+Guidelines for presentations:
+- About 15 minutes long
+- Must include discussion points or questions
+- Following the presentation will be about 5 minutes of discussion
+- Schedule for presentations is [here](studentPresentations.md)

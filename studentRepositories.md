@@ -31,7 +31,6 @@ This document: Student Github repositories
 
 - [Yiyang](https://github.com/XSeanU/RobotaPsyche)
 - [Benjamin](https://github.com/molarmanful/RobotaPsyche)
-- [Aakarsh](https://github.com/AakSin/robotaPsyche)
 - [Maitha](https://github.com/maithaalghfeli/RobotaPsyche)
 - [Brian](https://github.com/briankim113/RobotaPsyche)
 - [Badr](https://github.com/ubadr/RobotaPsyche)
@@ -48,5 +47,4 @@ This document: Student Github repositories
 - [Ehtisham](https://github.com/ehtishamoas/RobotaPsyche)
 - [Adina](https://github.com/renaidn/Robota-Psyche)
 - [Phillip](https://github.com/cswpy/RobotaPsyche)
-
 - [Ahmad](https://github.com/AhmadAlmuhtadi/RobotaPsyche)
