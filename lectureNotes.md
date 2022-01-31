@@ -100,6 +100,11 @@ Did the readings (Vehicles) inspire any questions?
 	[here](https://nyu.zoom.us/rec/share/tQRkXacgvLkqUDX6ad8ynEdxvA9r6r4ykmuTULpRTFogmlWFajUc7UPNm7gM-CtC.GV4Cue80NDdWXG3i)
 	- You can access the second meeting recording
 	[here](https://nyu.zoom.us/rec/play/d9_XmF2KN0wsrsEqFM3tRGX8d-0FFoZnqoEe56Hy8StgeHqdmbbKeHq8NHC8B4MRcCc4Ehy5RX8zim8J.i6GxNEJkcjl959_T)
+- Next week we will start with discussions and presentations. 
+	- Discussions and presentations will be due on Wednesdays
+	- We will have two discussions and one presentation per meeting
+	- Mondays will be for lecture
+
 
 #### Homework (maybe after the break)
 - Let's take a quick look at your ideas

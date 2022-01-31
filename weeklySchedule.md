@@ -75,7 +75,6 @@ Email Assignment:
 
 -	Email me a link to your repository for this class.
 
-##### todays-assignment
 #### Assignments Due January 31
 
 Review:
@@ -111,3 +110,8 @@ Writing:
               [here](https://github.com/michaelshiloh/resourcesForClasses#github-resources)
     1. Your proposal should be a markdown file; not pdf, word, or anything else
 
+
+##### todays-assignment
+#### Assignments Due February 2? 7?
+presentation
+discussions
