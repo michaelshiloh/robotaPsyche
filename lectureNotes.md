@@ -218,7 +218,8 @@ class Mover {
 ##### todays-lecture
 ### February 2
 
-#### Announcements
+#### Admin
+- Record
 
 #### Homework 
 What ideas did you have for other movers 
