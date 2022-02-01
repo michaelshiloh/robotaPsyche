@@ -84,7 +84,6 @@ Did the readings (Vehicles) inspire any questions?
 
 - [PVectors](https://natureofcode.com/book/)
 
-##### todays-lecture
 ### January 31
 
 #### Announcements
@@ -215,3 +214,17 @@ class Mover {
 }
 
 ````
+
+##### todays-lecture
+### February 2
+
+#### Announcements
+
+#### Homework 
+What ideas did you have for other movers 
+and what rules would govern them?
+
+#### Adding forces to our simulation tools
+
+Jump down to 2.2 Forces and Processing—Newton’s Second Law as a Function in
+[chapter 2](https://natureofcode.com/book/chapter-2-forces/)
