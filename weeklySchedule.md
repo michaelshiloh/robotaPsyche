@@ -127,6 +127,13 @@ Starting on February 7 we will have one presentations and reading discussions:
 	- Except for February 7 we will only have a reading
 - Wednesday: One presentation
 
+Guidelines for presentations:
+- About 15 minutes long
+- Must include discussion points or questions
+- Following the presentation will be about 5 minutes of discussion
+- Schedule for presentations is [here](studentPresentations.md)
+	- Each pair of presenters will be added 2 weeks before they are due to speak
+
 #### Reading Assignment Due February 7
 
 - Introduction and the first story (Robbie) in [*I, Robot*](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/I_Robot.pdf) by Isaac Asimov 
@@ -134,9 +141,4 @@ Starting on February 7 we will have one presentations and reading discussions:
 
 #### Assignment Due February 9
 
-Guidelines for presentations:
-- About 15 minutes long
-- Must include discussion points or questions
-- Following the presentation will be about 5 minutes of discussion
-- Schedule for presentations is [here](studentPresentations.md)
-	- Yiyang to present
+- Yiyang to present
