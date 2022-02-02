@@ -131,8 +131,15 @@ Guidelines for presentations:
 - About 15 minutes long
 - Must include discussion points or questions
 - Following the presentation will be about 5 minutes of discussion
+- Each presenter will be selected 2 weeks before they are due to speak
 - Schedule for presentations is [here](studentPresentations.md)
-	- Each pair of presenters will be selected 1 week before they are due to speak
+
+Guidelines for discussion leaders:
+- Read closely, take notes, come up with questions and points
+- Meet with your partner, discuss, and try to answer each other’s questions
+- Come up with questions designed to engage the class 
+	in critical discussion of the readings.
+- Discussion leaders will be selected 1 week before their turn
 
 #### Reading Assignment Due February 7
 
