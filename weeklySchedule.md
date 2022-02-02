@@ -120,6 +120,11 @@ would each be governed by the same set of rules, but each object would respond
 in slightly different ways. Think about other movers you might define and what
 rules would govern them. No writing is necessary.
 
+#### Reading Assignment Due February 7
+
+- Introduction and the first two stories (Robbie and Runaround) in [*I, Robot*](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/I_Robot.pdf) by Isaac Asimov 
+	- Hassan and Sonya to lead
+
 #### Assignments Due February 9
 Starting on February 9 we will have one presentations and reading discussions:
 - Monday: One presentation and one reading discussion
@@ -130,7 +135,3 @@ Guidelines for presentations:
 - Must include discussion points or questions
 - Following the presentation will be about 5 minutes of discussion
 - Schedule for presentations is [here](studentPresentations.md)
-
-#### Reading assignment 
-- Introduction and the first two stories (Robbie and Runaround) in [*I, Robot*](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/I_Robot.pdf) by Isaac Asimov 
-	- Hassan and Sonya to lead
