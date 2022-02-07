@@ -215,7 +215,6 @@ class Mover {
 
 ````
 
-##### todays-lecture
 ### February 2
 
 #### Admin
@@ -229,3 +228,194 @@ and what rules would govern them?
 
 Jump down to 2.2 Forces and Processing—Newton’s Second Law as a Function in
 [chapter 2](https://natureofcode.com/book/chapter-2-forces/)
+
+
+##### todays-lecture
+### February 9
+
+#### Admin
+- Record
+
+#### Discussion
+- Casey Reas
+- Isaac Asimov
+
+#### Attractors
+
+We're going to skip over friction for now and introduce Attractors
+
+Jump down to 2.9 Gravitational Attraction
+
+````
+// The direction of the attraction force that object 1 exerts on object 2 
+PVector dir = PVector.sub(location1,location2);
+dir.normalize();
+````
+
+The magnitude, according to the gravitational force equation:
+
+````
+float magnitude  = (G * mass1 * mass2) / (distance * distance);
+````
+
+We had the distance after we did the subtraction, but before we did the
+normalization, so let's grab it and complete the calculation:
+
+````
+// The direction of the attraction force that object 1 exerts on object 2 
+PVector dir = PVector.sub(location1,location2); // Note use of static function!
+float distance = dir.magnitude(); // save the distance before we normalize dir
+
+// calculate the magnitude of the force
+float magnitude = (G * mass1 * mass2) / (distance * distance);
+
+// The force is a vector in the direction of *dir* of magnitude *magnitude*
+dir.normalize(); // normalize the direction
+dir.mult(magnitude); // now dir is actually the force so the name is misleading
+````
+
+Since the vector `dir` becomes the vector `force`, in the book they just call 
+it `force` from the beginning
+
+Next: implement an `Attractor` class!
+
+The attractor needs to tell us how much force it will exert on a mover:
+
+````
+PVector f = a.attract(m); // Force the attractor exerts on a mover
+m.applyForce(f); // Apply that force to the mover
+````
+
+And of course we have to implement that `Attractor.attract()` function.
+
+Once done we have:
+
+````
+// A Mover and an Attractor
+Mover m;
+Attractor a;
+
+void setup() {
+  size(640,360);
+  m = new Mover();
+  a = new Attractor();
+}
+
+void draw() {
+  background(255);
+
+  // Apply the attraction force from the Attractor on the Mover.
+  PVector force = a.attract(m);
+  m.applyForce(force);
+  m.update();
+
+  a.display();
+  m.display();
+}
+
+class Attractor {
+  float mass;
+  PVector location;
+  float G;
+
+  Attractor() {
+    location = new PVector(width/2,height/2);
+    mass = 20;
+    G = 0.4;
+  }
+
+  PVector attract(Mover m) {
+    PVector force = PVector.sub(location,m.location);
+    float distance = force.mag();
+    // Remember, we need to constrain the distance
+    // so that our circle doesn’t spin out of control.
+    distance = constrain(distance,5.0,25.0);
+
+
+    force.normalize();
+    float strength = (G * mass * m.mass) / (distance * distance);
+    force.mult(strength);
+    return force;
+  }
+
+  void display() {
+    stroke(0);
+    fill(175,200);
+    ellipse(location.x,location.y,mass*2,mass*2);
+  }
+}
+
+
+// Mover class copied from section 2.1:
+// with some modifications in checkEdges
+class Mover {
+
+  PVector location;
+  PVector velocity;
+  PVector acceleration;
+  // The object now has mass!
+  float mass;
+
+  Mover() {
+    // And for now, we’ll just set the mass equal to 1 for simplicity.
+    mass = 1;
+    location = new PVector(30,30);
+    velocity = new PVector(0,0);
+    acceleration = new PVector(0,0);
+  }
+
+  // Newton’s second law.
+  void applyForce(PVector force) {
+    //[full] Receive a force, divide by mass, and add to acceleration.
+    PVector f = PVector.div(force,mass);
+    acceleration.add(f);
+    //[end]
+  }
+
+  void update() {
+    //[full] Motion 101 from Chapter 1
+    velocity.add(acceleration);
+    location.add(velocity);
+    //[end]
+    // Now add clearing the acceleration each time!
+    acceleration.mult(0);
+  }
+
+  void display() {
+    stroke(0);
+    fill(175);
+    //[offset-down] Scaling the size according to mass.
+    ellipse(location.x,location.y,mass*16,mass*16);
+  }
+
+  // With this code an object bounces when it hits the edges of a window.
+	// Alternatively objects could vanish or reappear on the other side
+	// or reappear at a random location or other ideas
+
+  void checkEdges() {
+    if (location.x > width) {
+      location.x = width;
+      velocity.x *= -1;
+    } else if (location.x < 0) {
+      location.x = 0;
+      velocity.x *= -1;
+    }
+
+    if (location.y > height) {
+      location.y = height;
+      velocity.y *= -1;
+    } else if (location.y < 0) {
+      location.y = 0;
+      velocity.y *= -1;
+    }
+  }
+}
+
+````
+
+In-class exercises
+
+1. Move the Attractor with the mouse
+2. Add multiple movers
+3. Add a second Attractor
+4. Have the movers leave a trail behind them
