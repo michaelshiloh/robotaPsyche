@@ -69,8 +69,7 @@ prefer, you may use [p5.js](https://editor.p5js.org/)
 #### Announcements
 
 - I made a mistake and had to change the Zoom meeting URL. I have updated all
-	the pages on Github with the new Zoom URL which is
-	[this](https://nyu.zoom.us/j/98342686561)
+	the pages on Github with the new Zoom URL 
 - Since the first meeting was with the old link, you won't be able to
 	find that meeting recording in Brightspace. However you can access
 	the first meeting recording
@@ -90,8 +89,7 @@ Did the readings (Vehicles) inspire any questions?
 
 - I made a mistake **again**and had to change the Zoom meeting URL. 
 	I have updated all
-	the pages on Github with the new Zoom URL which is
-	[this](https://nyu.zoom.us/j/92332634151)
+	the pages on Github with the new Zoom URL 
 - Since the first **and second**
 	meeting was with the old link, you won't be able to
 	find that meeting recording in Brightspace. 
