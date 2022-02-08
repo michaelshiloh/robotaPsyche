@@ -215,9 +215,6 @@ class Mover {
 
 ### February 2
 
-#### Admin
-- Record
-
 #### Homework 
 What ideas did you have for other movers 
 and what rules would govern them?
@@ -227,12 +224,7 @@ and what rules would govern them?
 Jump down to 2.2 Forces and Processing—Newton’s Second Law as a Function in
 [chapter 2](https://natureofcode.com/book/chapter-2-forces/)
 
-
-##### todays-lecture
 ### February 9
-
-#### Admin
-- Record
 
 #### Discussion
 - Casey Reas
@@ -417,3 +409,273 @@ In-class exercises
 2. Add multiple movers
 3. Add a second Attractor
 4. Have the movers leave a trail behind them
+
+##### todays-lecture
+### February 11
+
+#### Admin
+- Record
+
+#### Presentation
+
+#### 2.10 Everything Attracts (or Repels) Everything
+
+In draw, we'd like to say “for every mover i, be attracted to every other mover j, and update and display yourself.”
+
+````
+void draw() {
+  background(255);
+
+  for (int i = 0; i < movers.length; i++) {
+    for (int j = 0; j < movers.length; j++) {
+      // Don’t attract yourself!
+      if (i != j) {
+        PVector force = movers[j].attract(movers[i]);
+        movers[i].applyForce(force);
+      }
+    }
+    movers[i].update();
+    movers[i].display();
+  }
+}
+````
+
+So we need to add an `attract()` method to the `Mover` class.
+But we already wrote such a method for the `Attractor` class, so just copy it!
+
+````
+class Mover {
+
+  // All the other stuff we had before plus. . .
+
+  // The Mover now knows how to attract another Mover.
+  PVector attract(Mover m) {
+
+    PVector force = PVector.sub(location,m.location);
+    float distance = force.mag();
+    distance = constrain(distance,5.0,25.0);
+    force.normalize();
+
+    float strength = (G * mass * m.mass) / (distance * distance);
+    force.mult(strength);
+    return force;
+  }
+}
+````
+
+What if we make vehicles unique in some way e.g. different colors, and what if
+we made them attracted to vehicles of the same color but repeled by vehicles
+of the other color?
+
+````
+// Movers and an Attractor
+Mover[] movers = new Mover[100];
+Attractor a;
+
+void setup() {
+  // I wanted to see what it looked like if it filled my screen (almost)
+  size(1800, 1000);
+
+  for (int i = 0; i < movers.length; i++) {
+    //[offset-down] Each Mover is initialized randomly.
+    movers[i] = new Mover(random(0.1, 2), // mass
+      random(width), random(height)); // initial location
+  }
+
+  a = new Attractor();
+}
+
+void draw() {
+  background(255);
+
+  for (int i = 0; i < movers.length; i++) {
+    for (int j = 0; j < movers.length; j++) {
+      // Don’t attract yourself!
+      if (i != j) {
+        PVector force = movers[j].attract(movers[i]);
+        movers[i].applyForce(force);
+      }
+    }
+    movers[i].update();
+    movers[i].checkEdges();
+    movers[i].display();
+  }
+}
+
+
+class Attractor {
+  float mass;
+  PVector location;
+  float G;
+
+  Attractor() {
+    location = new PVector(width/2, height/2);
+    mass = 50; // Big mass so its force is greater than vehicle-vehicle force
+    G = 0.4;
+  }
+
+  PVector attract(Mover m) {
+    PVector force = PVector.sub(location, m.location);
+    float distance = force.mag();
+    // Remember, we need to constrain the distance
+    // so that our vehicle doesn’t spin out of control.
+    distance = constrain(distance, 5.0, 25.0);
+
+    force.normalize();
+    float strength = (G * mass * m.mass) / (distance * distance);
+    force.mult(strength);
+    return force;
+  }
+
+  void display() {
+    stroke(0);
+    fill(175, 200);
+    ellipse(location.x, location.y, mass*2, mass*2);
+  }
+}
+
+
+// Mover class from Monday with modifications:
+// attract() method allows vehicles to attract or repel each other
+// myColor allows vehicles to be either red or blue
+// with some modifications in checkEdges
+class Mover {
+
+  PVector location;
+  PVector velocity;
+  PVector acceleration;
+  float mass;
+  float G = 0.4;
+  int myColor;
+
+  Mover(float _mass_, float _x_, float _y_) {
+    // And for now, we’ll just set the mass equal to 1 for simplicity.
+    mass = _mass_;
+    location = new PVector(_x_, _y_);
+    velocity = new PVector(0, 0);
+    acceleration = new PVector(0, 0);
+    myColor = round(random(1));
+  }
+
+  // Newton’s second law.
+  void applyForce(PVector force) {
+    //[full] Receive a force, divide by mass, and add to acceleration.
+    PVector f = PVector.div(force, mass);
+    acceleration.add(f);
+    //[end]
+  }
+
+  // The Mover now knows how to attract another Mover.
+  PVector attract(Mover m) {
+
+    PVector force = PVector.sub(location, m.location);
+    float distance = force.mag();
+    distance = constrain(distance, 5.0, 25.0);
+    force.normalize();
+
+    float strength = (G * mass * m.mass) / (distance * distance);
+    force.mult(strength);
+
+    // If the color is different then we will be repelled
+    if (myColor != m.myColor) force.mult(-1);
+    return force;
+  }
+
+
+  void update() {
+    velocity.add(acceleration);
+    location.add(velocity);
+    acceleration.mult(0);
+  }
+
+  void display() {
+    stroke(0);
+    if (myColor == 1) fill(255, 0, 0);
+    else fill (0, 0, 255);
+
+    // Rotate the mover to point in the direction of travel
+    // Translate to the center of the move
+    pushMatrix();
+    translate(location.x, location.y);
+    rotate(velocity.heading());
+    // It took lots of trial and error
+    // and sketching on paper
+    // to get the triangle
+    // pointing in the right direction
+    triangle(0, 5, 0, -5, 20, 0);
+    popMatrix();
+  }
+
+  // With this code an object bounces when it hits the edges of a window.
+  // Alternatively objects could vanish or reappear on the other side
+  // or reappear at a random location or other ideas. Also instead of
+  // bouncing at full-speed vehicles might lose speed. So many options!
+
+  void checkEdges() {
+    if (location.x > width) {
+      location.x = width;
+      velocity.x *= -1;
+    } else if (location.x < 0) {
+      location.x = 0;
+      velocity.x *= -1;
+    }
+
+    if (location.y > height) {
+      location.y = height;
+      velocity.y *= -1;
+    } else if (location.y < 0) {
+      location.y = 0;
+      velocity.y *= -1;
+    }
+  }
+}
+
+````
+
+The color is a quality of each vehicle. You can imagine all sorts of other
+qualities. Maybe some are rabbits, anothers are foxes; maybe some are outgoing
+and others are reclusive. Maybe some have a different maximum speed than
+others.
+Each vehicle might have a whole set of these
+qualities, which taken together might be considered a particular vehicle's
+DNA (it's not really the right use of the word but pretend). 
+
+What other qualities can you add to your vehicles, and how should they affect
+a vehicle's behavior?
+
+Later we will consider how vehicles might die off or reproduce, and this "DNA"
+might have a role to play in the newly-created vehicle.
+
+The Ecosystem Project from Chapter 1, with some modifications:
+
+The Ecosystem Project
+
+One way to use this book is to build a single
+project over the course of reading it, incorporating elements from each
+chapter one step at a time. We’ll follow the development of an example project
+throughout this book—a simulation of an ecosystem. Imagine a population of
+computational creatures swimming around a digital pond, interacting with each
+other according to various rules.
+
+Develop a set of rules for simulating the real-world behavior of a creature,
+such as a nervous fly, swimming fish, hopping bunny, slithering snake, etc.
+Give the creature a personality through its behavior and not through
+its visual design. 
+
+Think about how to get this behavior starting with the code example above.
+Start with only one simple behavior and get that to work
+well before you add anything else.
+
+Do your creatures have a limited lifespan? How would you implement this? 
+(Hint: There are some ideas in Chapter 4)
+What
+about hunger or energy level? If the creature is very hungry is it perhaps
+less careful or more aggressive about approaching food?
+
+Try introducing other
+elements into the environment (food, a predator) for the creature to interact
+with. Does the creature experience attraction or repulsion to things in its
+world? Can you think more abstractly and design forces based on the creature’s
+desires or goals?
+
+Next week: The Steering Force (Chapter 6)
