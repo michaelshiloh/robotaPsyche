@@ -145,6 +145,7 @@ Guidelines for discussion leaders:
 - Introduction and the first story (Robbie) in [*I, Robot*](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/I_Robot.pdf) by Isaac Asimov 
 	- Hassan and Sonya to lead
 - Watch Casey Reas' [Eyeo2012](https://vimeo.com/45851523) talk
+	- Sonya and Hassan to lead our discussion
 
 #### Assignment Due February 9
 
@@ -162,7 +163,7 @@ Man*](https://stream.nyu.edu/media/Star+Trek+TNG+-+The+Measure+of+a+Man/1_qjeerk
 - Read  [*No Woman Born*](https://hell.pl//agnus/anglistyka/2211/C.%20L.%20Moore%20-%20No%20Woman%20Born.pdf)
   by C. L. Moore
 
-- Sonya and Hassan to lead our discussion
+- Snehil and Genie to lead our discussion
 	- **Important**: I have revised the instructions in the syllabus. Please
 		read
 		[here](https://github.com/michaelshiloh/robotaPsyche/blob/main/syllabus.md#student-led-discussions)
