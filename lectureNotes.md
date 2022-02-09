@@ -473,7 +473,7 @@ void setup() {
   size(1800, 1000);
 
   for (int i = 0; i < movers.length; i++) {
-    //[offset-down] Each Mover is initialized randomly.
+    // Each Mover is initialized randomly.
     movers[i] = new Mover(random(0.1, 2), // mass
       random(width), random(height)); // initial location
   }
@@ -484,7 +484,16 @@ void setup() {
 void draw() {
   background(255);
 
+
+  // For each mover
   for (int i = 0; i < movers.length; i++) {
+
+    // This is the part that I forgot to add in class:
+    // Apply the attraction force from the Attractor on this mover
+    PVector aForce = a.attract(movers[i]);
+    movers[i].applyForce(aForce);
+
+    // Now apply the force from all the other movers on this mover
     for (int j = 0; j < movers.length; j++) {
       // Don’t attract yourself!
       if (i != j) {
@@ -506,7 +515,10 @@ class Attractor {
 
   Attractor() {
     location = new PVector(width/2, height/2);
-    mass = 50; // Big mass so its force is greater than vehicle-vehicle force
+
+    // Big mass so the force is greater than vehicle-vehicle force
+    // You can play with this number to see different results
+    mass = 70;
     G = 0.4;
   }
 
@@ -545,7 +557,6 @@ class Mover {
   int myColor;
 
   Mover(float _mass_, float _x_, float _y_) {
-    // And for now, we’ll just set the mass equal to 1 for simplicity.
     mass = _mass_;
     location = new PVector(_x_, _y_);
     velocity = new PVector(0, 0);
@@ -555,10 +566,9 @@ class Mover {
 
   // Newton’s second law.
   void applyForce(PVector force) {
-    //[full] Receive a force, divide by mass, and add to acceleration.
+    // Receive a force, divide by mass, and add to acceleration.
     PVector f = PVector.div(force, mass);
     acceleration.add(f);
-    //[end]
   }
 
   // The Mover now knows how to attract another Mover.
@@ -574,6 +584,7 @@ class Mover {
 
     // If the color is different then we will be repelled
     if (myColor != m.myColor) force.mult(-1);
+
     return force;
   }
 
@@ -610,21 +621,26 @@ class Mover {
   void checkEdges() {
     if (location.x > width) {
       location.x = width;
-      velocity.x *= -1;
+      velocity.x *= -1; // full velocity, opposite direction
+      velocity.x *= 0.8; // lose a bit of energy in the bounce
     } else if (location.x < 0) {
       location.x = 0;
-      velocity.x *= -1;
+      velocity.x *= -1; // full velocity, opposite direction
+      velocity.x *= 0.8; // lose a bit of energy in the bounce
     }
 
     if (location.y > height) {
       location.y = height;
-      velocity.y *= -1;
+      velocity.y *= -1; // full velocity, opposite direction
+      velocity.y *= 0.8; // lose a bit of energy in the bounce
     } else if (location.y < 0) {
       location.y = 0;
-      velocity.y *= -1;
+      velocity.y *= -1; // full velocity, opposite direction
+      velocity.y *= 0.8; // lose a bit of energy in the bounce
     }
   }
 }
+
 
 ````
 
