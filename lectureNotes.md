@@ -224,7 +224,7 @@ and what rules would govern them?
 Jump down to 2.2 Forces and Processing—Newton’s Second Law as a Function in
 [chapter 2](https://natureofcode.com/book/chapter-2-forces/)
 
-### February 9
+### February 7
 
 #### Discussion
 - Casey Reas
@@ -410,13 +410,9 @@ In-class exercises
 3. Add a second Attractor
 4. Have the movers leave a trail behind them
 
-##### todays-lecture
-### February 11
+### February 9
 
-#### Admin
-- Record
-
-#### Presentation
+#### Presentation 
 
 #### 2.10 Everything Attracts (or Repels) Everything
 
@@ -651,3 +647,10 @@ might have a role to play in the newly-created vehicle.
 #### Look at homework!
 
 Next week: The Steering Force (Chapter 6)
+
+##### todays-lecture
+### February 14
+
+#### Admin
+- Record
+- Zoom in to make text larger
