@@ -111,7 +111,6 @@ Writing:
     1. Your proposal should be a markdown file; not pdf, word, or anything else
 
 
-##### todays-assignment
 #### Assignments Due February 2
 
 In class on Monday we finished learning about PVectors and saw an example of
@@ -149,4 +148,99 @@ Guidelines for discussion leaders:
 
 #### Assignment Due February 9
 
-- Yiyang to present
+- Presentation by Yiyang 
+
+##### todays-assignment
+#### Assignment Due February 14
+- Presentation by Brian
+
+#### Reading Assignment Due February 14
+- Read **Vehicle 4** in *Vehicles* (Braitenberg)
+- Watch the episode [*The Measure of A
+Man*](https://stream.nyu.edu/media/Star+Trek+TNG+-+The+Measure+of+a+Man/1_qjeerkgv) from
+*Star Trek: The Next Generation*
+- Read  [*No Woman Born*](https://hell.pl//agnus/anglistyka/2211/C.%20L.%20Moore%20-%20No%20Woman%20Born.pdf)
+  by C. L. Moore
+
+- Sonya and Hassan to lead our discussion
+	- **Important**: I have revised the instructions in the syllabus. Please
+		read
+		[here](https://github.com/michaelshiloh/robotaPsyche/blob/main/syllabus.md#student-led-discussions)
+
+#### Production Assignment Due February 14
+
+The Ecosystem Project from the book, with some modifications:
+
+One way to use this book is to build a single
+project over the course of reading it, incorporating elements from each
+chapter one step at a time. We’ll follow the development of an example project
+throughout this book—a simulation of an ecosystem. Imagine a population of
+computational creatures swimming around a digital pond, interacting with each
+other according to various rules.
+
+Develop a set of rules for simulating the real-world behavior of a creature,
+such as a nervous fly, swimming fish, hopping bunny, slithering snake, etc.
+Give the creature a personality through its behavior and not through
+its visual design. 
+
+Using the code example above as inspiration (or as a starting place),
+implement your creature.
+Start with only one simple behavior and get that to work
+well before you add anything else.
+
+Do your creatures have a limited lifespan? How would you implement this? 
+(Hint: There are some ideas in Chapter 4)
+What
+about hunger or energy level? If the creature is very hungry is it perhaps
+less careful or more aggressive about approaching food?
+
+Think about introducing other
+elements into the environment (food, a predator) for the creature to interact
+with. Does the creature experience attraction or repulsion to things in its
+world? Can you think more abstractly and design forces based on the creature’s
+desires or goals?
+
+**Document your work**
+
+- Take a short video or screen recording of your ecology in action
+- In your Github repository create a folder called `February14`
+- In that folder put your code with the proper `.pde` extension
+	- Your code should be well organized; have excellent names for variables,
+		functions, and classes; and have excellent comments
+- In that folder create a file `README.md`
+- Describe your project in README.md and include:
+  - A description of your concept and how you tried to implement it
+		- It is quite alright if you had to modify the concept
+		as you learned what you could and could not accomplish
+  - One or more screenshots of the outcome
+  - Major problems, if any, and solutions, if any
+  - Clever or difficult things you learned while implementing your ecology
+  - A link to the video
+
+
+#### Assignment Due February 16
+- Presentation by Benjamin
+
+##### Future assignments
+##### Future Presentation dates
+- February 21: Badr
+- February 23: Fatima
+- February 28: 
+- March 2: 
+- March 7: (midterm project)
+- March 9: (midterm project)
+- March 23: 
+- March 28: 
+- March 30: 
+- April 4: 
+- April 6:
+- April 11: 
+- April 13:
+- April 18: 
+- April 20:
+- April 25: 
+- April 27:
+- May 5: (final project)
+- May 9: (final project)
+- May 11: (final project)
+

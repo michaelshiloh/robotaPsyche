@@ -632,8 +632,10 @@ class Mover {
 
 ````
 
+
+
 The color is a quality of each vehicle. You can imagine all sorts of other
-qualities. Maybe some are rabbits, anothers are foxes; maybe some are outgoing
+qualities. Maybe some are rabbits, nothers are foxes; maybe some are outgoing
 and others are reclusive. Maybe some have a different maximum speed than
 others.
 Each vehicle might have a whole set of these
@@ -646,36 +648,6 @@ a vehicle's behavior?
 Later we will consider how vehicles might die off or reproduce, and this "DNA"
 might have a role to play in the newly-created vehicle.
 
-The Ecosystem Project from Chapter 1, with some modifications:
-
-The Ecosystem Project
-
-One way to use this book is to build a single
-project over the course of reading it, incorporating elements from each
-chapter one step at a time. We’ll follow the development of an example project
-throughout this book—a simulation of an ecosystem. Imagine a population of
-computational creatures swimming around a digital pond, interacting with each
-other according to various rules.
-
-Develop a set of rules for simulating the real-world behavior of a creature,
-such as a nervous fly, swimming fish, hopping bunny, slithering snake, etc.
-Give the creature a personality through its behavior and not through
-its visual design. 
-
-Think about how to get this behavior starting with the code example above.
-Start with only one simple behavior and get that to work
-well before you add anything else.
-
-Do your creatures have a limited lifespan? How would you implement this? 
-(Hint: There are some ideas in Chapter 4)
-What
-about hunger or energy level? If the creature is very hungry is it perhaps
-less careful or more aggressive about approaching food?
-
-Try introducing other
-elements into the environment (food, a predator) for the creature to interact
-with. Does the creature experience attraction or repulsion to things in its
-world? Can you think more abstractly and design forces based on the creature’s
-desires or goals?
+#### Look at homework!
 
 Next week: The Steering Force (Chapter 6)

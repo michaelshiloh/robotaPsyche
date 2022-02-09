@@ -231,10 +231,12 @@ Instructions to participants:
 
 Instructions to leader:
 
-You have 15 minutes. Allow 3-5 minutes at the end to wrap up, so
-divide the remaining 12-15 minutes into your questions or topics (say
+**Do not summarize the reading**. Your job is to 
+get the class to engage critically with the material.
+You have 20 minutes. Allow a few minutes at the end to wrap up, so
+divide the remaining time into your questions or topics (say
 2-5 minutes each) and move on to the next question or topic even if
-there are still hands raised Make sure you know what you think the key
+there are still hands raised. Make sure you know what you think the key
 points of the reading are, and what is important for everyone to take
 away from the reading.  Ask questions that engage the class fully in
 critical discussion of the readings. Lead people to the main points of
