@@ -222,11 +222,13 @@ desires or goals?
 #### Assignment Due February 16
 - Presentation by Benjamin
 
-##### Future assignments
+##### Future Discussion Leaders 
+- February 21: Maitha and Ehtisham
+
 ##### Future Presentation dates
 - February 21: Badr
 - February 23: Fatima
-- February 28: 
+- February 28: Sarah
 - March 2: 
 - March 7: (midterm project)
 - March 9: (midterm project)

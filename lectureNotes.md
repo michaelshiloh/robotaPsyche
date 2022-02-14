@@ -662,11 +662,499 @@ might have a role to play in the newly-created vehicle.
 
 #### Look at homework!
 
-Next week: The Steering Force (Chapter 6)
-
 ##### todays-lecture
 ### February 14
 
 #### Admin
 - Record
 - Zoom in to make text larger
+- Let's remember that his course is not merely technical. It is equally 
+important
+to engage with the philosophical, ethical, and psychological questions
+of what robots mean to the human experience. This means the readings,
+presentations, and discussions.
+- At first I scheduled everyone's presentations for the rest of the semester.
+Then, in conversation with other faculty, I felt that it was unfair that some
+had a much shorter time than others to prepare. So I removed that list and
+only scheduled 2 weeks in advance. However some of you had already read that
+first list and proactively planned when to write your presentation. Let's
+decide together what is fair and desirable. Options include:
+- Stay with it as it is
+	- Variation: Allow students to switch with classmates
+- Go back to the original list
+- Something else. Any suggestions?
+
+##### Agenda for today
+
+- Reading discussion
+- Presentation
+- Look at homework
+- Autonomous Agents and The Steering Force (Chapter 6)
+
+##### Autonomous Agents and The Steering Force (Chapter 6)
+
+Our robots are autonomous agents:
+
+- An autonomous agent has a limited ability to perceive environment.
+- An autonomous agent processes the information from its environment 
+	and calculates an action.
+	- In our case, an action is a force
+	- More specifically, a *steering* force
+	- There may be multiple goals in our environment (find food, avoid danger,
+		stay close to friends and hence multiple forces; as before, we will
+		combine all the forces 
+- An autonomous agent has no leader.
+
+- Action Selection: Seek, flee, follow a path, follow a flow field, flock with your neighbors, etc.
+Behavior: What sort of action should your robot take in order if
+it has love, fear, hunger, etc.?
+
+What is the Steering Force?
+
+- A Steering Force is the difference between a desired velocity (run away from
+	zombie) and our current velocity (heading towards the zombie). The steering
+	force works to change our velocity in the desired direction.
+	- steering force = desired velocity - current velocity
+	- `PVector steer = PVector.sub(desired,velocity);`
+
+###### Seeking: Our First Steering Force
+
+Our robot desires to move towards the target at maximum speed, we need to add
+this to our class:
+
+````
+class Vehicle {
+  PVector location;
+  PVector velocity;
+  PVector acceleration;
+  float maxspeed; // Maximum speed
+````
+
+so
+
+````
+PVector desired = PVector.sub(target,location);
+desired.normalize();
+desired.mult(maxspeed);
+````
+
+All together:
+
+````
+  void seek(PVector target) {
+    PVector desired = PVector.sub(target,location);
+    desired.normalize();
+    // Calculating the desired velocity
+    // to target at max speed
+    desired.mult(maxspeed);
+
+    // Reynolds’s formula for steering force
+    PVector steer = PVector.sub(desired,velocity);
+    // Using our physics model and applying the force
+    // to the object’s acceleration
+    applyForce(steer);
+  }
+````
+
+One further consideration: Our robot might have a limited ability to steer: is
+it small and nimble, or heavy and lumbering? 
+
+````
+class Vehicle {
+  PVector location;
+  PVector velocity;
+  PVector acceleration;
+  float maxspeed; // Maximum speed
+	float maxForce; // Maximum force that we can use for steering
+````
+
+And applying this limitation gives us:
+
+````
+void seek(PVector target) {
+	PVector desired = PVector.sub(target,location);
+	desired.normalize();
+	desired.mult(maxspeed);
+	PVector steer = PVector.sub(desired,velocity);
+
+	// Limit the magnitude of the steering force.
+	steer.limit(maxforce);
+
+	applyForce(steer);
+}
+````
+
+Here is a very simple example using the seeking force:
+
+````
+class Vehicle {
+
+  PVector location;
+  PVector velocity;
+  PVector acceleration;
+  // Additional variable for size
+  float r;
+  float maxforce;
+  float maxspeed;
+
+  Vehicle(float x, float y) {
+    acceleration = new PVector(0, 0);
+    velocity = new PVector(0, 0);
+    location = new PVector(x, y);
+    r = 3.0;
+    //[full] Arbitrary values for maxspeed and
+    // force; try varying these!
+    maxspeed = 4;
+    maxforce = 0.01;
+    //[end]
+  }
+
+  // Our standard “Euler integration” motion model
+  void update() {
+    velocity.add(acceleration);
+    velocity.limit(maxspeed);
+    location.add(velocity);
+    acceleration.mult(0);
+  }
+
+  // Newton’s second law; we could divide by mass if we wanted.
+  void applyForce(PVector force) {
+    acceleration.add(force);
+  }
+
+  // Our seek steering force algorithm
+  void seek(PVector target) {
+    PVector desired = PVector.sub(target, location);
+    desired.normalize();
+    desired.mult(maxspeed);
+    PVector steer = PVector.sub(desired, velocity);
+    steer.limit(maxforce);
+    applyForce(steer);
+  }
+
+  void display() {
+    // Vehicle is a triangle pointing in
+    // the direction of velocity; since it is drawn
+    // pointing up, we rotate it an additional 90 degrees.
+    float theta = velocity.heading() + PI/2;
+    fill(175);
+    stroke(0);
+    pushMatrix();
+    translate(location.x, location.y);
+    rotate(theta);
+    beginShape();
+    vertex(0, -r*2);
+    vertex(-r, r*2);
+    vertex(r, r*2);
+    endShape(CLOSE);
+    popMatrix();
+  }
+}
+
+PVector target = new PVector(0, 0);
+void mouseClicked() {
+  target.x = mouseX;
+  target.y = mouseY;
+}
+
+void draw() {
+  background(255);
+
+  // Draw the target
+  circle(target.x, target.y, 20);
+
+  // Now tell the vehicle to go there
+  v.seek(target);
+  v.update();
+  v.display();
+}
+
+Vehicle v;
+
+void setup() {
+  size (900, 900);
+
+  v = new Vehicle(width/2, height/2);
+}
+````
+
+###### Arriving: Our Second Steering Force
+
+We want to slow down when we are close to our target. 
+There are many ways to do this; let's say we want to go as
+fast as possible if we are further than 100 pixels, 
+and when closer than 100 pixels 
+we want our speed to be half the distance:
+
+````
+PVector arrive(PVector target) {
+
+	// First, calculate our desired velocity vector
+	PVector desired = PVector.sub(target,location);
+
+	// The distance is the magnitude of
+	// the vector pointing from location to target.
+	// Save this for later.
+	float d = desired.mag();
+
+	// As before, normalize the desired velocity vector
+	desired.normalize();
+
+	// Now apply the "arriving" logic
+
+	// If we are closer than 100 pixels...
+	if (d < 100) {
+
+		// ...set the magnitude
+		// according to how close we are.
+		float m = map(d,0,100,0,maxspeed);
+		desired.mult(m);
+
+	// Otherwise, proceed at full speed
+	} else {
+		desired.mult(maxspeed);
+	}
+
+	// The usual steering = desired - velocity
+	PVector steer = PVector.sub(desired,velocity);
+
+	// Limit to our maximum ability to steer
+	steer.limit(maxforce);
+
+	// and finally return it
+	return(steer);
+}
+````
+
+
+And here is is the seeking force integrated into last week's large program.
+I have replaced the attractive force with an arriving force:
+
+````
+// Movers and an Attractor
+Mover[] movers = new Mover[10];
+Attractor a;
+
+void setup() {
+  // I wanted to see what it looked like if it filled my screen (almost)
+  size(1800, 1000);
+
+  for (int i = 0; i < movers.length; i++) {
+    // Each Mover is initialized randomly.
+    movers[i] = new Mover(random(0.1, 2), // mass
+      random(width), random(height)); // initial location
+  }
+
+  a = new Attractor();
+}
+
+void draw() {
+  background(255);
+
+  // For each mover
+  for (int i = 0; i < movers.length; i++) {
+
+    // Calculate the attraction force from the Attractor on this mover
+    // PVector attractForce = a.attract(movers[i]);
+
+    // Calculate the arriving force
+    PVector arriveForce = movers[i].arrive(a.location);
+
+    // Apply the force
+    movers[i].applyForce(arriveForce);
+
+
+    // Now apply the force from all the other movers on this mover
+    for (int j = 0; j < movers.length; j++) {
+      // Don’t attract yourself!
+      if (i != j) {
+        PVector force = movers[j].attract(movers[i]);
+        movers[i].applyForce(force);
+      }
+    }
+    movers[i].update();
+    movers[i].checkEdges();
+    movers[i].display();
+  }
+}
+
+
+class Attractor {
+  float mass;
+  PVector location;
+  float G;
+
+  Attractor() {
+    location = new PVector(width/2, height/2);
+
+    // Big mass so the force is greater than vehicle-vehicle force
+    // You can play with this number to see different results
+    mass = 70;
+    G = 0.4;
+  }
+
+  PVector attract(Mover m) {
+    PVector force = PVector.sub(location, m.location);
+    float distance = force.mag();
+    // Remember, we need to constrain the distance
+    // so that our vehicle doesn’t spin out of control.
+    distance = constrain(distance, 5.0, 25.0);
+
+    force.normalize();
+    float strength = (G * mass * m.mass) / (distance * distance);
+    force.mult(strength);
+    return force;
+  }
+
+  void display() {
+    stroke(0);
+    fill(175, 200);
+    ellipse(location.x, location.y, mass*2, mass*2);
+  }
+}
+
+
+// Mover class from Monday with modifications:
+// attract() method allows vehicles to attract or repel each other
+// myColor allows vehicles to be either red or blue
+// with some modifications in checkEdges
+class Mover {
+
+  PVector location;
+  PVector velocity;
+  PVector acceleration;
+  float mass;
+  float G = 0.4;
+  int myColor;
+  float maxforce;
+  float maxspeed;
+
+  Mover(float _mass_, float _x_, float _y_) {
+    mass = _mass_;
+    location = new PVector(_x_, _y_);
+    velocity = new PVector(0, 0);
+    acceleration = new PVector(0, 0);
+    myColor = round(random(1));
+    maxspeed = 4;
+    maxforce = 0.1;
+  }
+
+  // Newton’s second law.
+  void applyForce(PVector force) {
+    // Receive a force, divide by mass, and add to acceleration.
+    PVector f = PVector.div(force, mass);
+    acceleration.add(f);
+  }
+
+  // The Mover now knows how to attract another Mover.
+  PVector attract(Mover m) {
+
+    PVector force = PVector.sub(location, m.location);
+    float distance = force.mag();
+    distance = constrain(distance, 5.0, 25.0);
+    force.normalize();
+
+    float strength = (G * mass * m.mass) / (distance * distance);
+    force.mult(strength);
+
+    // If the color is different then we will be repelled
+    if (myColor != m.myColor) force.mult(-1);
+
+    return force;
+  }
+
+
+  void update() {
+    velocity.add(acceleration);
+    velocity.limit(maxspeed);
+    location.add(velocity);
+    acceleration.mult(0);
+  }
+
+  void display() {
+    stroke(0);
+    if (myColor == 1) fill(255, 0, 0);
+    else fill (0, 0, 255);
+
+    // Rotate the mover to point in the direction of travel
+    // Translate to the center of the move
+    pushMatrix();
+    translate(location.x, location.y);
+    rotate(velocity.heading());
+    // It took lots of trial and error
+    // and sketching on paper
+    // to get the triangle
+    // pointing in the right direction
+    triangle(0, 5, 0, -5, 20, 0);
+    popMatrix();
+  }
+
+  // With this code an object bounces when it hits the edges of a window.
+  // Alternatively objects could vanish or reappear on the other side
+  // or reappear at a random location or other ideas. Also instead of
+  // bouncing at full-speed vehicles might lose speed. So many options!
+
+  void checkEdges() {
+    if (location.x > width) {
+      location.x = width;
+      velocity.x *= -1; // full velocity, opposite direction
+      velocity.x *= 0.8; // lose a bit of energy in the bounce
+    } else if (location.x < 0) {
+      location.x = 0;
+      velocity.x *= -1; // full velocity, opposite direction
+      velocity.x *= 0.8; // lose a bit of energy in the bounce
+    }
+
+    if (location.y > height) {
+      location.y = height;
+      velocity.y *= -1; // full velocity, opposite direction
+      velocity.y *= 0.8; // lose a bit of energy in the bounce
+    } else if (location.y < 0) {
+      location.y = 0;
+      velocity.y *= -1; // full velocity, opposite direction
+      velocity.y *= 0.8; // lose a bit of energy in the bounce
+    }
+  }
+
+  void seek(PVector target) {
+    PVector desired = PVector.sub(target, location);
+    desired.normalize();
+    desired.mult(maxspeed);
+    PVector steer = PVector.sub(desired, velocity);
+    steer.limit(maxforce);
+    applyForce(steer);
+  }
+
+  PVector arrive(PVector target) {
+    PVector desired = PVector.sub(target, location);
+
+    // The distance is the magnitude of
+    // the vector pointing from
+    // location to target.
+    float d = desired.mag();
+    desired.normalize();
+    // If we are closer than 100 pixels...
+    if (d < 100) {
+      //[full] ...set the magnitude
+      // according to how close we are.
+      float m = map(d, 0, 100, 0, maxspeed);
+      desired.mult(m);
+      //[end]
+    } else {
+      // Otherwise, proceed at maximum speed.
+      desired.mult(maxspeed);
+    }
+
+    // The usual steering = desired - velocity
+    PVector steer = PVector.sub(desired, velocity);
+    steer.limit(maxforce);
+    return(steer);
+  }
+}
+
+````
+
+We may want to add that if we are within a smaller radius for more than a
+certain amount of time we should stop. How do we do that?
+- How do we know that a certain amount of time has passed?
+- How do we stop?
