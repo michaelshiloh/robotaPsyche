@@ -226,23 +226,23 @@ desires or goals?
 - February 21: Maitha and Ehtisham
 
 ##### Future Presentation dates
-- February 21: Badr
-- February 23: Fatima
-- February 28: Sarah
-- March 2: 
+- February 21: Sarah
+- February 23: Adina
+- February 28: Abdul
+- March 2: Chinonyerem
 - March 7: (midterm project)
 - March 9: (midterm project)
-- March 23: 
-- March 28: 
-- March 30: 
-- April 4: 
-- April 6:
-- April 11: 
-- April 13:
-- April 18: 
-- April 20:
-- April 25: 
-- April 27:
+- March 23: Hassan
+- March 28: Sonya
+- March 30: Snehil
+- April 4: Genie
+- April 6: Maitha
+- April 11: Ehtisham
+- April 13: Fatima
+- April 18: Yeji
+- April 20: Phillip
+- April 25: Badr
+- April 27: Jiayi
 - May 5: (final project)
 - May 9: (final project)
 - May 11: (final project)
