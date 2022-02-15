@@ -942,8 +942,8 @@ PVector arrive(PVector target) {
 ````
 
 
-Here are the functions for both the seeking and arriving  behaviors integrated
-into last week's large program. 
+Below the functions for both the seeking and arriving  behaviors are
+integrated into last week's large program. 
 
 **Notes**
 - While both `seek()` and `arrive()` are present, only one is
@@ -952,8 +952,12 @@ use them in different circumstances.
 - The `attract()` function is also used, so the vehicles both 
 attract each other and also try to arrive at the target.
 - All three  behaviors return a force that is then applied in the `draw()`
-function.
+function. The order doesn't matter because the forces are added 
+and vector addition is *commutative*
 - The `Mover` class is now renamed to `Vehicle`.
+- The `Attractor` class is modified to follow the mouse
+- I have made the repulsive force quite strong so every so often a vehicle
+	is rejected from the attractor
 
 ````
 // Vehicles and a single Attractor
@@ -975,6 +979,10 @@ void setup() {
 
 void draw() {
   background(255);
+
+  // Now we have to update the attractor so that it follows the mouse
+  a.update();
+  a.display();
 
   // For each vehicle
   for (int i = 0; i < vehicle.length; i++) {
@@ -1009,12 +1017,19 @@ class Attractor {
   float G;
 
   Attractor() {
-    location = new PVector(width/2, height/2);
+    // Will be updated to the mouse location
+    location = new PVector(0,0);
 
     // Big mass so the force is greater than vehicle-vehicle force
     // You can play with this number to see different results
-    mass = 70;
+    mass = 20;
     G = 0.4;
+  }
+
+  // New function to have the Attractor follow the mouse
+  void update() {
+    location.x = mouseX;
+    location.y = mouseY;
   }
 
   PVector attract(Vehicle m) {
@@ -1079,8 +1094,8 @@ class Vehicle {
     float strength = (G * mass * m.mass) / (distance * distance);
     force.mult(strength);
 
-    // If the color is different then we will be repelled
-    if (myColor != m.myColor) force.mult(-1);
+    // If the color is different then we will be repelled strongly
+    if (myColor != m.myColor) force.mult(-15);
 
     return force;
   }
@@ -1150,18 +1165,17 @@ class Vehicle {
   PVector arrive(PVector target) {
     PVector desired = PVector.sub(target, location);
 
-    // The distance is the magnitude of
-    // the vector pointing from
-    // location to target.
+    // The distance is the magnitude of the vector pointing
+    // from location to target.
     float d = desired.mag();
     desired.normalize();
+
     // If we are closer than 100 pixels...
     if (d < 100) {
-      //[full] ...set the magnitude
+      //[ ...set the magnitude
       // according to how close we are.
       float m = map(d, 0, 100, 0, maxspeed);
       desired.mult(m);
-      //[end]
     } else {
       // Otherwise, proceed at maximum speed.
       desired.mult(maxspeed);
@@ -1173,7 +1187,6 @@ class Vehicle {
     return(steer);
   }
 }
-
 ````
 
 We may want to add that if we are within a smaller radius for more than a
