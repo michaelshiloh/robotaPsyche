@@ -662,12 +662,8 @@ might have a role to play in the newly-created vehicle.
 
 #### Look at homework!
 
-##### todays-lecture
 ### February 14
 
-#### Admin
-- Record
-- Zoom in to make text larger
 - Let's remember that his course is not merely technical. It is equally 
 important
 to engage with the philosophical, ethical, and psychological questions
@@ -689,6 +685,17 @@ decide together what is fair and desirable. Options include:
 - Reading discussion
 - Presentation
 - Look at homework
+
+### February 16
+##### todays-lecture
+
+#### Admin
+- Record
+- Zoom in to make text larger
+
+##### Agenda for today
+
+- Presentation
 - Autonomous Agents and The Steering Force (Chapter 6)
 
 ##### Autonomous Agents and The Steering Force (Chapter 6)
@@ -705,10 +712,6 @@ Our robots are autonomous agents:
 		combine all the forces 
 - An autonomous agent has no leader.
 
-- Action Selection: Seek, flee, follow a path, follow a flow field, flock with your neighbors, etc.
-Behavior: What sort of action should your robot take in order if
-it has love, fear, hunger, etc.?
-
 What is the Steering Force?
 
 - A Steering Force is the difference between a desired velocity (run away from
@@ -716,11 +719,20 @@ What is the Steering Force?
 	force works to change our velocity in the desired direction.
 	- steering force = desired velocity - current velocity
 	- `PVector steer = PVector.sub(desired,velocity);`
+- To be more 'lifelike', our steering forces are limited. An infinite steering
+	force would allow us to instantly change direction. 
+	Physical objects can't do that; due to their mass (inertia) it takes
+	awhile to steer from one direction to another.
+
+- There are many different actions we might describe: Seek, flee, follow a
+	path, follow a flow field, flock with your neighbors, etc.  Behavior: What
+	sort of action should your robot take in order if it has love, fear, hunger,
+	etc.?
 
 ###### Seeking: Our First Steering Force
 
-Our robot desires to move towards the target at maximum speed, we need to add
-this to our class:
+Our robot desires to move towards the target at the maximum speed of which it
+is capable. We need to add this to our class:
 
 ````
 class Vehicle {
@@ -730,7 +742,7 @@ class Vehicle {
   float maxspeed; // Maximum speed
 ````
 
-so
+to apply this to our desired velocity we normalize and multiply:
 
 ````
 PVector desired = PVector.sub(target,location);
@@ -756,8 +768,9 @@ All together:
   }
 ````
 
-One further consideration: Our robot might have a limited ability to steer: is
-it small and nimble, or heavy and lumbering? 
+How can we simulate the effect of the robot's mass on steering?
+Is it small and nimble, or heavy and lumbering? 
+We limit the steering force:
 
 ````
 class Vehicle {
@@ -784,7 +797,9 @@ void seek(PVector target) {
 }
 ````
 
-Here is a very simple example using the seeking force:
+Here is a very simple example using the seeking force. Note that I modified
+this a little from the book as I wanted to be consistent with what we did
+before: the action returns a force which is then applied in `draw()`:
 
 ````
 class Vehicle {
@@ -792,7 +807,6 @@ class Vehicle {
   PVector location;
   PVector velocity;
   PVector acceleration;
-  // Additional variable for size
   float r;
   float maxforce;
   float maxspeed;
@@ -802,11 +816,10 @@ class Vehicle {
     velocity = new PVector(0, 0);
     location = new PVector(x, y);
     r = 3.0;
-    //[full] Arbitrary values for maxspeed and
+    // Arbitrary values for maxspeed and
     // force; try varying these!
     maxspeed = 4;
     maxforce = 0.01;
-    //[end]
   }
 
   // Our standard “Euler integration” motion model
@@ -823,13 +836,14 @@ class Vehicle {
   }
 
   // Our seek steering force algorithm
-  void seek(PVector target) {
+  PVector seek(PVector target) {
     PVector desired = PVector.sub(target, location);
     desired.normalize();
     desired.mult(maxspeed);
     PVector steer = PVector.sub(desired, velocity);
     steer.limit(maxforce);
-    applyForce(steer);
+
+		return (steer);
   }
 
   void display() {
@@ -864,7 +878,8 @@ void draw() {
   circle(target.x, target.y, 20);
 
   // Now tell the vehicle to go there
-  v.seek(target);
+	PVector seek = v.seek(target);
+	v.applyForce(seek);
   v.update();
   v.display();
 }
