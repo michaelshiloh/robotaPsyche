@@ -942,8 +942,13 @@ PVector arrive(PVector target) {
 ````
 
 
-And here is is the seeking force integrated into last week's large program.
-I have replaced the attractive force with an arriving force:
+Here are the functions for both the seeking and arriving  behaviors integrated
+into last week's large program.  Note that while both are present, only one is
+used.  Your Vehicle class might contain a multitude of different actions and
+use them in different circumstances.
+
+Again, both behaviors return a force that is then applied in the `draw()`
+function.
 
 ````
 // Movers and an Attractor
