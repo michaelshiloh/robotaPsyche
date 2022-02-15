@@ -943,17 +943,17 @@ PVector arrive(PVector target) {
 
 
 Here are the functions for both the seeking and arriving  behaviors integrated
-into last week's large program. Note that while both are present, only one is
+into last week's large program. 
+
+**Notes**
+- While both `seek()` and `arrive()` are present, only one is
 used. Your Vehicle class might contain a multitude of different actions and
 use them in different circumstances.
-
-Note too that the `attract()` function is also used, so the vehicles both 
+- The `attract()` function is also used, so the vehicles both 
 attract each other and also try to arrive at the target.
-
-Again, both behaviors return a force that is then applied in the `draw()`
+- All three  behaviors return a force that is then applied in the `draw()`
 function.
-
-The `Mover` class is now renamed to `Vehicle`.
+- The `Mover` class is now renamed to `Vehicle`.
 
 ````
 // Vehicles and a single Attractor
