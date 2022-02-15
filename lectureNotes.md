@@ -943,25 +943,30 @@ PVector arrive(PVector target) {
 
 
 Here are the functions for both the seeking and arriving  behaviors integrated
-into last week's large program.  Note that while both are present, only one is
-used.  Your Vehicle class might contain a multitude of different actions and
+into last week's large program. Note that while both are present, only one is
+used. Your Vehicle class might contain a multitude of different actions and
 use them in different circumstances.
+
+Note too that the `attract()` function is also used, so the vehicles both 
+attract each other and also try to arrive at the target.
 
 Again, both behaviors return a force that is then applied in the `draw()`
 function.
 
+The `Mover` class is now renamed to `Vehicle`.
+
 ````
-// Movers and an Attractor
-Mover[] movers = new Mover[10];
+// Vehicles and a single Attractor
+Vehicle[] vehicle = new Vehicle[10];
 Attractor a;
 
 void setup() {
   // I wanted to see what it looked like if it filled my screen (almost)
   size(1800, 1000);
 
-  for (int i = 0; i < movers.length; i++) {
-    // Each Mover is initialized randomly.
-    movers[i] = new Mover(random(0.1, 2), // mass
+  for (int i = 0; i < vehicle.length; i++) {
+    // Each Vehicle is initialized randomly.
+    vehicle[i] = new Vehicle(random(0.1, 2), // mass
       random(width), random(height)); // initial location
   }
 
@@ -971,30 +976,29 @@ void setup() {
 void draw() {
   background(255);
 
-  // For each mover
-  for (int i = 0; i < movers.length; i++) {
+  // For each vehicle
+  for (int i = 0; i < vehicle.length; i++) {
 
-    // Calculate the attraction force from the Attractor on this mover
-    // PVector attractForce = a.attract(movers[i]);
+    // Calculate the attraction force from the Attractor on this vehicle
+    // PVector attractForce = a.attract(vehicle[i]);
 
     // Calculate the arriving force
-    PVector arriveForce = movers[i].arrive(a.location);
+    PVector arriveForce = vehicle[i].arrive(a.location);
 
     // Apply the force
-    movers[i].applyForce(arriveForce);
+    vehicle[i].applyForce(arriveForce);
 
-
-    // Now apply the force from all the other movers on this mover
-    for (int j = 0; j < movers.length; j++) {
+    // Now apply the force from all the other vehicle on this vehicle
+    for (int j = 0; j < vehicle.length; j++) {
       // Don’t attract yourself!
       if (i != j) {
-        PVector force = movers[j].attract(movers[i]);
-        movers[i].applyForce(force);
+        PVector force = vehicle[j].attract(vehicle[i]);
+        vehicle[i].applyForce(force);
       }
     }
-    movers[i].update();
-    movers[i].checkEdges();
-    movers[i].display();
+    vehicle[i].update();
+    vehicle[i].checkEdges();
+    vehicle[i].display();
   }
 }
 
@@ -1013,7 +1017,7 @@ class Attractor {
     G = 0.4;
   }
 
-  PVector attract(Mover m) {
+  PVector attract(Vehicle m) {
     PVector force = PVector.sub(location, m.location);
     float distance = force.mag();
     // Remember, we need to constrain the distance
@@ -1034,11 +1038,9 @@ class Attractor {
 }
 
 
-// Mover class from Monday with modifications:
-// attract() method allows vehicles to attract or repel each other
-// myColor allows vehicles to be either red or blue
-// with some modifications in checkEdges
-class Mover {
+// Vehicle class from last week with the addition of the
+// seek() and arrive() functions
+class Vehicle {
 
   PVector location;
   PVector velocity;
@@ -1049,7 +1051,7 @@ class Mover {
   float maxforce;
   float maxspeed;
 
-  Mover(float _mass_, float _x_, float _y_) {
+  Vehicle(float _mass_, float _x_, float _y_) {
     mass = _mass_;
     location = new PVector(_x_, _y_);
     velocity = new PVector(0, 0);
@@ -1066,8 +1068,8 @@ class Mover {
     acceleration.add(f);
   }
 
-  // The Mover now knows how to attract another Mover.
-  PVector attract(Mover m) {
+  // The Vehicle now knows how to attract another Vehicle.
+  PVector attract(Vehicle m) {
 
     PVector force = PVector.sub(location, m.location);
     float distance = force.mag();
@@ -1096,7 +1098,7 @@ class Mover {
     if (myColor == 1) fill(255, 0, 0);
     else fill (0, 0, 255);
 
-    // Rotate the mover to point in the direction of travel
+    // Rotate the vehicle to point in the direction of travel
     // Translate to the center of the move
     pushMatrix();
     translate(location.x, location.y);
