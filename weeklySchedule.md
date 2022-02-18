@@ -230,7 +230,7 @@ desires or goals?
 	- 1.1 Introduction
 	- 1.2 Agency
 	- 1.3 The Mechanisms of Exclusion
-	- Optionally, you may read the 
+- Optionally, you may also read the 
 	[Preface](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theMachineQuestion/preface.pdf)
 	and 
 	[Introduction](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theMachineQuestion/introduction.pdf)
