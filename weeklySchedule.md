@@ -151,7 +151,6 @@ Guidelines for discussion leaders:
 
 - Presentation by Yiyang 
 
-##### todays-assignment
 #### Assignment Due February 14
 - Presentation by Brian
 
@@ -222,8 +221,28 @@ desires or goals?
 #### Assignment Due February 16
 - Presentation by Benjamin
 
+##### todays-assignment
+#### Assignment Due February 21
+- Presentation by Sarah
+
+#### Reading Assignment Due February 21
+- Read in chapter 1 of [The Machine Question by David J. Gunkel]()
+	- 1.1 Introduction
+	- 1.2 Agency
+	- 1.3 The Mechanisms of Exclusion
+	- Optionally, you may read the Preface and Introduction for some interesting
+		background and context
+- Read sections 6.1 through 6.6 in [chapter 6](https://natureofcode.com/book/chapter-6-autonomous-agents/) of The Nature of Code
+- Maitha and Ehtisham will lead our discussion of the reading from 
+The Machine Question. We will not discuss the reading from The Nature of Code
+	- **Important**: I have revised the instructions in the syllabus. Please
+		read
+		[here](https://github.com/michaelshiloh/robotaPsyche/blob/main/syllabus.md#student-led-discussions)
+
+
 ##### Future Discussion Leaders 
 - February 21: Maitha and Ehtisham
+- February 23: Fatima and Yeji
 
 ##### Future Presentation dates
 - February 21: Sarah
