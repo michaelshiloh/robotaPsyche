@@ -226,12 +226,15 @@ desires or goals?
 - Presentation by Sarah
 
 #### Reading Assignment Due February 21
-- Read in chapter 1 of [The Machine Question by David J. Gunkel]()
+- Read in chapter 1 of [The Machine Question by David J. Gunkel](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theMachineQuestion/chapter1.pdf)
 	- 1.1 Introduction
 	- 1.2 Agency
 	- 1.3 The Mechanisms of Exclusion
-	- Optionally, you may read the Preface and Introduction for some interesting
-		background and context
+	- Optionally, you may read the 
+	[Preface](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theMachineQuestion/preface.pdf)
+	and 
+	[Introduction](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/theMachineQuestion/introduction.pdf)
+	for some interesting background and context
 - Read sections 6.1 through 6.6 in [chapter 6](https://natureofcode.com/book/chapter-6-autonomous-agents/) of The Nature of Code
 - Maitha and Ehtisham will lead our discussion of the reading from 
 The Machine Question. We will not discuss the reading from The Nature of Code.
