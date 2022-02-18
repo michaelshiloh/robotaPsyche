@@ -687,11 +687,6 @@ decide together what is fair and desirable. Options include:
 - Look at homework
 
 ### February 16
-##### todays-lecture
-
-#### Admin
-- Record
-- Zoom in to make text larger
 
 ##### Agenda for today
 
@@ -1193,3 +1188,479 @@ We may want to add that if we are within a smaller radius for more than a
 certain amount of time we should stop. How do we do that?
 - How do we know that a certain amount of time has passed?
 - How do we stop?
+
+### February 21
+##### todays-lecture
+
+#### Admin
+- Record
+- Zoom in to make text larger
+
+##### Agenda for today
+
+1. Presentation
+1. Discussion
+1. Perlin noise
+1. Flow Fields
+
+##### A little detour to Perlin noise
+
+````
+void draw() {
+  background(204);
+  float n = random(0, width);
+  line(n, 0, n, height);
+}
+````
+
+What if we wanted the line to move in a more organic, lifelike
+fashion? Organic things (e.g. butterflys, leaves blowing in the wind, clouds) 
+don't jump instantly from one place to another,
+they tend to move close to where they were last time
+
+````
+float offset = 0.0;
+
+void draw() {
+  background(204);
+  offset = offset + .01;
+  float n = noise(offset) * width;
+  line(n, 0, n, height);
+}
+````
+
+##### Flow fields
+
+A field of vectors which we might use in some way 
+- the scent of food 
+- slipperiness of the floor
+- slope of hills
+- aggressiveness of zombies
+- difficulty of classes that you might want to avoid
+- can you suggest other ideas?
+
+First we need an array of PVectors to store our field:
+
+````
+FlowField() {
+	pixelsPerSquare = 10;
+	// Total columns equals width divided by pixelsPerSquare.
+	cols = width/pixelsPerSquare;
+	// Total rows equals height divided by pixelsPerSquare.
+	rows = height/pixelsPerSquare;
+	field = new PVector[cols][rows];
+}
+````
+
+Now to create the force field, here are a couple of examples:
+
+````
+// A random force field
+for (int i = 0; i < cols; i++) {
+  for (int j = 0; j < rows; j++) {
+    field[i][j] = PVector.2D(); // generate a random PVector, unit length
+  }
+}
+````
+
+// A random field using Perlin noise, 
+// where the Perlin value is mapped to an angle
+// so it changes in a natural way
+float xoff = 0;
+for (int i = 0; i < cols; i++) {
+  float yoff = 0;
+  for (int j = 0; j < rows; j++) {
+
+    // Get the next value of Perlin noise 
+		// and map it to an angle 
+    float theta = map(noise(xoff,yoff), // generate a 2D Perlin value
+			0,1,  // Noise is always between 0 and 1
+			0,TWO_PI); // a full circle
+
+		// The cosine of the angle is our x value
+		// and the sine of the angle is our y value
+    field[i][j] = new PVector(cos(theta), sin(theta));
+
+    yoff += 0.1; // next y value
+  }
+  xoff += 0.1; // next x value
+}
+````
+
+Now the vehicle needs to know where it is in this force field:
+
+````
+int column = int(location.x/pixelsPerSquare);
+int row = int(location.y/pixelsPerSquare);
+````
+
+and our force field class should provide a method which return
+the force vector at that that location:
+
+````
+ PVector lookup(PVector lookup) {
+
+	// Using constrain()
+	int column = int(constrain(lookup.x/pixelsPerSquare, 0, cols-1));
+	int row = int(constrain(lookup.y/pixelsPerSquare, 0, rows-1));
+
+	// Note the use of copy() to ensure
+	// we return a copy of the PVector.
+	return field[column][row].copy();
+}
+````
+
+Next, let's make a vehicle follow it. How would we do that?
+
+````
+/*
+Create a flow field and then have a vehicle follow it
+
+ Michael Shiloh
+ February 10 2021
+
+ Based on examples from The Nature of Code by Daniel Shiffman
+
+ This code is in the public domain
+ */
+
+// The flow field class, more or less straight from the book
+// with the addition of the display() function and different
+// initialization options (each of which is from the book)
+class FlowField {
+
+  PVector[][] field;
+  int cols, rows;
+  int pixelsPerSquare; // Size of each square in the grid, in pixels
+
+  // Constructor takes the desired pixelsPerSquare
+  FlowField(int _res) {
+    pixelsPerSquare = _res;
+    cols = width/pixelsPerSquare;
+    rows = height/pixelsPerSquare;
+
+    // Declare the array of PVectors which will hold the field
+    field = new PVector[cols][rows];
+
+    // Initialize the field using one of the three options below
+    // or make up your own initialization function
+    // uniformFlowField();
+    // randomFlowField();
+    perlinFlowField();
+  }
+
+  // Pretty boring; all vectors point to the right
+  void uniformFlowField() {
+    for (int i = 0; i < cols; i++) {
+      for (int j = 0; j < rows; j++) {
+        field[i][j] = new PVector(1, 0); // pointing to the right
+      }
+    }
+  }
+
+  void randomFlowField() {
+    for (int i = 0; i < cols; i++) {
+      for (int j = 0; j < rows; j++) {
+        field[i][j] = PVector.random2D();
+      }
+    }
+  }
+
+  // Use perlin noise to determine the angle of each vector
+  void perlinFlowField() {
+
+    float xoff = 0;
+    for (int i = 0; i < cols; i++) {
+      float yoff = 0;
+      for (int j = 0; j < rows; j++) {
+
+        // Moving through the noise() space in two dimensions
+        // and mapping the result to an angle between 0 and 360
+        float theta = map(noise(xoff, yoff), 0, 1, 0, TWO_PI);
+
+        // Convert the angle (polar coordinate) to Cartesian coordinates
+        field[i][j] = new PVector(cos(theta), sin(theta));
+
+        // Move to neighboring noise in Y axis
+        yoff += 0.1;
+      }
+
+      // Move to neighboring noise in X axis
+      xoff += 0.1;
+    }
+  }
+
+  // Given a PVector which defines a location in the flow field,
+  // return a copy of the value of the flow field at that location
+  PVector lookup(PVector lookup) {
+
+    // Convert x and y values to row and column, and constrain
+    // to stay within the field
+    int column = int(constrain(lookup.x/pixelsPerSquare, 0, cols-1));
+    int row = int(constrain(lookup.y/pixelsPerSquare, 0, rows-1));
+
+    return field[column][row].copy();
+  }
+
+  // Display the flow field so we can see if it looks 
+	// like what we think it should
+  //
+  void display() {
+    for (int i = 0; i < cols; i++) {
+      for (int j = 0; j < rows; j++) {
+
+				// I needed this to see that my equations generated
+				// the right results
+        // print("col " + i + " row " + j + "  ");
+        // println(i*pixelsPerSquare, j*pixelsPerSquare, 
+					// field[i][j].x, field[i][j].y);
+
+        pushMatrix();
+
+        // This translates to the top left corner of the grid, but really
+        // it should center the vector in the middle of the grid
+        translate(i*resolution, j*resolution);
+
+        PVector f = field[i][j].copy();
+
+				// Make the arrow as big as a square
+        f.mult(resolution);
+
+				// Draw a line
+        line(0, 0, f.x, f.y);
+
+				// Put a little dot at the end
+        ellipse(f.x, f.y, 5, 5); // circle instead of arrow head
+
+        popMatrix();
+      }
+    }
+  }
+}
+
+// The vehicle class, more or less straight from the book
+class Vehicle {
+
+  PVector location;
+  PVector velocity;
+  PVector acceleration;
+  float r;
+  float maxforce;
+  float maxspeed;
+
+  Vehicle(float x, float y) {
+    acceleration = new PVector(0, 0);
+    velocity = new PVector(0, 0);
+    location = new PVector(x, y);
+    r = 3.0;
+    maxspeed = 4;
+    maxforce = 10;
+  }
+
+  // Update the velocity and location, 
+	// based on the acceleration generated by the steering force
+  void update() {
+    velocity.add(acceleration);
+    velocity.limit(maxspeed);
+    location.add(velocity);
+    acceleration.mult(0); // clear the acceleration for the next frame
+  }
+
+  // Newton’s second law; we could divide by mass if we wanted.
+  // If there are multiple forces (e.g. gravity, wind) we use
+  // this function for each one, and it is added to the acceleration
+  void applyForce(PVector force) {
+    acceleration.add(force);
+  }
+
+  /*
+  What follows are different steering algorithms. A vehicle
+   could use any one, and you could create addiotional ones.
+   Each algorithm calculates the steering force and then
+   applies it
+   */
+
+  // Calculate steering force to seek a target
+  void seek(PVector target) {
+    PVector desired = PVector.sub(target, location);
+    desired.normalize();
+    desired.mult(maxspeed);
+    PVector steer = PVector.sub(desired, velocity);
+    steer.limit(maxforce);
+    applyForce(steer);
+  }
+
+  // Calculate the steering force to follow a flow field
+  void follow(FlowField flow) {
+    // Look up the vector at that spot in the flow field
+    PVector desired = flow.lookup(location);
+    desired.mult(maxspeed);
+
+    // Steering is desired minus velocity
+    PVector steer = PVector.sub(desired, velocity);
+    steer.limit(maxforce);
+    applyForce(steer);
+  }
+
+  void display() {
+    // Vehicle is a triangle pointing in
+    // the direction of velocity; since it is drawn
+    // pointing up, we rotate it an additional 90 degrees.
+    float theta = velocity.heading() + PI/2;
+    fill(175);
+    stroke(0);
+    pushMatrix();
+    translate(location.x, location.y);
+    rotate(theta);
+    beginShape();
+    vertex(0, -r*2);
+    vertex(-r, r*2);
+    vertex(r, r*2);
+    endShape(CLOSE);
+    popMatrix();
+  }
+}
+
+/*
+Finally we can use these classes to make a vehicle and a flow field
+ and watch the vehicle follow the flow field
+ */
+
+FlowField f;
+Vehicle v;
+
+void setup() {
+  size (1200, 800);
+  f = new FlowField(15);
+  f.display(); // display the flow field
+
+  // put the vehicle in the middle
+  v = new Vehicle(width/2, height/2);
+}
+
+
+void draw() {
+
+  v.follow(f); // Apply the steering force to follow the flow field
+
+	// Update the velocity and location, based on the acceleration 
+	// generated by the steering force
+  v.update(); 
+
+  v.display(); // display the vehicle
+}
+````
+##### Field follows mouse
+
+How would we make a flow field that follows the mouse?
+
+````
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+````
+
+````
+void fieldFollowsMouse() {
+	for (int i = 0; i < cols; i++) {
+		for (int j = 0; j < rows; j++) {
+			// PVector of mouse location
+			PVector mouseAt = new PVector(mouseX, mouseY);
+			// PVector of current location
+			PVector weAt = new PVector(i*resolution, j*resolution);
+			// PVector from our current position to mouse
+			PVector toMouse = PVector.sub( mouseAt, weAt);
+			// Normalize
+			toMouse.normalize();
+			field[i][j] = toMouse;
+		}
+	}
+}
+````
+
+````
+void mouseClicked() {
+  f = new FlowField(15);
+  background(200);
+  f.display(); // display the flow field
+}
+````
+
+##### Adding vehicles during runtime
+
+An `array` is a fixed size, but an `ArrayList` can grow and shrink:
+
+````
+// ArrayLists have a special syntax:
+ArrayList<PVector> myVectors = new ArrayList<PVector>();
+
+void setup() {
+
+  // The ArrayList should be empty
+  println(myVectors.size());
+
+  for (int i = 0; i < 10; i++) {
+    myVectors.add(new PVector(i, 0));
+    println(myVectors.size()); // not that size() is a function!
+  }
+
+  // The value at index 5 should be 5
+  // Just like arrays, the index starts at zero
+  // so index 5 is the sixth item
+  println("at index 5, x = " + myVectors.get(5).x);
+}
+
+void mouseClicked() {
+  myVectors.add(new PVector(mouseX, mouseY));
+  println("added a new PVector at this mouse location");
+}
+
+void keyPressed() {
+  if (key == 'd') {
+    myVectors.remove(0); // remove the first vector
+    println("removed the first PVector, size is now " + myVectors.size());
+  }
+
+  if (key == 'p') {
+    for (int i = 0; i < myVectors.size(); i++) {
+      PVector v = myVectors.get(i);
+      println("index = " + i + " x = " + v.x + " y = " + v.y);
+    }
+  }
+}
+
+// Need to have a draw() function so that callbacks occur
+void draw() {
+}
+````
+
+Now we can use an `ArrayList` to store vehicles, and keep adding them
+whenever we click the mouse: 
+
+````
+ArrayList<Vehicle> vehicles = new ArrayList<Vehicle>();
+
+vehicles.add(new Vehicle(width, height/2));
+
+for (Vehicle v : vehicles) { 
+
+vehicles.add(new Vehicle(mouseX, mouseY));
+````
+
