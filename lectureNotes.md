@@ -1420,12 +1420,12 @@ class FlowField {
 
         // This translates to the top left corner of the grid, but really
         // it should center the vector in the middle of the grid
-        translate(i*resolution, j*resolution);
+        translate(i*pixelsPerSquare, j*pixelsPerSquare);
 
         PVector f = field[i][j].copy();
 
 				// Make the arrow as big as a square
-        f.mult(resolution);
+        f.mult(pixelsPerSquare);
 
 				// Draw a line
         line(0, 0, f.x, f.y);
@@ -1585,7 +1585,7 @@ void fieldFollowsMouse() {
 			// PVector of mouse location
 			PVector mouseAt = new PVector(mouseX, mouseY);
 			// PVector of current location
-			PVector weAt = new PVector(i*resolution, j*resolution);
+			PVector weAt = new PVector(i*pixelsPerSquare, j*pixelsPerSquare);
 			// PVector from our current position to mouse
 			PVector toMouse = PVector.sub( mouseAt, weAt);
 			// Normalize
