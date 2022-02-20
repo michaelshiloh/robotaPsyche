@@ -2047,7 +2047,7 @@ elements. In our system, we will have:
 	- separation (competition) Competition and cooperation are found in living
 		complex systems, but not in non-living complex systems like the weather.
 
-- Feedback. Complex systems often include a feedback loop where the the
+- Feedback. Complex systems often include a feedback loop where the 
 		output of the system is fed back into the system to influence its behavior
 		in a positive or negative direction. 
 
