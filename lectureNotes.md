@@ -1625,7 +1625,7 @@ void setup() {
   // The value at index 5 should be 5
   // Just like arrays, the index starts at zero
   // so index 5 is the sixth item
-  println("at index 5, x = " + myVectors.get(5).x);
+  println("at index 5, x = " + myVectors.copy(5).x);
 }
 
 void mouseClicked() {
@@ -1641,13 +1641,20 @@ void keyPressed() {
 
   if (key == 'p') {
     for (int i = 0; i < myVectors.size(); i++) {
-      PVector v = myVectors.get(i);
+      PVector v = myVectors.copy(i);
       println("index = " + i + " x = " + v.x + " y = " + v.y);
     }
+		
+		// Another way to loop through the ArrayList:
+  if (key == 'P') {
+		for (Vehicle v : vehicles) { 
+      PVector v = myVectors.copy(i);
+      println("index = " + i + " x = " + v.x + " y = " + v.y);
   }
 }
 
 // Need to have a draw() function so that callbacks occur
+// even though it is empty
 void draw() {
 }
 ````
@@ -1656,12 +1663,15 @@ Now we can use an `ArrayList` to store vehicles, and keep adding them
 whenever we click the mouse: 
 
 ````
+// Prepare an ArrayList of Vehicles
 ArrayList<Vehicle> vehicles = new ArrayList<Vehicle>();
 
+// In the constructor for example, place one vehicle in the center
 vehicles.add(new Vehicle(width, height/2));
 
-for (Vehicle v : vehicles) { 
-
-vehicles.add(new Vehicle(mouseX, mouseY));
+// And then 
+void mouseClicked() {
+	vehicles.add(new Vehicle(mouseX, mouseY));
+}
 ````
 
