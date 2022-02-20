@@ -1644,13 +1644,13 @@ void keyPressed() {
       PVector v = myVectors.copy(i);
       println("index = " + i + " x = " + v.x + " y = " + v.y);
     }
-		
-		// Another way to loop through the ArrayList:
+
+  // Another way to loop through the ArrayList:
   if (key == 'P') {
-		for (Vehicle v : vehicles) { 
+    for (Vehicle v : vehicles) { 
       PVector v = myVectors.copy(i);
       println("index = " + i + " x = " + v.x + " y = " + v.y);
-  }
+    }
 }
 
 // Need to have a draw() function so that callbacks occur
