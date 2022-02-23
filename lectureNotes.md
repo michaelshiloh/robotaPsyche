@@ -46,19 +46,19 @@ prefer, you may use [p5.js](https://editor.p5js.org/)
   - Be present and participate in class
   - No electronic distractions (**No notifications**)
   - Be proactive: 
-		- Communicate with me regarding difficulties, problems, illness, etc.
+    - Communicate with me regarding difficulties, problems, illness, etc.
   - Allow lots of time for homework 
-		as debugging programs can be very time consuming.
+    as debugging programs can be very time consuming.
 - All class material will be on this Github repository 
-	with the exception of some reading material which will be
-	accessible through the Brightspace
+  with the exception of some reading material which will be
+  accessible through the Brightspace
 - [weekly schedule](weeklySchedule.md)
 - This class is a work in progress; your input is welcome and desired
 - Who are you?
-	- What attracted you to this class?
-	- If you could design an ideal robot friend, what would they be like?
+  - What attracted you to this class?
+  - If you could design an ideal robot friend, what would they be like?
 - What is this class about?
-	- What is synthetic psychology?
+  - What is synthetic psychology?
 
 #### Homework
 
@@ -69,11 +69,11 @@ prefer, you may use [p5.js](https://editor.p5js.org/)
 #### Announcements
 
 - I made a mistake and had to change the Zoom meeting URL. I have updated all
-	the pages on Github with the new Zoom URL 
+  the pages on Github with the new Zoom URL 
 - Since the first meeting was with the old link, you won't be able to
-	find that meeting recording in Brightspace. However you can access
-	the first meeting recording
-	[here](https://nyu.zoom.us/rec/share/tQRkXacgvLkqUDX6ad8ynEdxvA9r6r4ykmuTULpRTFogmlWFajUc7UPNm7gM-CtC.GV4Cue80NDdWXG3i)
+  find that meeting recording in Brightspace. However you can access
+  the first meeting recording
+  [here](https://nyu.zoom.us/rec/share/tQRkXacgvLkqUDX6ad8ynEdxvA9r6r4ykmuTULpRTFogmlWFajUc7UPNm7gM-CtC.GV4Cue80NDdWXG3i)
 
 #### Questions
 
@@ -88,19 +88,19 @@ Did the readings (Vehicles) inspire any questions?
 #### Announcements
 
 - I made a mistake **again**and had to change the Zoom meeting URL. 
-	I have updated all
-	the pages on Github with the new Zoom URL 
+  I have updated all
+  the pages on Github with the new Zoom URL 
 - Since the first **and second**
-	meeting was with the old link, you won't be able to
-	find that meeting recording in Brightspace. 
-	- You can access the first meeting recording
-	[here](https://nyu.zoom.us/rec/share/tQRkXacgvLkqUDX6ad8ynEdxvA9r6r4ykmuTULpRTFogmlWFajUc7UPNm7gM-CtC.GV4Cue80NDdWXG3i)
-	- You can access the second meeting recording
-	[here](https://nyu.zoom.us/rec/play/d9_XmF2KN0wsrsEqFM3tRGX8d-0FFoZnqoEe56Hy8StgeHqdmbbKeHq8NHC8B4MRcCc4Ehy5RX8zim8J.i6GxNEJkcjl959_T)
+  meeting was with the old link, you won't be able to
+  find that meeting recording in Brightspace. 
+  - You can access the first meeting recording
+  [here](https://nyu.zoom.us/rec/share/tQRkXacgvLkqUDX6ad8ynEdxvA9r6r4ykmuTULpRTFogmlWFajUc7UPNm7gM-CtC.GV4Cue80NDdWXG3i)
+  - You can access the second meeting recording
+  [here](https://nyu.zoom.us/rec/play/d9_XmF2KN0wsrsEqFM3tRGX8d-0FFoZnqoEe56Hy8StgeHqdmbbKeHq8NHC8B4MRcCc4Ehy5RX8zim8J.i6GxNEJkcjl959_T)
 - Next week we will start with discussions and presentations. 
-	- Discussions and presentations will be due on Wednesdays
-	- We will have two discussions and one presentation per meeting
-	- Mondays will be for lecture
+  - Discussions and presentations will be due on Wednesdays
+  - We will have two discussions and one presentation per meeting
+  - Mondays will be for lecture
 
 
 #### Homework (maybe after the break)
@@ -111,15 +111,15 @@ Did the readings (Vehicles) inspire any questions?
 - [Object Oriented Programming](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/p5jsSketches/simpleP5jsClassExample)
 
 - [PVectors](https://natureofcode.com/book/)
-	- I think we got to vector subtraction, and the example that draws
-		a line from center of the canvas to the mouse
-	- Continue with Vector multiplication (and division)
-	- 1.5 Vector Magnitude
-	- 1.6 Normalizing Vectors
+  - I think we got to vector subtraction, and the example that draws
+    a line from center of the canvas to the mouse
+  - Continue with Vector multiplication (and division)
+  - 1.5 Vector Magnitude
+  - 1.6 Normalizing Vectors
 - Finally let's put this to use
-	- 1.7 Vector Motion: Velocity (we looked at this last week)
-	- 1.8 Vector Motion: Acceleration
-	- 1.9 Static vs. Non-Static Functions
+  - 1.7 Vector Motion: Velocity (we looked at this last week)
+  - 1.8 Vector Motion: Acceleration
+  - 1.9 Static vs. Non-Static Functions
 
 Here is the code I developed at the end of the lecture:
 
@@ -379,8 +379,8 @@ class Mover {
   }
 
   // With this code an object bounces when it hits the edges of a window.
-	// Alternatively objects could vanish or reappear on the other side
-	// or reappear at a random location or other ideas
+  // Alternatively objects could vanish or reappear on the other side
+  // or reappear at a random location or other ideas
 
   void checkEdges() {
     if (location.x > width) {
@@ -676,7 +676,7 @@ only scheduled 2 weeks in advance. However some of you had already read that
 first list and proactively planned when to write your presentation. Let's
 decide together what is fair and desirable. Options include:
 - Stay with it as it is
-	- Variation: Allow students to switch with classmates
+  - Variation: Allow students to switch with classmates
 - Go back to the original list
 - Something else. Any suggestions?
 
@@ -699,30 +699,30 @@ Our robots are autonomous agents:
 
 - An autonomous agent has a limited ability to perceive environment.
 - An autonomous agent processes the information from its environment 
-	and calculates an action.
-	- In our case, an action is a force
-	- More specifically, a *steering* force
-	- There may be multiple goals in our environment (find food, avoid danger,
-		stay close to friends and hence multiple forces; as before, we will
-		combine all the forces 
+  and calculates an action.
+  - In our case, an action is a force
+  - More specifically, a *steering* force
+  - There may be multiple goals in our environment (find food, avoid danger,
+    stay close to friends and hence multiple forces; as before, we will
+    combine all the forces 
 - An autonomous agent has no leader.
 
 What is the Steering Force?
 
 - A Steering Force is the difference between a desired velocity (run away from
-	zombie) and our current velocity (heading towards the zombie). The steering
-	force works to change our velocity in the desired direction.
-	- steering force = desired velocity - current velocity
-	- `PVector steer = PVector.sub(desired,velocity);`
+  zombie) and our current velocity (heading towards the zombie). The steering
+  force works to change our velocity in the desired direction.
+  - steering force = desired velocity - current velocity
+  - `PVector steer = PVector.sub(desired,velocity);`
 - To be more 'lifelike', our steering forces are limited. An infinite steering
-	force would allow us to instantly change direction. 
-	Physical objects can't do that; due to their mass (inertia) it takes
-	awhile to steer from one direction to another.
+  force would allow us to instantly change direction. 
+  Physical objects can't do that; due to their mass (inertia) it takes
+  awhile to steer from one direction to another.
 
 - There are many different actions we might describe: Seek, flee, follow a
-	path, follow a flow field, flock with your neighbors, etc.  Behavior: What
-	sort of action should your robot take in order if it has love, fear, hunger,
-	etc.?
+  path, follow a flow field, flock with your neighbors, etc.  Behavior: What
+  sort of action should your robot take in order if it has love, fear, hunger,
+  etc.?
 
 ###### Seeking: Our First Steering Force
 
@@ -773,22 +773,22 @@ class Vehicle {
   PVector velocity;
   PVector acceleration;
   float maxspeed; // Maximum speed
-	float maxForce; // Maximum force that we can use for steering
+  float maxForce; // Maximum force that we can use for steering
 ````
 
 And applying this limitation gives us:
 
 ````
 void seek(PVector target) {
-	PVector desired = PVector.sub(target,location);
-	desired.normalize();
-	desired.mult(maxspeed);
-	PVector steer = PVector.sub(desired,velocity);
+  PVector desired = PVector.sub(target,location);
+  desired.normalize();
+  desired.mult(maxspeed);
+  PVector steer = PVector.sub(desired,velocity);
 
-	// Limit the magnitude of the steering force.
-	steer.limit(maxforce);
+  // Limit the magnitude of the steering force.
+  steer.limit(maxforce);
 
-	applyForce(steer);
+  applyForce(steer);
 }
 ````
 
@@ -838,7 +838,7 @@ class Vehicle {
     PVector steer = PVector.sub(desired, velocity);
     steer.limit(maxforce);
 
-		return (steer);
+    return (steer);
   }
 
   void display() {
@@ -873,8 +873,8 @@ void draw() {
   circle(target.x, target.y, 20);
 
   // Now tell the vehicle to go there
-	PVector seek = v.seek(target);
-	v.applyForce(seek);
+  PVector seek = v.seek(target);
+  v.applyForce(seek);
   v.update();
   v.display();
 }
@@ -899,40 +899,40 @@ we want our speed to be half the distance:
 ````
 PVector arrive(PVector target) {
 
-	// First, calculate our desired velocity vector
-	PVector desired = PVector.sub(target,location);
+  // First, calculate our desired velocity vector
+  PVector desired = PVector.sub(target,location);
 
-	// The distance is the magnitude of
-	// the vector pointing from location to target.
-	// Save this for later.
-	float d = desired.mag();
+  // The distance is the magnitude of
+  // the vector pointing from location to target.
+  // Save this for later.
+  float d = desired.mag();
 
-	// As before, normalize the desired velocity vector
-	desired.normalize();
+  // As before, normalize the desired velocity vector
+  desired.normalize();
 
-	// Now apply the "arriving" logic
+  // Now apply the "arriving" logic
 
-	// If we are closer than 100 pixels...
-	if (d < 100) {
+  // If we are closer than 100 pixels...
+  if (d < 100) {
 
-		// ...set the magnitude
-		// according to how close we are.
-		float m = map(d,0,100,0,maxspeed);
-		desired.mult(m);
+    // ...set the magnitude
+    // according to how close we are.
+    float m = map(d,0,100,0,maxspeed);
+    desired.mult(m);
 
-	// Otherwise, proceed at full speed
-	} else {
-		desired.mult(maxspeed);
-	}
+  // Otherwise, proceed at full speed
+  } else {
+    desired.mult(maxspeed);
+  }
 
-	// The usual steering = desired - velocity
-	PVector steer = PVector.sub(desired,velocity);
+  // The usual steering = desired - velocity
+  PVector steer = PVector.sub(desired,velocity);
 
-	// Limit to our maximum ability to steer
-	steer.limit(maxforce);
+  // Limit to our maximum ability to steer
+  steer.limit(maxforce);
 
-	// and finally return it
-	return(steer);
+  // and finally return it
+  return(steer);
 }
 ````
 
@@ -952,7 +952,7 @@ and vector addition is *commutative*
 - The `Mover` class is now renamed to `Vehicle`.
 - The `Attractor` class is modified to follow the mouse
 - I have made the repulsive force quite strong so every so often a vehicle
-	is rejected from the attractor
+  is rejected from the attractor
 
 ````
 // Vehicles and a single Attractor
@@ -1190,12 +1190,6 @@ certain amount of time we should stop. How do we do that?
 - How do we stop?
 
 ### February 21
-##### todays-lecture
-
-#### Admin
-- Record
-- Zoom in to make text larger
-
 ##### Agenda for today
 
 1. Presentation
@@ -1243,12 +1237,12 @@ First we need an array of PVectors to store our field:
 
 ````
 FlowField() {
-	pixelsPerSquare = 10;
-	// Total columns equals width divided by pixelsPerSquare.
-	cols = width/pixelsPerSquare;
-	// Total rows equals height divided by pixelsPerSquare.
-	rows = height/pixelsPerSquare;
-	field = new PVector[cols][rows];
+  pixelsPerSquare = 10;
+  // Total columns equals width divided by pixelsPerSquare.
+  cols = width/pixelsPerSquare;
+  // Total rows equals height divided by pixelsPerSquare.
+  rows = height/pixelsPerSquare;
+  field = new PVector[cols][rows];
 }
 ````
 
@@ -1273,13 +1267,13 @@ for (int i = 0; i < cols; i++) {
   for (int j = 0; j < rows; j++) {
 
     // Get the next value of Perlin noise 
-		// and map it to an angle 
+    // and map it to an angle 
     float theta = map(noise(xoff,yoff), // generate a 2D Perlin value
-			0,1,  // Noise is always between 0 and 1
-			0,TWO_PI); // a full circle
+      0,1,  // Noise is always between 0 and 1
+      0,TWO_PI); // a full circle
 
-		// The cosine of the angle is our x value
-		// and the sine of the angle is our y value
+    // The cosine of the angle is our x value
+    // and the sine of the angle is our y value
     field[i][j] = new PVector(cos(theta), sin(theta));
 
     yoff += 0.1; // next y value
@@ -1301,13 +1295,13 @@ the force vector at that that location:
 ````
  PVector lookup(PVector lookup) {
 
-	// Using constrain()
-	int column = int(constrain(lookup.x/pixelsPerSquare, 0, cols-1));
-	int row = int(constrain(lookup.y/pixelsPerSquare, 0, rows-1));
+  // Using constrain()
+  int column = int(constrain(lookup.x/pixelsPerSquare, 0, cols-1));
+  int row = int(constrain(lookup.y/pixelsPerSquare, 0, rows-1));
 
-	// Note the use of copy() to ensure
-	// we return a copy of the PVector.
-	return field[column][row].copy();
+  // Note the use of copy() to ensure
+  // we return a copy of the PVector.
+  return field[column][row].copy();
 }
 ````
 
@@ -1404,17 +1398,17 @@ class FlowField {
   }
 
   // Display the flow field so we can see if it looks 
-	// like what we think it should
+  // like what we think it should
   //
   void display() {
     for (int i = 0; i < cols; i++) {
       for (int j = 0; j < rows; j++) {
 
-				// I needed this to see that my equations generated
-				// the right results
+        // I needed this to see that my equations generated
+        // the right results
         // print("col " + i + " row " + j + "  ");
         // println(i*pixelsPerSquare, j*pixelsPerSquare, 
-					// field[i][j].x, field[i][j].y);
+          // field[i][j].x, field[i][j].y);
 
         pushMatrix();
 
@@ -1424,13 +1418,13 @@ class FlowField {
 
         PVector f = field[i][j].copy();
 
-				// Make the arrow as big as a square
+        // Make the arrow as big as a square
         f.mult(pixelsPerSquare);
 
-				// Draw a line
+        // Draw a line
         line(0, 0, f.x, f.y);
 
-				// Put a little dot at the end
+        // Put a little dot at the end
         ellipse(f.x, f.y, 5, 5); // circle instead of arrow head
 
         popMatrix();
@@ -1459,7 +1453,7 @@ class Vehicle {
   }
 
   // Update the velocity and location, 
-	// based on the acceleration generated by the steering force
+  // based on the acceleration generated by the steering force
   void update() {
     velocity.add(acceleration);
     velocity.limit(maxspeed);
@@ -1544,8 +1538,8 @@ void draw() {
 
   v.follow(f); // Apply the steering force to follow the flow field
 
-	// Update the velocity and location, based on the acceleration 
-	// generated by the steering force
+  // Update the velocity and location, based on the acceleration 
+  // generated by the steering force
   v.update(); 
 
   v.display(); // display the vehicle
@@ -1580,19 +1574,19 @@ How would we make a flow field that follows the mouse?
 
 ````
 void fieldFollowsMouse() {
-	for (int i = 0; i < cols; i++) {
-		for (int j = 0; j < rows; j++) {
-			// PVector of mouse location
-			PVector mouseAt = new PVector(mouseX, mouseY);
-			// PVector of current location
-			PVector weAt = new PVector(i*pixelsPerSquare, j*pixelsPerSquare);
-			// PVector from our current position to mouse
-			PVector toMouse = PVector.sub( mouseAt, weAt);
-			// Normalize
-			toMouse.normalize();
-			field[i][j] = toMouse;
-		}
-	}
+  for (int i = 0; i < cols; i++) {
+    for (int j = 0; j < rows; j++) {
+      // PVector of mouse location
+      PVector mouseAt = new PVector(mouseX, mouseY);
+      // PVector of current location
+      PVector weAt = new PVector(i*pixelsPerSquare, j*pixelsPerSquare);
+      // PVector from our current position to mouse
+      PVector toMouse = PVector.sub( mouseAt, weAt);
+      // Normalize
+      toMouse.normalize();
+      field[i][j] = toMouse;
+    }
+  }
 }
 ````
 
@@ -1676,11 +1670,21 @@ vehicles.add(new Vehicle(width, height/2));
 
 // And then 
 void mouseClicked() {
-	vehicles.add(new Vehicle(mouseX, mouseY));
+  vehicles.add(new Vehicle(mouseX, mouseY));
 }
 ````
 
-Next:
+### February 23
+##### todays-lecture
+
+#### Admin
+- Record
+- Zoom in to make text larger
+
+##### Agenda for today
+- Presentation
+- Complexity
+- Flocking
 
 ##### complexity
 
@@ -1691,14 +1695,14 @@ highly complex, intelligent, and difficult to predict. Here are three key
 principles of complex systems:
 
 - Simple units with short-range relationships. This is what we’ve been
-	building all along: vehicles that have a limited perception of their
-	environment.
+  building all along: vehicles that have a limited perception of their
+  environment.
 - Simple units operate in parallel. This is what we need to simulate in code.
-	For every cycle through Processing’s draw() loop, each unit will decide how
-	to move (to create the appearance of them all working in parallel).
+  For every cycle through Processing’s draw() loop, each unit will decide how
+  to move (to create the appearance of them all working in parallel).
 - System as a whole exhibits emergent phenomena. Out of the interactions
-	between these simple units emerges complex behavior, patterns, and
-	intelligence (we hope).
+  between these simple units emerges complex behavior, patterns, and
+  intelligence (we hope).
 
 Following are three additional features of complex systems that will help
 frame the discussion, as well as provide guidelines for features we will want
@@ -1707,27 +1711,25 @@ this is a fuzzy set of characteristics and not all complex systems have all of
 them.
 
 - Non-linearity. This aspect of complex systems is often casually referred
-		to as “the butterfly effect,” the theory is that a single butterfly
-		flapping its wings on the other side of the world could cause a massive
-		weather shift and ruin our weekend at the beach. We call it “non-linear”
-		because there isn’t a linear relationship between a change in initial
-		conditions and a change in outcome. A small change in initial conditions
-		can have a massive effect on the outcome. Non-linear systems are a
-		superset of chaotic systems. 
+    to as “the butterfly effect,” the theory is that a single butterfly
+    flapping its wings on the other side of the world could cause a massive
+    weather shift and ruin our weekend at the beach. We call it “non-linear”
+    because there isn’t a linear relationship between a change in initial
+    conditions and a change in outcome. A small change in initial conditions
+    can have a massive effect on the outcome. Non-linear systems are a
+    superset of chaotic systems. 
 
 -Competition and cooperation. One of the things that often makes a complex
 system tick is the presence of both competition and cooperation between the
 elements. In our system, we will have:
-	- alignment (cooperation)
-	- cohesion (cooperation)
-	- separation (competition) Competition and cooperation are found in living
-		complex systems, but not in non-living complex systems like the weather.
+  - alignment (cooperation)
+  - cohesion (cooperation)
+  - separation (competition) Competition and cooperation are found in living
+    complex systems, but not in non-living complex systems like the weather.
 
 - Feedback. Complex systems often include a feedback loop where the 
-		output of the system is fed back into the system to influence its behavior
-		in a positive or negative direction. 
-
-Complexity will serve as a theme for this class.
+    output of the system is fed back into the system to influence its behavior
+    in a positive or negative direction. 
 
 Let's have vehicles like each other but not want to get too close:
 
@@ -1739,11 +1741,11 @@ Once again, each vehicle needs to see where everyone else is.
 
 what does the `separate()` function do?
 - If a given vehicle is too close to you, steer away from that vehicle. How do
-	we do this?
-	- We already know how to steer towards a target. Reverse that force and we
-		have the flee behavior.  
+  we do this?
+  - We already know how to steer towards a target. Reverse that force and we
+    have the 'separate' behavior.  
 - If more than one vehicle is too close, we’ll define separation as the
-	average of all the vectors pointing away from any close vehicles.
+  average of all the vectors pointing away from any close vehicles.
 
 Let's get to it:
 
@@ -1774,11 +1776,11 @@ Why did we also check that `d > 0`?
 This part calculates the way to go to avoid a vehicle that is too close:
 
 ````
-	if ((d > 0) && (d < desiredseparation)) {
-		// A PVector pointing away from the other’s location
-		PVector diff = PVector.sub(location, other.location);
-		diff.normalize();
-	}
+  if ((d > 0) && (d < desiredseparation)) {
+    // A PVector pointing away from the other’s location
+    PVector diff = PVector.sub(location, other.location);
+    diff.normalize();
+  }
 ````
 
 What if more than one is close? How do we take the average?
@@ -1789,18 +1791,18 @@ int count = 0;  // We have to keep track of how many Vehicles are too close.
 
 for (Vehicle other : vehicles) {
 float d = PVector.dist(location, other.location);
-	if ((d > 0) && (d < desiredseparation)) {
-		PVector diff = PVector.sub(location, other.location); 
-		diff.normalize();
-		// Add all the vectors together and increment the count.
-		sum.add(diff); 
-		count++;
-	}
+  if ((d > 0) && (d < desiredseparation)) {
+    PVector diff = PVector.sub(location, other.location); 
+    diff.normalize();
+    // Add all the vectors together and increment the count.
+    sum.add(diff); 
+    count++;
+  }
 }
 
 // now calculate the average:
 if (count > 0) { // mustn't divide by zero
-	sum.div(count); 
+  sum.div(count); 
 } 
 
 // sum now contains the average vector away from neighbors
@@ -1811,18 +1813,18 @@ a *desire* to avoid neighbors, so we treat it as a **force**.
 
 ````
 if (count > 0) {
-	sum.div(count);
+  sum.div(count);
 
-	// Scale average to maxspeed
-	// (this becomes desired).
-	sum.setMag(maxspeed);
+  // Scale average to maxspeed
+  // (this becomes desired).
+  sum.setMag(maxspeed);
 
-	// Apply Reynolds’s steering formula:
-	// error is our current velocty minus our desired velocity
-	PVector steer = PVector.sub(sum,vel);
-	steer.limit(maxforce);
+  // Apply Reynolds’s steering formula:
+  // error is our current velocty minus our desired velocity
+  PVector steer = PVector.sub(sum,vel);
+  steer.limit(maxforce);
 
-	return(steer); // let `draw()` apply the force
+  return(steer); // let `draw()` apply the force
 }
 ````
 
@@ -1833,29 +1835,29 @@ is a program putting this all together
 
 Vehicle
 - Our `Vehicle` class may have a lot of different behaviors
-	- Seek (target) 
-	- Follow (flowfield)
-	- Separate (ArrayList of all objects)
+  - Seek (target) 
+  - Follow (flowfield)
+  - Separate (ArrayList of all objects)
 - all behaviours do this:
-	- Calculate the force
-	- Return the force but do not apply it
+  - Calculate the force
+  - Return the force but do not apply it
 - The `Vehicle update()` function does:
-	- apply acceleration to velocity
-	- apply velocity to location
-	- clear the acceleration for the next frame
+  - apply acceleration to velocity
+  - apply velocity to location
+  - clear the acceleration for the next frame
 - `draw()` does:
-	- calls the the desired `vehicle` behavior(s) which returns a force
-	- apply the force returned by the behavior
-	- As before, `update()`, `checkEdges()` (or maybe not?), and `display()`
+  - calls the the desired `vehicle` behavior(s) which returns a force
+  - apply the force returned by the behavior
+  - As before, `update()`, `checkEdges()` (or maybe not?), and `display()`
 
 
 ````
 void applyBehaviors(ArrayList<Vehicle> vehicles) {
-	// seek() and separate() do not apply the force
-	PVector separate = separate(vehicles);
-	PVector seek = seek(new PVector(mouseX,mouseY));
-	applyForce(separate);
-	applyForce(seek);
+  // seek() and separate() do not apply the force
+  PVector separate = separate(vehicles);
+  PVector seek = seek(new PVector(mouseX,mouseY));
+  applyForce(separate);
+  applyForce(seek);
 }
 ````
 
@@ -1864,15 +1866,15 @@ so how do `seek()` and `separate()` change?
 ````
 // note that now this function returns a PVector which is the force
 PVector seek(PVector target) {
-	PVector desired = PVector.sub(target,loc);
-	desired.normalize();
-	desired.mult(maxspeed);
-	PVector steer = PVector.sub(desired,vel);
-	steer.limit(maxforce);
+  PVector desired = PVector.sub(target,loc);
+  desired.normalize();
+  desired.mult(maxspeed);
+  PVector steer = PVector.sub(desired,vel);
+  steer.limit(maxforce);
 
-	// Instead of applying the force we return the PVector.
-	// applyForce(steer); // No longer done here
-	return steer;
+  // Instead of applying the force we return the PVector.
+  // applyForce(steer); // No longer done here
+  return steer;
 }
 ````
 
@@ -1880,15 +1882,15 @@ So now we can do this:
 
 ````
 void applyBehaviors(ArrayList<Vehicle> vehicles) {
-	// Apply the behaviours to get the component forces
+  // Apply the behaviours to get the component forces
   PVector separate = separate(vehicles);
   PVector seek = seek(new PVector(mouseX,mouseY));
-	// Possibly other behaviours
+  // Possibly other behaviours
 
   // These values can be whatever you want them to be!
   // They can be variables that are customized for
   // each vehicle, or they can change over time, over location,
-	// or whatever you can imagine (and code).
+  // or whatever you can imagine (and code).
   separate.mult(1.5); 
   seek.mult(0.5); 
 
@@ -1911,29 +1913,29 @@ behaviours which will cause a group?
 The three rules of flocking.
 
 - Separation (also known as “avoidance”): Steer to avoid colliding with your
-	neighbors.
+  neighbors.
 - Alignment (also known as “copy”): Steer in the same direction as your
-	neighbors.
+  neighbors.
 - Cohesion (also known as “center”): Steer towards the center of your
-	neighbors (stay with the group).
+  neighbors (stay with the group).
 
 ````
 void flock(ArrayList<Boid> boids) {
-	// The three flocking rules
-	PVector sep = separate(boids);
-	PVector ali = align(boids);
-	PVector coh = cohesion(boids);
+  // The three flocking rules
+  PVector sep = separate(boids);
+  PVector ali = align(boids);
+  PVector coh = cohesion(boids);
 
-	// Arbitrary weights for these forces
-	// (Try different ones!)
-	sep.mult(1.5);
-	ali.mult(1.0);
-	coh.mult(1.0);
+  // Arbitrary weights for these forces
+  // (Try different ones!)
+  sep.mult(1.5);
+  ali.mult(1.0);
+  coh.mult(1.0);
 
-	// Applying all the forces
-	applyForce(sep);
-	applyForce(ali);
-	applyForce(coh);
+  // Applying all the forces
+  applyForce(sep);
+  applyForce(ali);
+  applyForce(coh);
 }
 ````
 
@@ -1946,24 +1948,24 @@ the boid’s desired velocity is the average velocity of its neighbors.
 
 ````
 PVector align (ArrayList<Boid> boids) {
-	// Add up all the velocities
-	// and divide by the total
-	// to calculate the average velocity.
-	PVector sum = new PVector(0,0); // Initialize to zero
-	for (Boid other : boids) {
-		sum.add(other.velocity);
-	}
-	sum.div(boids.size());
+  // Add up all the velocities
+  // and divide by the total
+  // to calculate the average velocity.
+  PVector sum = new PVector(0,0); // Initialize to zero
+  for (Boid other : boids) {
+    sum.add(other.velocity);
+  }
+  sum.div(boids.size());
 
-	// We desire to go in that
-	// direction at maximum speed.
-	sum.setMag(maxspeed); // sum is our desired velocity
+  // We desire to go in that
+  // direction at maximum speed.
+  sum.setMag(maxspeed); // sum is our desired velocity
 
-	// Reynolds’s steering
-	// force formula
-	PVector steer = PVector.sub(sum,velocity);
-	steer.limit(maxforce);
-	return steer;
+  // Reynolds’s steering
+  // force formula
+  PVector steer = PVector.sub(sum,velocity);
+  steer.limit(maxforce);
+  return steer;
 }
 ````
 
@@ -1971,32 +1973,32 @@ But this differs from how real insects move. Can you spot how?
 
 ````
 PVector align (ArrayList<Boid> boids) {
-	// This is an arbitrary value and could
-	// vary from boid to boid.
-	float neighbordist = 50;
-	PVector sum = new PVector(0,0);
-	int count = 0;
-	for (Boid other : boids) {
-		float d = PVector.dist(location,other.location);
-		if ((d > 0) && (d < neighbordist)) {
-			sum.add(other.velocity);
-			// For an average, we need to keep track of
-			// how many boids are within the distance.
-			count++;
-		}
-	}
-	if (count > 0) {
-		sum.div(count);
-		sum.normalize();
-		sum.mult(maxspeed);
-		PVector steer = PVector.sub(sum,velocity);
-		steer.limit(maxforce);
-		return steer;
-	// If we don’t find any close boids,
-	// the steering force is zero.
-	} else {
-		return new PVector(0,0);
-	}
+  // This is an arbitrary value and could
+  // vary from boid to boid.
+  float neighbordist = 50;
+  PVector sum = new PVector(0,0);
+  int count = 0;
+  for (Boid other : boids) {
+    float d = PVector.dist(location,other.location);
+    if ((d > 0) && (d < neighbordist)) {
+      sum.add(other.velocity);
+      // For an average, we need to keep track of
+      // how many boids are within the distance.
+      count++;
+    }
+  }
+  if (count > 0) {
+    sum.div(count);
+    sum.normalize();
+    sum.mult(maxspeed);
+    PVector steer = PVector.sub(sum,velocity);
+    steer.limit(maxforce);
+    return steer;
+  // If we don’t find any close boids,
+  // the steering force is zero.
+  } else {
+    return new PVector(0,0);
+  }
 }
 ````
 
@@ -2008,27 +2010,27 @@ How would you implement it?
 
 ````
 PVector cohesion (ArrayList<Boid> boids) {
-	float neighbordist = 50;
-	PVector sum = new PVector(0,0);
-	int count = 0;
-	for (Boid other : boids) {
-		float d = PVector.dist(location,other.location);
-		if ((d > 0) && (d < neighbordist)) {
-			// Adding up all the others’ locations
-			sum.add(other.location);
-			count++;
-		}
-	}
-	if (count > 0) {
-		sum.div(count);
-		// Here we make use of the seek() function we
-		// wrote in Example 6.8.  The target
-		// we seek is the average location of
-		// our neighbors.
-		return seek(sum); 
-	} else {
-		return new PVector(0,0);
-	}
+  float neighbordist = 50;
+  PVector sum = new PVector(0,0);
+  int count = 0;
+  for (Boid other : boids) {
+    float d = PVector.dist(location,other.location);
+    if ((d > 0) && (d < neighbordist)) {
+      // Adding up all the others’ locations
+      sum.add(other.location);
+      count++;
+    }
+  }
+  if (count > 0) {
+    sum.div(count);
+    // Here we make use of the seek() function we
+    // wrote in Example 6.8.  The target
+    // we seek is the average location of
+    // our neighbors.
+    return seek(sum); 
+  } else {
+    return new PVector(0,0);
+  }
 }
 ````
 
