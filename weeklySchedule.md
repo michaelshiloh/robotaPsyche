@@ -243,8 +243,11 @@ The Machine Question. We will not discuss the reading from The Nature of Code.
 		[here](https://github.com/michaelshiloh/robotaPsyche/blob/main/syllabus.md#student-led-discussions)
 
 
+#### Reading Assignment Due February 28
+- Read the Preface and Introduction to [Science Fiction, Alien Encounters, and the Ethics of Posthumanism](https://github.com/michaelshiloh/resourcesForClasses/tree/master/doc/ScienceFictionAlienEncountersAndTheEthicsOfPosthumanism) by Elana Gomel.
+- Fatima and Yeji will lead our discussion
+
 ##### Future Discussion Leaders 
-- February 28: Fatima and Yeji
 
 ##### Future Presentation dates
 - February 21: Sarah
