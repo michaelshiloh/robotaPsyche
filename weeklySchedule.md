@@ -221,7 +221,6 @@ desires or goals?
 #### Assignment Due February 16
 - Presentation by Benjamin
 
-##### todays-assignment
 #### Assignment Due February 21
 - Presentation by Sarah
 
@@ -243,14 +242,54 @@ The Machine Question. We will not discuss the reading from The Nature of Code.
 		[here](https://github.com/michaelshiloh/robotaPsyche/blob/main/syllabus.md#student-led-discussions)
 
 
+##### todays-assignment
+
 #### Reading Assignment Due February 28
-- Read the Preface and Introduction to [Science Fiction, Alien Encounters, and the Ethics of Posthumanism](https://github.com/michaelshiloh/resourcesForClasses/tree/master/doc/ScienceFictionAlienEncountersAndTheEthicsOfPosthumanism) by Elana Gomel.
+Read the Preface and Introduction to [Science Fiction, Alien Encounters, and the Ethics of Posthumanism](https://github.com/michaelshiloh/resourcesForClasses/tree/master/doc/ScienceFictionAlienEncountersAndTheEthicsOfPosthumanism) by Elana Gomel.
 - Fatima and Yeji will lead our discussion
+
+#### Production Assignment Due February 28
+
+Elaborate on your ecology
+- Some of you received less than the full 10 points on the work you have done
+	so far. Generally this was due to one or more of:
+	- Insufficient complexity
+	- Too much complexity, and results appear random and chaotic
+	- Insufficient evidence that the ecology is exhibiting the behavior you
+		were trying to produce. See if you can figure out why, and make it more
+		obvious
+	- Poor visuals, making it difficult to understand who are the players and
+		what they are trying to do. While you don't need to use pictures of birds
+		(although you can if you want), at least make them different from
+		triangles of the same size. Color is one step, but make it more obvious
+		e.g. different shapes, different sizes.
+- Each creature should have some different characteristics such as maximum
+	speed, maximum force, hunger threshold, size, aggression factor, etc. Group
+	all of these in a new class called "DNA". You don't need to implement it
+	yet, but think about how two (or more?) creatures might reproduce to create
+	a creature that has some mix of the parent's DNA. The later goal will be to
+	see if our creatures can "improve" through natural selection.
+- At the beginning of the course I had the vehicles bouncing off the walls. In
+	retrospect that was not a good idea, it's more realistic (I think) if you
+	allow them to roam over an infinite space, of which we only see the portion
+	that is visible on the canvas. You may disagree, in which case think what
+	role the wall plays in your ecology and what might happen when a creature
+	collides with the wall.
+- Use onscreen text to give some indication of what's going on (e.g.
+	temperature, oxygen). At the very least, explain what each shape or color
+	means.
+- Be creative, whimsical, and experimental! You don't need to accurately
+	depict real life. Make up imaginary creatures and their behaviors. Think
+	outside the box! This is not required but is allowed and encouraged.
+- Consider what else your mouse can do: enhance (or not) individual creators,
+	change a flow field (wind, water current, a high mountain)
+- Think about how you might use the new things we've learned in order to give
+	your ecology a more interesting behavior
+
 
 ##### Future Discussion Leaders 
 
 ##### Future Presentation dates
-- February 21: Sarah
 - February 23: Adina
 - February 28: Abdul
 - March 2: Chinonyerem

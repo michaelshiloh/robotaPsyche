@@ -47,4 +47,3 @@ This document: Student Github repositories
 - [Ehtisham](https://github.com/ehtishamoas/RobotaPsyche)
 - [Adina](https://github.com/renaidn/Robota-Psyche)
 - [Phillip](https://github.com/cswpy/RobotaPsyche)
-- [Ahmad](https://github.com/AhmadAlmuhtadi/RobotaPsyche)

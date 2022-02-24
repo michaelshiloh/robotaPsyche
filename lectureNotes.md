@@ -1675,11 +1675,6 @@ void mouseClicked() {
 ````
 
 ### February 23
-##### todays-lecture
-
-#### Admin
-- Record
-- Zoom in to make text larger
 
 ##### Agenda for today
 - Presentation
@@ -2058,3 +2053,17 @@ class Flock {
   }
 }
 ````
+
+##### todays-lecture
+### February 28
+
+#### Admin
+- Record
+- Zoom in to make text larger
+
+##### Agenda for today
+
+- Presentation
+- Discussion
+- Review boids
+- Debugging
