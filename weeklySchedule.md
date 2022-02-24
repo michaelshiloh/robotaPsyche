@@ -248,9 +248,16 @@ The Machine Question. We will not discuss the reading from The Nature of Code.
 Read the Preface and Introduction to [Science Fiction, Alien Encounters, and the Ethics of Posthumanism](https://github.com/michaelshiloh/resourcesForClasses/tree/master/doc/ScienceFictionAlienEncountersAndTheEthicsOfPosthumanism) by Elana Gomel.
 - Fatima and Yeji will lead our discussion
 
+#### Midterm project Due March 9
+- Your midterm project will be to develop a more complex ecology. You may
+	continue with what you created for February 14, or you may create a new
+	ecology.
+- Full details to follow
+
 #### Production Assignment Due February 28
 
-Elaborate on your ecology
+Make progress on your midterm project either by elaborating on your February 14 ecology or by starting a new one:
+
 - Some of you received less than the full 10 points on the work you have done
 	so far. Generally this was due to one or more of:
 	- Insufficient complexity
@@ -274,20 +281,22 @@ Elaborate on your ecology
 	allow them to roam over an infinite space, of which we only see the portion
 	that is visible on the canvas. You may disagree, in which case think what
 	role the wall plays in your ecology and what might happen when a creature
-	collides with the wall.
-- Use onscreen text to give some indication of what's going on (e.g.
-	temperature, oxygen). At the very least, explain what each shape or color
-	means.
+	collides with the wall. For example, the creature might be able to see the
+	wall and slow down
+- Use onscreen text (using the `text()` function) to give some indication of
+	what's going on (e.g.  temperature, oxygen). At the very least, explain what
+	each shape or color means.
 - Be creative, whimsical, and experimental! You don't need to accurately
 	depict real life. Make up imaginary creatures and their behaviors. Think
 	outside the box! This is not required but is allowed and encouraged.
 - Consider what else your mouse can do: enhance (or not) individual creators,
 	change a flow field (wind, water current, a high mountain)
-- Think about how you might use the new things we've learned in order to give
+- Try to incorporate some of the new things we've learned in order to give
 	your ecology a more interesting behavior
 
 
 ##### Future Discussion Leaders 
+- March 7: Maitha, Ehtisham
 
 ##### Future Presentation dates
 - February 23: Adina
