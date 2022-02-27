@@ -252,7 +252,7 @@ Read the Preface and Introduction to [Science Fiction, Alien Encounters, and the
 - Your midterm project will be to develop a more complex ecology. You may
 	continue with what you created for February 14, or you may create a new
 	ecology.
-- Full details to follow
+- Full details below
 
 #### Production Assignment Due February 28
 
@@ -263,19 +263,6 @@ Make progress on your midterm project either by elaborating on your February
 	briefly your concept
 - In the midterm folder make a new file "journal.md" and in that describe 
 	what progress you have made so far
-
-- Some of you received less than the full 10 points on the work you have done
-	so far. Generally this was due to one or more of:
-	- Insufficient complexity
-	- Too much complexity, and results appear random and chaotic
-	- Insufficient evidence that the ecology is exhibiting the behavior you
-		were trying to produce. See if you can figure out why, and make it more
-		obvious
-	- Poor visuals, making it difficult to understand who are the players and
-		what they are trying to do. While you don't need to use pictures of birds
-		(although you can if you want), at least make them different from
-		triangles of the same size. Color is one step, but make it more obvious
-		e.g. different shapes, different sizes.
 - Each creature should have some different characteristics such as maximum
 	speed, maximum force, hunger threshold, size, aggression factor, etc. Group
 	all of these in a new class called "DNA". You don't need to implement it
@@ -300,26 +287,16 @@ Make progress on your midterm project either by elaborating on your February
 - Try to incorporate some of the new things we've learned in order to give
 	your ecology a more interesting behavior
 
-
-#### Production Assignment Due March 2
-
-Make some more progress on your midterm project 
-- Make a new folder called "midterm"
-- In the midterm folder make a new file "README.md" and in that describe 
-	briefly your concept
-- In the midterm folder make a new file "journal.md" and in that describe 
-	what progress you have made so far
-
-#### Details of the midterm project
+#### Further details of the midterm project
 - Due March 9
 - Your midterm project will be to develop a more complex ecology. You may
 	continue with what you created for February 14, or you may create a new
 	ecology. Incorporate various behaviors such as following a flow field,
 	attraction, aggression, arriving, cohesion, separation, and flocking. You do
 	not need to incorporate all of the behaviours that we learned about.
-	- Your project must have a legend indicating what different colors or shapes
-		represent, and other information that explains what's going on. If you are
-		using easily identified images you do not need the legend.
+- Your project must have a legend indicating what different colors or shapes
+represent, and other information that explains what's going on. If you are
+using easily identified images you do not need the legend.
 - Your description must be excellent and detailed and must include:
 	- The concept
 	- The process you took to achieve it
@@ -328,8 +305,8 @@ Make some more progress on your midterm project
 	- Any resources you found useful (tutorials, books, friends, ideas from
 		other classes, etc.)
 - Code must be extremely well organized and commented
-	- Include a block at the beginning of the code
-		with your name, short description of the project, class, and date
+	- Include a block at the beginning of the code with your name, short
+		description of the project, class, and date
 	- Explain each function (except for setup() and draw())
 		- What it does
 		- What the arguments are
@@ -338,9 +315,9 @@ Make some more progress on your midterm project
 	- Excellent comments, especially for any confusing or tricky parts
 	- Use functions, classes, and tabs as needed to organize your program
 	- Use excellent variable, function, object, and class names
-	- Any block that does something confusing deserves its own comment
-		block explaining what it does and how it does it. Usually such a block
-		should be a separate function (but not always).
+	- Any block that does something confusing deserves its own comment block
+		explaining what it does and how it does it. Usually such a block should be
+		a separate function (but not always).
 
 ##### Future Discussion Leaders 
 - March 7: Maitha, Ehtisham
