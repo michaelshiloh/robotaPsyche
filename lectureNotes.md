@@ -2054,8 +2054,8 @@ class Flock {
 }
 ````
 
-##### todays-lecture
 ### February 28
+##### todays-lecture
 
 #### Admin
 - Record
@@ -2066,4 +2066,13 @@ class Flock {
 - Presentation
 - Discussion
 - Review boids
+	- Note that you could have multiple flocks with different properties
 - Debugging
+- Course feedback (time permitting)
+- Jack and Ume visit
+
+##### Debugging
+
+Add the ability to change frame rate, single step, stop, and inspect:
+
+- [association.pde](https://github.com/michaelshiloh/resourcesForClasses/blob/master/src/processingSketches/robotaPsyche/association/association.pde)

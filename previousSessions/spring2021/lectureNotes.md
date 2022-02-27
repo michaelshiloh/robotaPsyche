@@ -2554,7 +2554,7 @@ void draw() {
 ### Week 7.5
 ### March 17
 
-Lot's to do today! Whatever we don't get to we'll do next week:
+Lots to do today! Whatever we don't get to we'll do next week:
 
 - Student presentation (Fatima)
 - Discussion:
