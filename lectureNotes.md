@@ -2065,12 +2065,28 @@ class Flock {
 
 - Presentation (Adina, Abdul)
 - Discussion
+- Homework feedback
 - Review boids
 	- Note that you could have multiple flocks with different properties
 - Debugging
 - Look at homework assignment
 - Course feedback (time permitting)
 - Jack and Ume visit
+
+##### Homework feedback
+
+Some of you received less than the full 10 points on the work you have done
+so far. Generally this was due to one or more of:
+- Insufficient complexity
+- Too much complexity, and results appear random and chaotic
+- Insufficient evidence that the ecology is exhibiting the behavior you
+	were trying to produce. See if you can figure out why, and make it more
+	obvious
+- Poor visuals, making it difficult to understand who are the players and
+	what they are trying to do. While you don't need to use pictures of birds
+	(although you can if you want), at least make them different from
+	triangles of the same size. Color is one step, but make it more obvious
+	e.g. different shapes, different sizes.
 
 ##### Debugging
 
