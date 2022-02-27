@@ -2068,6 +2068,7 @@ class Flock {
 - Review boids
 	- Note that you could have multiple flocks with different properties
 - Debugging
+- Look at homework assignment
 - Course feedback (time permitting)
 - Jack and Ume visit
 
