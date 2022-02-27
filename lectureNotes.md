@@ -2063,7 +2063,7 @@ class Flock {
 
 ##### Agenda for today
 
-- Presentation
+- Presentation (Adina, Abdul)
 - Discussion
 - Review boids
 	- Note that you could have multiple flocks with different properties

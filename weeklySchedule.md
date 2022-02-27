@@ -299,8 +299,6 @@ Make progress on your midterm project either by elaborating on your February 14 
 - March 7: Maitha, Ehtisham
 
 ##### Future Presentation dates
-- February 23: Adina
-- February 28: Abdul
 - March 2: Chinonyerem
 - March 7: (midterm project)
 - March 9: (midterm project)
