@@ -320,7 +320,13 @@ using easily identified images you do not need the legend.
 		a separate function (but not always).
 
 ##### Future Discussion Leaders 
-- March 7: Maitha, Ehtisham
+- March 7: Phillip Ben
+- March 9: No reading due
+- March 23: Sarah Yoyang
+- March 28: Adina Abdul
+- March 30: Brian Chinonyerem
+- April 4: Badr Jiayi
+
 
 ##### Future Presentation dates
 - March 2: Chinonyerem
