@@ -320,12 +320,12 @@ using easily identified images you do not need the legend.
 		a separate function (but not always).
 
 ##### Future Discussion Leaders 
-- March 7: Phillip Ben
-- March 9: No reading due
-- March 23: Sarah Yoyang
-- March 28: Adina Abdul
-- March 30: Brian Chinonyerem
-- April 4: Badr Jiayi
+- March 7: No reading so we can work on midterm projects
+- March 23: Phillip Ben
+- March 28: Sarah Yiyang
+- April 4:  Adina Abdul
+- April 11: Brian Chinonyerem 
+- April 18: Badr Jiayi 
 
 
 ##### Future Presentation dates
