@@ -2055,12 +2055,6 @@ class Flock {
 ````
 
 ### February 28
-##### todays-lecture
-
-#### Admin
-- Record
-- Zoom in to make text larger
-
 ##### Agenda for today
 
 - Presentation (Adina, Abdul)
@@ -2070,7 +2064,6 @@ class Flock {
 	- Note that you could have multiple flocks with different properties
 - Debugging
 - Look at homework assignment
-- Course feedback (time permitting)
 - Jack and Ume visit
 
 ##### Homework feedback
@@ -2093,3 +2086,30 @@ so far. Generally this was due to one or more of:
 Add the ability to change frame rate, single step, stop, and inspect:
 
 - [association.pde](https://github.com/michaelshiloh/resourcesForClasses/blob/master/src/processingSketches/robotaPsyche/association/association.pde)
+
+### March 2
+##### todays-lecture
+
+#### Admin
+- Record
+- Zoom in to make text larger
+
+##### Agenda for today
+- Presentation: Chinonyerem
+- Course feedback 
+- Look at more homework
+- Review boids
+- Work on your midterm projects
+
+#### Course feedback 
+
+- What was the more surprising thing you learned so far in this class?
+- What was the more important thing you learned so far in this class?
+- What would you like more of?
+- What would you like less of?
+- What do you wish we'd talk about, or learn, that we haven't?
+
+#### Boids
+
+- Review boids (if necessary)
+- Note that you could have multiple flocks with different properties

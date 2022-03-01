@@ -2478,7 +2478,7 @@ Debugging
 ##### Debugging
 - Pause, Single step, Run, slow down, speed up
 
-##### Detecting the first occurance of a collision:
+##### Detecting the first occurrence of a collision:
 
 ````
 /* edge triggered collision detection */
