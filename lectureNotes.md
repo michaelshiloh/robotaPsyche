@@ -2093,6 +2093,7 @@ Add the ability to change frame rate, single step, stop, and inspect:
 #### Admin
 - Record
 - Zoom in to make text larger
+- Please put your presentations in your Github repositories
 
 ##### Agenda for today
 - Presentation: Chinonyerem
