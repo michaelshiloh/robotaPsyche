@@ -2088,12 +2088,6 @@ Add the ability to change frame rate, single step, stop, and inspect:
 - [association.pde](https://github.com/michaelshiloh/resourcesForClasses/blob/master/src/processingSketches/robotaPsyche/association/association.pde)
 
 ### March 2
-##### todays-lecture
-
-#### Admin
-- Record
-- Zoom in to make text larger
-- Please put your presentations in your Github repositories
 
 ##### Agenda for today
 - Presentation: Chinonyerem
@@ -2114,3 +2108,15 @@ Add the ability to change frame rate, single step, stop, and inspect:
 
 - Review boids (if necessary)
 - Note that you could have multiple flocks with different properties
+
+### March 2
+##### todays-lecture
+
+#### Admin
+- Record
+- Zoom in to make text larger
+- Please put your presentations in your Github repositories
+
+##### Agenda for today
+
+- Midterm project status
