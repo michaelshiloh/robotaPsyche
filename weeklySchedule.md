@@ -241,9 +241,6 @@ The Machine Question. We will not discuss the reading from The Nature of Code.
 		read
 		[here](https://github.com/michaelshiloh/robotaPsyche/blob/main/syllabus.md#student-led-discussions)
 
-
-##### todays-assignment
-
 #### Reading Assignment Due February 28
 Read the Preface and Introduction to [Science Fiction, Alien Encounters, and the Ethics of Posthumanism](https://github.com/michaelshiloh/resourcesForClasses/tree/master/doc/ScienceFictionAlienEncountersAndTheEthicsOfPosthumanism) by Elana Gomel.
 - Fatima and Yeji will lead our discussion
@@ -319,13 +316,16 @@ using easily identified images you do not need the legend.
 		explaining what it does and how it does it. Usually such a block should be
 		a separate function (but not always).
 
+##### todays-assignment
+
+#### Reading Assignment Due February 28
+
 ##### Future Discussion Leaders 
-- March 7: No reading so we can work on midterm projects
-- March 23: Phillip Ben
-- March 28: Sarah Yiyang
-- April 4:  Adina Abdul
-- April 11: Brian Chinonyerem 
-- April 18: Badr Jiayi 
+- March 28: Phillip Ben
+- April 4: Sarah Yiyang
+- April 11:  Adina Abdul
+- April 18: Brian Chinonyerem 
+- April 25: Badr Jiayi 
 
 
 ##### Future Presentation dates

@@ -2110,6 +2110,12 @@ Add the ability to change frame rate, single step, stop, and inspect:
 - Note that you could have multiple flocks with different properties
 
 ### March 2
+
+##### Agenda for today
+
+- Midterm project status
+
+### March 23
 ##### todays-lecture
 
 #### Admin
@@ -2119,4 +2125,48 @@ Add the ability to change frame rate, single step, stop, and inspect:
 
 ##### Agenda for today
 
-- Midterm project status
+- Rescheduled readings
+- Plan for final project
+- Examples
+
+##### Rescheduled readings
+
+##### Plan for final project
+
+- One ecosystem that will have all your creatures in it
+- How will it work
+	- Wrap your entire ecosystem in a class that will in contain everything in
+		your ecosystem
+	- Your class should have these functions:
+		- `setup()`
+		- `run()`
+		- `draw()`
+		- `mouseClicked()` (even if empty)
+		- `keyPressed()` (even if empty)
+		- Others as necessary
+	- Look at example
+	- Your class must not call these functions:
+		- `size()`
+		- `background()`
+	- Your environment must not have any anything that is outside of the class
+- How will we integrate them?
+	- New Github repository for the class project
+		- All of you will be contributors
+		- Once you get your enviromnent working, copy it to the 
+			class project repository and test it. If it works, you may commit it.
+			If it doesn't work, you have to fix it first.
+		- As each of you add your enviroment, the class project
+			will get more and more complex but should always work
+
+##### Examples
+
+Examples of synthetic ecologies
+
+- Heather's projects:
+	- [One](https://deweyhagborg.com/projects/netlingua)
+	- [Another](https://deweyhagborg.com/_archived/bugs/)
+- The book "metacreation: art and artificial life" by Mitchell Whitelaw has some good examples along these lines
+- Ken Rinaldo
+- Stephen Wilson's information arts, he had a section on this topic I believe.
+- VIDA art & artificial life competition always had things along these lines as well.
+- Anicka Yi's installation in the Tate Modern
