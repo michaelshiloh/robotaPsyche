@@ -2119,7 +2119,7 @@ Add the ability to change frame rate, single step, stop, and inspect:
 ##### todays-lecture
 
 #### Admin
-- Record
+- **RECORD**
 - Zoom in to make text larger
 - Please put your presentations in your Github repositories
 
