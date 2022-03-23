@@ -316,12 +316,25 @@ using easily identified images you do not need the legend.
 		explaining what it does and how it does it. Usually such a block should be
 		a separate function (but not always).
 
+- March 2: Chinonyerem
+
 ##### todays-assignment
 
-#### Reading Assignment Due February 28
+#### Reading Assignment Due March 28
+
+- Read 
+the  third story (Reason) in
+[*I, Robot*](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/I_Robot.pdf)
+by Isaac Asimov
+	- Phillip and Ben to lead
+
+#### Reading Assignment Due March 30
+
+- Read [Affective Computers](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/affectiveComputers_Picard.pdf)
+- Watch [Be Right Back](https://www.youtube.com/watch?v=Y4MvarkRRTs) episode
+	of Black Mirror.
 
 ##### Future Discussion Leaders 
-- March 28: Phillip Ben
 - April 4: Sarah Yiyang
 - April 11:  Adina Abdul
 - April 18: Brian Chinonyerem 
@@ -329,7 +342,6 @@ using easily identified images you do not need the legend.
 
 
 ##### Future Presentation dates
-- March 2: Chinonyerem
 - March 7: (midterm project)
 - March 9: (midterm project)
 - March 23: Hassan
