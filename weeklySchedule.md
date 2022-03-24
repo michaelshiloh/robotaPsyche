@@ -331,8 +331,11 @@ by Isaac Asimov
 #### Reading Assignment Due March 30
 
 - Read [Affective Computers](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/affectiveComputers_Picard.pdf)
-- Watch [Be Right Back](https://www.youtube.com/watch?v=Y4MvarkRRTs) episode
-	of Black Mirror.
+- Watch [Be Right Back](https://www.youtube.com/watch?v=Y4MvarkRRTs) 
+	episode of Black Mirror.
+	**Warning:** This episode is a little dark and contains a sex scene,
+	although there is no nudity. You can skip over these parts if you wish. 
+	If you feel uncomfortable watching the episode you don't need to watch it.
 
 ##### Future Discussion Leaders 
 - April 4: Sarah Yiyang
