@@ -2116,13 +2116,6 @@ Add the ability to change frame rate, single step, stop, and inspect:
 - Midterm project status
 
 ### March 23
-##### todays-lecture
-
-#### Admin
-- **RECORD**
-- Zoom in to make text larger
-- Please put your presentations in your Github repositories
-
 ##### Agenda for today
 
 - Rescheduled readings
@@ -2170,3 +2163,16 @@ Examples of synthetic ecologies
 - Stephen Wilson's information arts, he had a section on this topic I believe.
 - VIDA art & artificial life competition always had things along these lines as well.
 - Anicka Yi's installation in the Tate Modern
+
+### March 28
+##### todays-lecture
+
+#### Admin
+- **RECORD**
+- Zoom in to make text larger
+- Please put your presentations in your Github repositories
+
+##### Agenda for today
+
+- Discussion of *Reason*, Phillip and Ben to lead
+- Presentatoin by Hassan

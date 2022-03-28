@@ -342,10 +342,7 @@ by Isaac Asimov
 
 
 ##### Future Presentation dates
-- March 7: (midterm project)
-- March 9: (midterm project)
-- March 23: Hassan
-- March 28: Sonya
+- March 28: Hassan
 - March 30: Snehil
 - April 4: Genie
 - April 6: Maitha
