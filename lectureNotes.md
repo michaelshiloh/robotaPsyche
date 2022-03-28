@@ -2128,28 +2128,6 @@ Add the ability to change frame rate, single step, stop, and inspect:
 
 - One ecosystem that will have all your creatures in it
 - This is an experiment so we will all learn together and figure out how to make this work. What this means is if you run into problems let me know!
-- How will it work
-	- Wrap your entire ecosystem in a class that will in contain everything in
-		your ecosystem
-	- Your class should have these functions:
-		- `setup()`
-		- `draw()`
-		- `mouseClicked()` (even if empty)
-		- `keyPressed()` (even if empty)
-		- Others as necessary
-	- Look at [example](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/processingSketches/robotaPsyche/allTogether)
-	- Your class must not call these functions:
-		- `size()`
-		- `background()`
-	- Your environment must not have any anything that is outside of the class
-- How will we integrate them?
-	- New Github repository for the class project
-		- All of you will be contributors
-		- Once you get your enviromnent working, copy it to the 
-			class project repository and test it. If it works, you may commit it.
-			If it doesn't work, you have to fix it first.
-		- As each of you add your enviroment, the class project
-			will get more and more complex but should always work
 
 ##### Examples
 

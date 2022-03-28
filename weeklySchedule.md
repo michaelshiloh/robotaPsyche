@@ -318,15 +318,14 @@ using easily identified images you do not need the legend.
 
 - March 2: Chinonyerem
 
-##### todays-assignment
-
 #### Reading Assignment Due March 28
 
-- Read 
+- Read (Phillip and Ben to lead)
 the  third story (Reason) in
 [*I, Robot*](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/I_Robot.pdf)
 by Isaac Asimov
-	- Phillip and Ben to lead
+
+##### todays-assignment
 
 #### Reading Assignment Due March 30
 
@@ -337,8 +336,45 @@ by Isaac Asimov
 	although there is no nudity. You can skip over these parts if you wish. 
 	If you feel uncomfortable watching the episode you don't need to watch it.
 
+#### Production Assignment Due March 30
+
+- If you just got access to the class ecosystem Github repository,
+please upload at least one file to verify that you have access.
+
+#### Production Assignment Due April 4
+
+Concept:
+
+Add your ecosystem to the class ecosystem. We will do this in stages
+- I anticipate many technical and other issues. We will solve them as the come
+	up
+- For now, don't worry about how it looks or whether it makes sense. 
+The first step is to get it running, then we will tackle other problems
+
+Process:
+
+- Wrap your entire ecosystem in a class that will in contain everything in
+	your ecosystem
+- Your class should have these functions:
+	- `setup()`
+	- `draw()`
+	- `mouseClicked()` (even if empty)
+	- `keyPressed()` (even if empty)
+	- Others as necessary
+- Look at
+	[example](https://github.com/michaelshiloh/resourcesForClasses/blob/master/src/processingSketches/robotaPsyche/allTogether/michaelsEcosystem.pde)
+- Your class must not call these functions:
+	- `size()`
+	- `background()`
+- Your environment must not have any anything that is outside of the class
+- Copy your ecosystem into the class ecosystem repository
+- Put a message on Discord so that I can test it
+
+#### Reading Assignment Due April 4
+
+To be announced (Sarah and Yiyang to lead)
+
 ##### Future Discussion Leaders 
-- April 4: Sarah Yiyang
 - April 11:  Adina Abdul
 - April 18: Brian Chinonyerem 
 - April 25: Badr Jiayi 
