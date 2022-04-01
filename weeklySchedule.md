@@ -325,8 +325,6 @@ the  third story (Reason) in
 [*I, Robot*](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/I_Robot.pdf)
 by Isaac Asimov
 
-##### todays-assignment
-
 #### Reading Assignment Due March 30
 
 - Read [Affective Computers](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/affectiveComputers_Picard.pdf)
@@ -341,6 +339,7 @@ by Isaac Asimov
 - If you just got access to the class ecosystem Github repository,
 please upload at least one file to verify that you have access.
 
+##### todays-assignment
 #### Production Assignment Due April 4
 
 Concept:
@@ -372,7 +371,11 @@ Process:
 
 #### Reading Assignment Due April 4
 
-To be announced (Sarah and Yiyang to lead)
+Watch The Social Dilemma and come prepared to discuss 
+(Sarah and Yiyang to lead).
+- **This is a 90 minute movie so make sure you give yourself time to watch it**
+- I sent you email with a link and password to access the movie. 
+If you have trouble accessing the movie let me know.
 
 ##### Future Discussion Leaders 
 - April 11:  Adina Abdul
