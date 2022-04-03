@@ -2143,6 +2143,17 @@ Examples of synthetic ecologies
 - Anicka Yi's installation in the Tate Modern
 
 ### March 28
+
+##### Agenda for today
+- Discussion of *Reason*, Phillip and Ben to lead
+
+### March 30
+##### Agenda for today
+- Discussion of Affective Computing by Rosalind W. Picard, lead by guest
+	lecturer professor [Oren
+	Hanner](https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/oren-hanner.html)
+
+### April 4
 ##### todays-lecture
 
 #### Admin
@@ -2151,6 +2162,6 @@ Examples of synthetic ecologies
 - Please put your presentations in your Github repositories
 
 ##### Agenda for today
-
-- Discussion of *Reason*, Phillip and Ben to lead
-- Presentatoin by Hassan
+- Presentation by Hassan 
+- Presentation by Snehil
+- Discussion of The Social Dilemma, lead by Sarah and Yiyang
