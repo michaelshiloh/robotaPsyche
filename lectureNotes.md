@@ -2162,6 +2162,7 @@ Examples of synthetic ecologies
 - Please put your presentations in your Github repositories
 
 ##### Agenda for today
+- Please upload your presentations in PDF
 - Presentation by Hassan 
 - Presentation by Snehil
 - Discussion of The Social Dilemma, lead by Sarah and Yiyang
