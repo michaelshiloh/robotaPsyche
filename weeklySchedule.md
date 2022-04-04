@@ -316,7 +316,7 @@ using easily identified images you do not need the legend.
 		explaining what it does and how it does it. Usually such a block should be
 		a separate function (but not always).
 
-- March 2: Chinonyerem
+- March 2: Presentation: Chinonyerem
 
 #### Reading Assignment Due March 28
 

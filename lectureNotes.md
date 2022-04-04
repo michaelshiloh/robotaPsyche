@@ -2162,7 +2162,14 @@ Examples of synthetic ecologies
 - Please put your presentations in your Github repositories
 
 ##### Agenda for today
-- Please upload your presentations in PDF
-- Presentation by Hassan 
-- Presentation by Snehil
-- Discussion of The Social Dilemma, lead by Sarah and Yiyang
+- Announcements
+- Presentation by Hassan 10:25 - 11:05
+- Presentation by Snehil 11:15-11:55
+- Discussion of The Social Dilemma, lead by Sarah and Yiyang 12:05-12:50
+
+##### Announcements
+- Please upload your presentation script in addition to slides
+- Please upload your questions for when you lead the discussion
+- What is the difference between `Journal.md` and `README.md`
+	(Jiayi, Abdul, others)
+- Don't upload source files in zip files to Github. Load individual files.
