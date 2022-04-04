@@ -2163,7 +2163,7 @@ Examples of synthetic ecologies
 
 ##### Agenda for today
 - Announcements
-- Presentation by Hassan 10:25 - 11:05
+- Presentation by Genie 10:25 - 11:05
 - Presentation by Snehil 11:15-11:55
 - Discussion of The Social Dilemma, lead by Sarah and Yiyang 12:05-12:50
 
