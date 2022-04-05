@@ -339,7 +339,6 @@ by Isaac Asimov
 - If you just got access to the class ecosystem Github repository,
 please upload at least one file to verify that you have access.
 
-##### todays-assignment
 #### Production Assignment Due April 4
 
 Concept:
@@ -377,17 +376,17 @@ Watch The Social Dilemma and come prepared to discuss
 - I sent you email with a link and password to access the movie. 
 If you have trouble accessing the movie let me know.
 
+##### todays-assignment
+#### Reading Assignment Due April 11
+
+Chapter 1 of The Singularity is Near (Adina and Abdul to lead)
+
 ##### Future Discussion Leaders 
-- April 11:  Adina Abdul
 - April 18: Brian Chinonyerem 
 - April 25: Badr Jiayi 
 
 
 ##### Future Presentation dates
-- April 4: Hassan
-- April 4: Snehil
-- April 6: Genie
-- April 6: Maitha
 - April 11: Ehtisham
 - April 13: Fatima
 - April 18: Yeji

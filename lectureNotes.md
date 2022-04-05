@@ -2154,14 +2154,7 @@ Examples of synthetic ecologies
 	Hanner](https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/oren-hanner.html)
 
 ### April 4
-##### todays-lecture
-
-#### Admin
-- **RECORD**
-- Zoom in to make text larger
-- Please put your presentations in your Github repositories
-
-##### Agenda for today
+##### Plan for today
 - Announcements
 - Presentation by Genie 10:25 - 11:05
 - Presentation by Snehil 11:15-11:55
@@ -2173,3 +2166,23 @@ Examples of synthetic ecologies
 - What is the difference between `Journal.md` and `README.md`
 	(Jiayi, Abdul, others)
 - Don't upload source files in zip files to Github. Load individual files.
+
+### April 6
+##### todays-lecture
+
+#### Admin
+- **RECORD**
+- Zoom in to make text larger
+- Please put your presentations in your Github repositories
+
+##### Plan for today
+- Presentation by Maitha
+- Presentation by Genie
+
+
+##### Time permitting
+- Final question from Sarah and Yiyang about The Social Dilemma
+- How shall we structure our inclusive ecosystem?
+	- Zones?
+	- Text?
+	- Interactions?
