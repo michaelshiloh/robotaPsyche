@@ -2172,8 +2172,6 @@ Examples of synthetic ecologies
 
 #### Admin
 - **RECORD**
-- Zoom in to make text larger
-- Please put your presentations in your Github repositories
 
 ##### Plan for today
 - Presentation by Maitha
@@ -2186,3 +2184,4 @@ Examples of synthetic ecologies
 	- Zones?
 	- Text?
 	- Interactions?
+	- How to respond to mouse and keys?
