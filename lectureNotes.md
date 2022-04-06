@@ -2175,7 +2175,6 @@ Examples of synthetic ecologies
 
 ##### Plan for today
 - Presentation by Maitha
-- Presentation by Genie
 
 
 ##### Time permitting

@@ -379,7 +379,9 @@ If you have trouble accessing the movie let me know.
 ##### todays-assignment
 #### Reading Assignment Due April 11
 
-Chapter 1 of The Singularity is Near (Adina and Abdul to lead)
+[Chapter
+1](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/TheSingularityIsNear/TSIN_chapter1.pdf)
+of The Singularity is Near (Adina and Abdul to lead)
 
 ##### Future Discussion Leaders 
 - April 18: Brian Chinonyerem 
