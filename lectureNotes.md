@@ -2168,19 +2168,26 @@ Examples of synthetic ecologies
 - Don't upload source files in zip files to Github. Load individual files.
 
 ### April 6
-##### todays-lecture
+#### Plan for today
+- Presentation by Maitha
+
+### April 11
+#### todays-lecture
 
 #### Admin
 - **RECORD**
 
-##### Plan for today
-- Presentation by Maitha
+#### Plan for today
+- Discussion: The Singularity is Near
+- How shall we structure our inclusive ecosystem?
+- Time permitting
 
-
-##### Time permitting
-- Final question from Sarah and Yiyang about The Social Dilemma
 - How shall we structure our inclusive ecosystem?
 	- Zones?
 	- Text?
 	- Interactions?
 	- How to respond to mouse and keys?
+	- Scale?
+
+#### Time permitting
+- Final question from Sarah and Yiyang about The Social Dilemma
