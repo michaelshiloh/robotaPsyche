@@ -377,7 +377,7 @@ Watch The Social Dilemma and come prepared to discuss
 If you have trouble accessing the movie let me know.
 
 ##### todays-assignment
-#### Reading Assignment Due April 11
+#### Reading Assignment Due April 13
 
 [Chapter
 1](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/TheSingularityIsNear/TSIN_chapter1.pdf)
@@ -389,7 +389,6 @@ of The Singularity is Near (Adina and Abdul to lead)
 
 
 ##### Future Presentation dates
-- April 11: Ehtisham
 - April 13: Fatima
 - April 18: Yeji
 - April 20: Phillip

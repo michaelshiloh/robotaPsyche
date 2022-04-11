@@ -2178,7 +2178,7 @@ Examples of synthetic ecologies
 - **RECORD**
 
 #### Plan for today
-- Discussion: The Singularity is Near
+- Presentation by Ehtisham
 - How shall we structure our inclusive ecosystem?
 - Time permitting
 
