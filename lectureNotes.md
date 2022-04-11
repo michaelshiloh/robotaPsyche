@@ -2186,10 +2186,32 @@ Examples of synthetic ecologies
 
 - How shall we structure our inclusive ecosystem?
 	- Zones?
+		- rooms, water bodies, sky
+		- maybe display only one zone at a time
+		- what zones do with
+			- water: yeji, hassan, brian, jiayi, ben
+			- sky: phillip, chinonyerem, yiyang
+			- land (outdoors) abdul, adina, badr, genie, sarah, snehil
+			- indoors: ehtisham
 	- Text?
+		- can follow zone
+		- maybe we don't need text (or at least minimize text)
 	- Interactions?
+		- each entity to be based on a common set of functions
 	- How to respond to mouse and keys?
+		- use a number to select which ecosystem gets mouse and key events
+		- only works within a zone
 	- Scale?
+	- use zoneHeight, zoneWidth instead of global width and height
+
+todo
+- each of you:
+	- minimize text
+	- use zoneHeight, zoneWidth instead of global width and height
+- me:
+	- set zones
+	- create zoneHeight, zoneWidth 
+	- use a number to select which ecosystem gets mouse and key events
 
 #### Time permitting
 - Final question from Sarah and Yiyang about The Social Dilemma
