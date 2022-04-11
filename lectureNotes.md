@@ -2180,7 +2180,8 @@ Examples of synthetic ecologies
 
 #### Plan for today
 - Presentation by Ehtisham
-- How shall we structure our inclusive ecosystem?
+- Discussion: The Singularity is Near
+- How shall we structure our inclusive ecosystem? (Adina and Abdul to lead)
 - Time permitting
 
 - How shall we structure our inclusive ecosystem?
