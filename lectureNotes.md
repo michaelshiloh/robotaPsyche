@@ -2172,12 +2172,6 @@ Examples of synthetic ecologies
 - Presentation by Maitha
 
 ### April 11
-#### todays-lecture
-
-#### Admin
-- **RECORD**
-- Genie please remove the two `background()` function calls in your ecosystem
-
 #### Plan for today
 - Presentation by Ehtisham
 - Discussion: The Singularity is Near
@@ -2213,5 +2207,16 @@ todo
 	- create zoneHeight, zoneWidth 
 	- use a number to select which ecosystem gets mouse and key events
 
-#### Time permitting
+### April 13
+#### todays-lecture
+
+#### Admin
+- **RECORD**
+- Genie please remove the two `background()` function calls in your ecosystem
+
+#### Plan for today
+- Presentation by Toomie
+- What else needs to be done for zones?
+	- background?
 - Final question from Sarah and Yiyang about The Social Dilemma
+

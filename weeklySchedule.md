@@ -389,7 +389,6 @@ of The Singularity is Near (Adina and Abdul to lead)
 
 
 ##### Future Presentation dates
-- April 13: Fatima
 - April 18: Yeji
 - April 20: Phillip
 - April 25: Badr
