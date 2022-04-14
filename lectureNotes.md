@@ -2212,7 +2212,6 @@ todo
 
 #### Admin
 - **RECORD**
-- Genie please remove the two `background()` function calls in your ecosystem
 
 #### Plan for today
 - Presentation by Toomie
