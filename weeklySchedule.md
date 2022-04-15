@@ -385,6 +385,7 @@ of The Singularity is Near (Adina and Abdul to lead)
 #### Reading Assignment Due April 18
 
 The topic this week is robots and free will. 
+Brian and Chinonyerem will lead our discussion.
 Please read the first three articles:
 
 1. [The Nonexistent Moral Agency of Robots – A Lack of Intentionality and Free
@@ -399,7 +400,6 @@ into a robot:
 	 Robots](http://jmc.stanford.edu/articles/freewill/freewill.pdf)
 
 ##### Future Discussion Leaders 
-- April 18: Brian Chinonyerem 
 - April 25: Badr Jiayi 
 
 
