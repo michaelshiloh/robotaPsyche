@@ -404,7 +404,6 @@ into a robot:
 
 
 ##### Future Presentation dates
-- April 18: Yeji
 - April 20: Phillip
 - April 25: Badr
 - April 27: Jiayi

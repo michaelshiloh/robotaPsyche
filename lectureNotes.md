@@ -2208,14 +2208,18 @@ todo
 	- use a number to select which ecosystem gets mouse and key events
 
 ### April 13
-#### todays-lecture
-
-#### Admin
-- **RECORD**
-
 #### Plan for today
 - Presentation by Toomie
 - What else needs to be done for zones?
 	- background?
 - Final question from Sarah and Yiyang about The Social Dilemma
 
+### April 18
+#### todays-lecture
+
+#### Admin
+- **RECORD**
+
+#### Plan for today
+- Presentation by Yeji
+- Discussion lead by Brian and Chinonyerem
