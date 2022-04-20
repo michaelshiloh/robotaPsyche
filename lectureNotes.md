@@ -2215,11 +2215,16 @@ todo
 - Final question from Sarah and Yiyang about The Social Dilemma
 
 ### April 18
+#### Plan for today
+- Presentation by Yeji
+- Discussion lead by Brian and Chinonyerem
+
+### April 20
 #### todays-lecture
 
 #### Admin
 - **RECORD**
 
 #### Plan for today
-- Presentation by Yeji
-- Discussion lead by Brian and Chinonyerem
+- Presentation by Phillip
+- Fix ecosystem
