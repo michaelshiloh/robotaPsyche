@@ -2220,11 +2220,44 @@ todo
 - Discussion lead by Brian and Chinonyerem
 
 ### April 20
+#### Plan for today
+- Presentation by Phillip
+- Fix ecosystem
+
+### April 25
 #### todays-lecture
 
 #### Admin
 - **RECORD**
 
 #### Plan for today
-- Presentation by Phillip
-- Fix ecosystem
+- Announcements
+- Activities
+- Presentation by Badr
+
+#### Announcements
+I have to visit the hospital so that they can figure out why I'm
+still coughing. Unfortunately now is the only opening they had for the
+next few weeks. I hope to be back before too long but meanwhile:
+- I have made a few of you hosts so that the meeting can continue
+- I have planned some activities for you to do while I am gone
+
+#### Activities
+- summarize your presentation
+- summarize the discussion you lead
+- Summarize this class
+
+
+120 words:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum
+erat vitae nunc molestie, id lobortis quam malesuada. Mauris eu faucibus leo.
+Nullam eget sollicitudin nisi. Fusce pretium aliquam dui, vulputate ornare sem
+aliquet et. Pellentesque sit amet nulla auctor, faucibus ante a, lacinia
+libero. Nullam rhoncus, ante vel posuere lobortis, velit augue blandit est, eu
+iaculis lacus eros id eros. Mauris vitae urna nec ex suscipit aliquet in vitae
+purus. Sed a pellentesque lectus. Nullam est turpis, imperdiet sed vestibulum
+sed, consectetur sagittis nulla. Sed consectetur arcu mauris, eget consectetur
+augue volutpat at. Quisque eu arcu lacinia, viverra lacus non, tristique est.
+Integer non ultricies tellus, sed interdum mauris. Donec justo leo, aliquet et
+purus non, efficitur ornare arcu.
