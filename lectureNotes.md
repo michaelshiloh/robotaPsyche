@@ -2236,28 +2236,34 @@ todo
 - Presentation by Badr
 
 #### Announcements
-I have to visit the hospital so that they can figure out why I'm
-still coughing. Unfortunately now is the only opening they had for the
-next few weeks. I hope to be back before too long but meanwhile:
+I have to visit the hospital so that they can figure out why I'm still
+coughing. Unfortunately now is the only opening they had for the next few
+weeks. I hope to be back before the end of class but meanwhile:
 - I have made a few of you hosts so that the meeting can continue
 - I have planned some activities for you to do while I am gone
+- Take breaks as needed but don't abuse this freedom. Everyone must be back in
+	class by 12:15pm
+- I hope to be out in time for Badr's presentation, but if I'm not, please
+	start without me at 12:15pm
 
 #### Activities
-- summarize your presentation
-- summarize the discussion you lead
-- Summarize this class
+Create a new folder `25april` and in it create these three markdown
+	documents:
+- Summarize what this course has meant to you so far. Discuss both the
+	technical content as well as readings and discussions. You may discuss with
+	each other but each one of you should write your own summary
+	- 500-1000 words
+	- Name this file `courseSummary.md`
+- Write a summary of your presentation, including the discussion that followed
+	your presentation.
+	- 150-250 words
+	- Name this file `presentationSummary.md`
+- summarize the discussion you lead, including the reading. You should work with
+	your partner on this. Only one of you needs to have the file.
+	- 150-250 words
+	- Name this file `discussionSummary.md`
+- Create a `README.md` file and add links to the three summaries. If your
+	partner has the discussion summary file, you should link to that.
 
+#### Presentation by Badr
 
-120 words:
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum
-erat vitae nunc molestie, id lobortis quam malesuada. Mauris eu faucibus leo.
-Nullam eget sollicitudin nisi. Fusce pretium aliquam dui, vulputate ornare sem
-aliquet et. Pellentesque sit amet nulla auctor, faucibus ante a, lacinia
-libero. Nullam rhoncus, ante vel posuere lobortis, velit augue blandit est, eu
-iaculis lacus eros id eros. Mauris vitae urna nec ex suscipit aliquet in vitae
-purus. Sed a pellentesque lectus. Nullam est turpis, imperdiet sed vestibulum
-sed, consectetur sagittis nulla. Sed consectetur arcu mauris, eget consectetur
-augue volutpat at. Quisque eu arcu lacinia, viverra lacus non, tristique est.
-Integer non ultricies tellus, sed interdum mauris. Donec justo leo, aliquet et
-purus non, efficitur ornare arcu.
