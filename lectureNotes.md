@@ -2225,11 +2225,6 @@ todo
 - Fix ecosystem
 
 ### April 25
-#### todays-lecture
-
-#### Admin
-- **RECORD**
-
 #### Plan for today
 - Announcements
 - Activities
@@ -2267,3 +2262,14 @@ Create a new folder `25april` and in it create these three markdown
 
 #### Presentation by Badr
 
+### April 27
+#### todays-lecture
+
+#### Admin
+- **RECORD**
+
+#### Plan for today
+- Presentation from Jiayi
+- Fix the ecosystem
+	- Yeji
+	- What's happening in the top left corner?

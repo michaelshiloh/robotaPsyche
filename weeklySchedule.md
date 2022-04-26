@@ -400,12 +400,10 @@ into a robot:
 	 Robots](http://jmc.stanford.edu/articles/freewill/freewill.pdf)
 
 ##### Future Discussion Leaders 
-- April 25: Badr Jiayi 
+- May : Badr Jiayi 
 
 
 ##### Future Presentation dates
-- April 20: Phillip
-- April 25: Badr
 - April 27: Jiayi
 - May 5: (final project)
 - May 9: (final project)
