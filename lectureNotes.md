@@ -2273,3 +2273,4 @@ Create a new folder `25april` and in it create these three markdown
 - Fix the ecosystem
 	- Yeji
 	- What's happening in the top left corner?
+	- Index out of bounds (Abdul line 394)
