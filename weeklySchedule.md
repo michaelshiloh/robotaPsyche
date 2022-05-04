@@ -387,16 +387,13 @@ The topic this week is robots and free will.
 Brian and Chinonyerem will lead our discussion.
 Please read the first three articles:
 
-1. [The Nonexistent Moral Agency of Robots – A Lack of Intentionality and Free
-	 Will](https://montrealethics.ai/the-nonexistent-moral-agency-of-robots-a-lack-of-intentionality-and-free-will/)
+1. [The Nonexistent Moral Agency of Robots – A Lack of Intentionality and Free Will](https://montrealethics.ai/the-nonexistent-moral-agency-of-robots-a-lack-of-intentionality-and-free-will/)
 1. [Free will and AI](https://becominghuman.ai/free-will-and-ai-85adbb09ac07)
-1. [Killer robots, free will and the illusion of
-	 control](https://theconversation.com/killer-robots-free-will-and-the-illusion-of-control-87460)
+1. [Killer robots, free will and the illusion of control](https://theconversation.com/killer-robots-free-will-and-the-illusion-of-control-87460)
 
 This article is optional. It argues that it's possible to design free will
 into a robot:
-1. [Free Will—Even For
-	 Robots](http://jmc.stanford.edu/articles/freewill/freewill.pdf)
+1. [Free Will—Even For Robots](http://jmc.stanford.edu/articles/freewill/freewill.pdf)
 
 ##### todays-assignment
 #### Reading Assignment Due May 11
@@ -405,5 +402,4 @@ The topic this week is whether simple approaches to robotics might yield
 better (depending on how you define "better") or more interesting results
 - Badr and Jiayi will lead our discussion
 - Read Chapter 5: Toys, Totems, and Tools, in [The Living Brain](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/TheLivingBrain.pdf)
-- Read Chapter 2: The Quest for an Artificial Creature in [Flesh and
-	Machines](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/FleshAndMachinesHowRobotsWillChangeUs.pdf)
+- Read Chapter 2: The Quest for an Artificial Creature in [Flesh and Machines](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/FleshAndMachinesHowRobotsWillChangeUs.pdf)
