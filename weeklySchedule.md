@@ -381,7 +381,6 @@ If you have trouble accessing the movie let me know.
 1](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/TheSingularityIsNear/TSIN_chapter1.pdf)
 of The Singularity is Near (Adina and Abdul to lead)
 
-##### todays-assignment
 #### Reading Assignment Due April 18
 
 The topic this week is robots and free will. 
@@ -399,13 +398,12 @@ into a robot:
 1. [Free Will—Even For
 	 Robots](http://jmc.stanford.edu/articles/freewill/freewill.pdf)
 
-##### Future Discussion Leaders 
-- May : Badr Jiayi 
+##### todays-assignment
+#### Reading Assignment Due May 11
 
-
-##### Future Presentation dates
-- April 27: Jiayi
-- May 5: (final project)
-- May 9: (final project)
-- May 11: (final project)
-
+The topic this week is whether simple approaches to robotics might yield
+better (depending on how you define "better") or more interesting results
+- Badr and Jiayi will lead our discussion
+- Read Chapter 5: Toys, Totems, and Tools, in [The Living Brain](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/TheLivingBrain.pdf)
+- Read Chapter 2: The Quest for an Artificial Creature in [Flesh and
+	Machines](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/FleshAndMachinesHowRobotsWillChangeUs.pdf)
