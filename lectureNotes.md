@@ -2263,14 +2263,22 @@ Create a new folder `25april` and in it create these three markdown
 #### Presentation by Badr
 
 ### April 27
+#### Plan for today
+- Presentation by Jiayi
+- Fix the ecosystem
+	- Yeji
+	- What's happening in the top left corner?
+	- Index out of bounds (Abdul line 394)
+
+### May 5
 #### todays-lecture
 
 #### Admin
 - **RECORD**
 
 #### Plan for today
-- Presentation from Jiayi
-- Fix the ecosystem
-	- Yeji
-	- What's happening in the top left corner?
-	- Index out of bounds (Abdul line 394)
+Fix the class ecosystem!
+
+- Yiyang: yx_YiyangEcosystem.pde:    size(1200,800);
+- Yeji: yk_RobotaFinal.pde:    size(1500, 900);
+- Why are my rectangles the wrong size?
