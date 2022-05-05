@@ -396,10 +396,20 @@ into a robot:
 1. [Free Will—Even For Robots](http://jmc.stanford.edu/articles/freewill/freewill.pdf)
 
 ##### todays-assignment
-#### Reading Assignment Due May 11
+#### Production Assignment Due May 7
 
+- Fix your `testWrite()` function. Send me a message when you're done so that
+	I can test.
+	- Include a short description of what each object is and how they interract
+- Fix the size of your objects so they appear reasonable relative to the size
+	of the canvas
+- Continue to fix bugs in your ecosystem
+- Hassan and Ben: work together to have your projects shown
+
+#### Reading Assignment Due May 11
 The topic this week is whether simple approaches to robotics might yield
 better (depending on how you define "better") or more interesting results
 - Badr and Jiayi will lead our discussion
 - Read Chapter 5: Toys, Totems, and Tools, in [The Living Brain](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/TheLivingBrain.pdf)
 - Read Chapter 2: The Quest for an Artificial Creature in [Flesh and Machines](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/FleshAndMachinesHowRobotsWillChangeUs.pdf)
+
