@@ -2277,8 +2277,10 @@ Create a new folder `25april` and in it create these three markdown
 - **RECORD**
 
 #### Plan for today
-Fix the class ecosystem!
+- Fix the class ecosystem!
+- Homework
 
+#### Fix the class ecosystem!
 - Yiyang: yx_YiyangEcosystem.pde:    size(1200,800);
 - Yeji: yk_RobotaFinal.pde:    size(1500, 900);
 - Snehil: snehil.draw();
