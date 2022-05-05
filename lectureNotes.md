@@ -2284,3 +2284,14 @@ Create a new folder `25april` and in it create these three markdown
 - Yiyang: yx_YiyangEcosystem.pde:    size(1200,800);
 - Yeji: yk_RobotaFinal.pde:    size(1500, 900);
 - Snehil: snehil.draw();
+
+Add the following function to your ecosystem class. 
+Replace the text with appropriate text for your ecosystem
+
+````
+int writeText(int xloc, int yloc, int textSize) {
+  text("Eels: "+int(eels.size()), xloc, yloc);
+  text("Eels: "+int(seabugs.size()), xloc, yloc+20);
+	return(20); // return the last Y offset so that I know where to start the next text block 
+} 
+````
