@@ -398,9 +398,9 @@ into a robot:
 ##### todays-assignment
 #### Production Assignment Due May 7
 
-- Fix your `testWrite()` function. Send me a message when you're done so that
+- Fix your `writeText()` function. Send me a message when you're done so that
 	I can test.
-	- Include a short description of what each object is and how they interract
+	- Include a short description of what each object is and how they interact
 - Fix the size of your objects so they appear reasonable relative to the size
 	of the canvas
 - Continue to fix bugs in your ecosystem
