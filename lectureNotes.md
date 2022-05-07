@@ -2302,7 +2302,7 @@ int writeText(int xloc, int yloc, int textSize) {
 
 - Incorporate Ben and Hassan somehow
 - @Snehil please fix your writeText()
-- brian please fix your writeText()
+- brian: please fix your writeText()
 - Everyone remove commented out code unless there is a reason for it to be
 	there (font, textAlign, etc.)
 - bk_robotaFinal.pde:      textAlign(RIGHT);
@@ -2311,17 +2311,18 @@ int writeText(int xloc, int yloc, int textSize) {
 - euh_EhtishamsEcosystem.pde:    PFont georgia = createFont("georgia", 16);
 - euh_EhtishamsEcosystem.pde:    textFont(georgia);
 - asg_AbdulEcosystem.pde:  text("Instructions: " + "\n\n", 380, 150);
-- Adina shift yloc with each line so they don't display on top of each other
-- adina please return the last yloc so I know where to start the next one
+- Adina: shift yloc with each line so they don't display on top of each other
+- adina: please return the last yloc so I know where to start the next one
 - fix indentation!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 - everyone: Let's assume there is no keyboard and mouse e.g.
 - @Yiyang remove text("Press N to switch to day mode.
 - @Yiyang @toomie some of your text is displaying in the wrong place. 
 - everyone: anything that you print must be done in `writeText()`
 	(unless you're printing next to the object like chinonyerem is)
-- adina text
-- snehil (alive food temperature) - must be done in textWrite()
-- genie text
+- adina: text
+- snehil: (alive food temperature) - must be done in textWrite()
+- genie: text
+- yeji: fix array out of bounds when removing whales
 
 #### Questions
 
