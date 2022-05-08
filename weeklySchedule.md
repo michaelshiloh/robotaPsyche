@@ -413,3 +413,7 @@ better (depending on how you define "better") or more interesting results
 - Read Chapter 5: Toys, Totems, and Tools, in [The Living Brain](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/TheLivingBrain.pdf)
 - Read Chapter 2: The Quest for an Artificial Creature in [Flesh and Machines](https://github.com/michaelshiloh/resourcesForClasses/blob/master/doc/FleshAndMachinesHowRobotsWillChangeUs.pdf)
 
+#### Production Assignment Due May 9
+
+- Fix all the
+	[problems](https://github.com/michaelshiloh/robotaPsyche/blob/main/lectureNotes.md/#problems-in-student-code) in your ecosystem 
