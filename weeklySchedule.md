@@ -415,5 +415,5 @@ better (depending on how you define "better") or more interesting results
 
 #### Production Assignment Due May 9
 
-- Fix all the
+- Fix as many as you can of the 
 	[problems](https://github.com/michaelshiloh/robotaPsyche/blob/main/lectureNotes.md/#problems-in-student-code) in your ecosystem 
