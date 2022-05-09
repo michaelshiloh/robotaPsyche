@@ -2271,11 +2271,6 @@ Create a new folder `25april` and in it create these three markdown
 	- Index out of bounds (Abdul line 394)
 
 ### May 5
-#### todays-lecture
-
-#### Admin
-- **RECORD**
-
 #### Plan for today
 - Fix the class ecosystem!
 - Homework
@@ -2295,6 +2290,17 @@ int writeText(int xloc, int yloc, int textSize) {
 	return(20); // return the last Y offset so that I know where to start the next text block 
 } 
 ````
+
+### May 9
+#### todays-lecture
+
+#### Admin
+- **RECORD**
+
+#### Plan for today
+- Evaluations
+- Next Wednesday in person
+- Fix the class ecosystem!
 
 ### Problems with the class ecosystem to resolve:
 
@@ -2323,6 +2329,11 @@ int writeText(int xloc, int yloc, int textSize) {
 - snehil: (alive food temperature) - must be done in textWrite()
 - genie: text
 - yeji: fix array out of bounds when removing whales
+- There is still some text on top of text in the lower left corner (outdoors
+	land). That means it's one of Adina, Badr, Snehil, Abdul, Genie or Sarah.
+-	@yejikwon it crashed on this line:       
+	if (whales.get(i).position.x > zoneWidth+r){
+	IndexOutOfBoundsException: Index 4 out of bounds for length 4
 
 #### Questions
 
