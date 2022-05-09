@@ -2300,6 +2300,8 @@ int writeText(int xloc, int yloc, int textSize) {
 #### Plan for today
 - Evaluations
 - Next Wednesday in person
+	-view
+	- disussion
 - Fix the class ecosystem!
 
 ### Problems with the class ecosystem to resolve:
@@ -2307,33 +2309,12 @@ int writeText(int xloc, int yloc, int textSize) {
 #### Problems in student code:
 
 - Incorporate Ben and Hassan somehow
-- @Snehil please fix your writeText()
-- brian: please fix your writeText()
-- Everyone remove commented out code unless there is a reason for it to be
-	there (font, textAlign, etc.)
-- bk_robotaFinal.pde:      textAlign(RIGHT);
-- euh_EhtishamsEcosystem.pde:    PFont algerian = createFont("algerian", 16);
-- euh_EhtishamsEcosystem.pde:    textFont(algerian);
-- euh_EhtishamsEcosystem.pde:    PFont georgia = createFont("georgia", 16);
-- euh_EhtishamsEcosystem.pde:    textFont(georgia);
-- asg_AbdulEcosystem.pde:  text("Instructions: " + "\n\n", 380, 150);
-- Adina: shift yloc with each line so they don't display on top of each other
-- adina: please return the last yloc so I know where to start the next one
-- fix indentation!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-- everyone: Let's assume there is no keyboard and mouse e.g.
-- @Yiyang remove text("Press N to switch to day mode.
-- @Yiyang @toomie some of your text is displaying in the wrong place. 
-- everyone: anything that you print must be done in `writeText()`
-	(unless you're printing next to the object like chinonyerem is)
-- adina: text
-- snehil: (alive food temperature) - must be done in textWrite()
-- genie: text
-- yeji: fix array out of bounds when removing whales
-- There is still some text on top of text in the lower left corner (outdoors
-	land). That means it's one of Adina, Badr, Snehil, Abdul, Genie or Sarah.
--	@yejikwon it crashed on this line:       
-	if (whales.get(i).position.x > zoneWidth+r){
-	IndexOutOfBoundsException: Index 4 out of bounds for length 4
+- Everyone 
+	- remove commented out code unless there is a reason for it to be
+	- indentation use CTRL T or CMD T
+	- variable names
+	- add comments
+	- everyone: Let's assume there is no keyboard and mouse e.g.
 
 #### Questions
 
